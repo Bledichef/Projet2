@@ -1,22 +1,28 @@
 <!DOCTYPE html>
+<head>
 <meta charset="utf-8" />
+<html lang= "fr">
+</head>
+    
+<body>
 
-<html lang="fr">
-    <head>
+    <script src="https://kit.fontawesome.com/0ae34bd5a4.js" crossorigin="anonymous"></script>
+      
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     <title>Reservia</title>    
         <link rel="stylesheet" href="Projet2.css" />
-
+     
         <figure>
-        <img src="logo/Reservia@3x.png" alt="logo" id="logo" />
-        
-    </figure>
-    </head> <!-- en tete de la page logo-->
+            <div class="logo">
+      <img src="logo/Reservia3xsmall.png" alt="logo" id="logo" /> 
+    </div>
+    </figure> 
+  <!-- en tete de la page logo-->
 
 
-    <body>
-<nav>
+    
+<nav><br/>
     <h3> <a href="#Hébergement">Hébergement</a>
        <a href="#Activités">Activités</a> 
         S'inscrire 
@@ -24,19 +30,37 @@
 
 </nav> <!-- sections pour les liens de navigation-->
 
-<section> 
+
+   
     <p><H1>
+         <!-- class recherche flexbox-->
 Trouvez votre hébergement pour des vacances de rêve</H1>
 <h3>En plein centre ville ou en pleine nature</h3>
-</p>
+<div class="recherche">
+<form method="post" action="resultat.php"
+<i class="fas fa-map-marker-alt"></i>
+<input type="text" />
+<input  type="submit" value="Rechercher"  />
+</form>
+</div>
+<div class='Filtres'>
+<h3>Filtres </h3>
+    <i class="fas fa-money-bill-wave">Economique</i> 
+    <i class="fas fa-child">Familial</i>
+    <i class="fas fa-heart">Romantique</i>
+    <i class="fas fa-dog">Animaux autorisés</i>
+</div> 
 
-</section> <!-- Section recherche de la page -->
+
+</p>   </div>            <!--Section de recherche et formulaire de recherche d'hebergement Boutton Validé a finir-->
+
+ <!-- Section recherche de la page -->
 
 <section> 
     <h2 id="Hébergement">Hébergements à Marseille</h2>
     <figure>
             
-        <img src="pictures/marcus-loke.jpg" alt="Auberge la Cannebière" />
+   <div class="AubergedelaCannebière">    <img src="pictures/marcus-loke.jpg" alt="Auberge la Cannebière" /> </div> 
         <img src="pictures/fred-kleber.jpg" alt="Hotel du port" />
         <img src="pictures/reisetopia.jpg" alt=" Hotel les mouettes"/>
         <img src="pictures/annie-spratt.jpg" alt="Hotel de la mer"/>
@@ -46,11 +70,18 @@ Trouvez votre hébergement pour des vacances de rêve</H1>
         <img src="pictures/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hotel tout bleu et blanc"/>
         <img src="pictures/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier"/>
 
-
-
+    
+        <aside>
+            <h2>  <div class="populaire">Les plus populaire <i class="fas fa-chart-line"></i></div>      </h2>
+            
+        </aside> 
+    </section><!-- Section hébergement à Marseille-->
+    
     </figure>
+<div class="activitétext">
+<h2>Activités à Marseille</h2></div>
 <section>
-<h2 id="Activités">Activités à Marseille </h2>
+<h2 id="Activités"> </h2>
 <figure>
 <img src="picturesactivitées/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port" />
 <img src="picturesactivitées/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" />
@@ -58,29 +89,29 @@ Trouvez votre hébergement pour des vacances de rêve</H1>
 <img src="picturesactivitées/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques" />
 <img src="picturesactivitées/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde" />
 <img src="picturesactivitées/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc de Lomgchamp"/>
-
 </figure>
+</section> <!-- Activités à Marseille--><br
 
-</section><!-- Section hébergement à Marseille-->
-
+ 
+     <p>
 <footer>
-    
-        <h3><strong> A propos </strong>
+    <div class="Fonctionnement">
+    <h3><strong> A propos </strong></h3>
    <br>     Fonctionnement du site
    <br>      Conditions générales de vente
-   <br>     Données et confidentialité 
-    </h3>
+   <br>     Données et confidentialité </div>
+    
 
-
-<h3><strong>Nos hébergements</strong>
+ <div class="Hebergementfoot">
+<h3><strong>Nos hébergements</strong></h3>
     <br> Charte de qualité
-    <br> Soumettre votre hôtel.</h3>
+    <br> Soumettre votre hôtel.</div>
 
-    <h3><strong>Assistance</strong>
+ <div class="Assistance">
+    <h3><strong>Assistance</strong></h3>
         <br> Centre d'aide
-        <br> Nous contacter
-    </h3>
-
+        <br> Nous contacter</div>
+    </p>    
 </footer>  <!-- pied de la page -->
 
 
