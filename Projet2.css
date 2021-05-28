@@ -13,11 +13,12 @@ body {
                   border-radius: 5px;
          text-align: left;
         display: inline-block;
-       
+        
         background-color:#F2F2F2;
         flex-wrap: nowrap;
         flex-direction:column;
         padding-left: 23px;
+       
         justify-content: center;
         align-items: center;
         flex-shrink: 3; 
@@ -60,10 +61,11 @@ body {
     }
 
     figure {
-        border: transparent;
+        
         display: flex;
         flex-wrap: wrap;
-        overflow: hidden;
+        
+     
        
           }
     
@@ -110,6 +112,7 @@ body {
 
   .Filtres {
       display: flex;    
+      font-weight: 900;
   }
  
   .logoeconomique {
@@ -200,6 +203,7 @@ body {
     border-radius: 10%;
     background-color: white;
     padding-left: 7%;
+   max-width: 20%;
 }
 
 .Hotellesmouettes {
@@ -254,11 +258,12 @@ body {
     padding-left: 7%;
 }
 .Vieuxport {
+    size: 2px;
     border-style: solid;
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 7%;
+    padding-left: 1%;
 }
 .Fortdepomègues {
     border-style: solid;
