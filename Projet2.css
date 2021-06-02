@@ -3,7 +3,7 @@ body {
     font-family: 'Raleway', sans-serif;
        display: flex;
        flex-direction: column;
-     margin-left: 10%;
+     margin-left: 2%;
 }
 
 
@@ -17,7 +17,7 @@ body {
         flex-wrap: wrap;
         flex-direction:unset;
         padding-left: 23px;
-        justify-content: center;
+        justify-content: space-around;
       margin-right: 25%;
         flex-shrink: 3; 
               
@@ -35,9 +35,7 @@ body {
         min-width: 30%;
     }
 
-    #h3 {
-   font-style: large;
-    }
+ 
 
     footer {
         
@@ -50,13 +48,17 @@ body {
     }
 
     aside {
-        position: absolute;
-               
-        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;               
+        border: 1px solid #F2F2F2;
         background-color: #F2F2F2;
         border-radius: 5PX;
-        top: 50%;
-        left:80%
+        top: 46%;
+        left: 78%;
+        
+           
         }
 
     figure {
@@ -193,8 +195,11 @@ body {
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 7%;
+    padding-left: 1%;
+    padding-right: 1%;
     max-width: 17%;
+    height: 4%;
+   
 }
    
 .AubergedelaCannebière{
@@ -202,9 +207,11 @@ body {
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 7%;
-   max-width: 17%;
-  
+    padding-left: 1%;
+    padding-right: 1%;
+    max-width: 17%;
+    height: 4%;
+    
 }
 
 .Hotellesmouettes {
@@ -212,8 +219,10 @@ body {
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 7%;
+    padding-left: 1%;
+    padding-right: 1%;
     max-width: 17%;
+    height: 4%;
 }
 
 .Hoteldelamer {
@@ -221,8 +230,10 @@ body {
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 7%;
+    padding-left: 1%;
+    padding-right: 1%;
     max-width: 17%;
+    height: 4%;
 }
 
 .AucoeurdeleauChambresdhotes {
@@ -230,40 +241,50 @@ body {
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 7%;
+    padding-left: 1%;
+    padding-right: 1%;
     max-width: 17%;
+    height: 4%;
 }
 .Hotellesoleildumatin {
     border-style: solid;
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 7%;
+    padding-left: 1%;
+    padding-right: 1%;
     max-width: 17%;
+    height: 4%;
 }
 .HotelchezAmina {
     border-style: solid;
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 7%;
+    padding-left: 1%;
+    padding-right: 1%;
     max-width: 17%;
+    height: 4%;
 }
 .Hoteltoutbleuetblanc {
     border-style: solid;
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 7%;
+    padding-left: 1%;
+    padding-right: 1%;
     max-width: 17%;
+    height: 4%;
 }
 .AubergelePanier {
     border-style: solid;
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 7%;
+    padding-left: 1%;
+    padding-right: 1%;
     max-width: 17%;
+    height: 4%;
 }
 .Vieuxport {     
     border-radius: 10%;
@@ -318,5 +339,49 @@ body {
 
 .etoilevide {
     color:  #F2F2F2;
+}
+
+.Hébergement {
+    width: 90%;
+    left: 5%
+}
+
+.Hotellesoleildumatin1 {
+    display: flex;
+    background-color: white;
+    float: left;
+    width: 95%;
+    border-radius: 10%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    margin-right: 4%;
+}
+
+.AucoeurdeleauChambresdhotes1 {
+    display: flex;
+    background-color: white;
+    float: left;
+    width: 95%;
+    border-radius: 10%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    margin-right: 4%;
+}
+
+
+
+.Hoteltoutbleuetblanc1 {
+    display: flex;
+    background-color: white;
+    float: left;
+    width: 95%;
+    border-radius: 10%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    margin-right: 4%;
+    
 }
 
