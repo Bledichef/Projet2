@@ -12,15 +12,11 @@ body {
          
         display: flex;
         border-radius: 5px;
-        text-align: left;
         background-color:#F2F2F2;
         flex-wrap: wrap;
-        flex-direction:unset;
-        padding-left: 23px;
-        justify-content: space-around;
-      margin-right: 25%;
-        flex-shrink: 3; 
-              
+        flex-direction:row;
+        padding-left: 1px;
+        margin-right: 25%;                  
     }
 
     
@@ -50,29 +46,26 @@ body {
     aside {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         position: absolute;               
         border: 1px solid #F2F2F2;
         background-color: #F2F2F2;
         border-radius: 5PX;
-        top: 46%;
+        top: 40%;
         left: 78%;
+        height: 85%;
         
            
         }
 
     figure {
-        display: block;
+        
         display: flex;
         flex-wrap: wrap;
-        
-     
-       
+        justify-content: space-around;
           }
     
     #logo {
-        position: absolute 
-       align-self  flex-start;
+    left: 1%;
    }
 
    .recherche {
@@ -195,11 +188,14 @@ body {
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    max-width: 17%;
-    height: 4%;
-   
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    width: 15%;
+    height: 20%;
+    color: black;
+    margin-left: 18%;
+    margin-bottom: 5%;
 }
    
 .AubergedelaCannebière{
@@ -207,11 +203,13 @@ body {
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    max-width: 17%;
-    height: 4%;
-    
+    padding-left: 4%;
+    padding-top: 1%;
+    width: 15%;
+    height: 20%;
+    color: black;
+    margin-left: 4%;
+    margin-bottom: 5%;
 }
 
 .Hotellesmouettes {
@@ -219,10 +217,14 @@ body {
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    max-width: 17%;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    width: 15%;
     height: 4%;
+    color: black;
+    margin-left: 15%;
+    margin-bottom: 5%;
 }
 
 .Hoteldelamer {
@@ -230,105 +232,105 @@ body {
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    max-width: 17%;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    width: 15%;
     height: 4%;
+    color: black;
+    margin-left: 4%;
+    margin-bottom: 5%;
 }
 
-.AucoeurdeleauChambresdhotes {
-    border-style: solid;
-    border-color: white;
-    border-radius: 10%;
-    background-color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    max-width: 17%;
-    height: 4%;
-}
-.Hotellesoleildumatin {
-    border-style: solid;
-    border-color: white;
-    border-radius: 10%;
-    background-color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    max-width: 17%;
-    height: 4%;
-}
+
+
 .HotelchezAmina {
     border-style: solid;
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    max-width: 17%;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 15%;
     height: 4%;
+    color: black;
+    margin-left: 18%;
+    margin-bottom: 5%;
 }
-.Hoteltoutbleuetblanc {
-    border-style: solid;
-    border-color: white;
-    border-radius: 10%;
-    background-color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    max-width: 17%;
-    height: 4%;
-}
+
 .AubergelePanier {
     border-style: solid;
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    max-width: 17%;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 15%;
     height: 4%;
+    color: black;
+    margin-left: 15%;
+    margin-bottom: 5%;
 }
+
+.Afficherplus {
+    margin-left: 5%;
+    margin-bottom: 3%;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+}
+ 
+
+
 .Vieuxport {     
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: white;   
     border-style: solid;
     border-color: #F2F2F2;
+    padding-left: 0.05%;
+    padding-top: 0.05%;
    
 }
 .Fortdepomègues {
     border-style: solid;
     border-color: #F2F2F2;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: white;
- 
+    padding-top: 0.05%;
     
 }
 .ilesdufrioul {
     border-style: solid;
     border-color: #F2F2F2;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: white;
-
+    padding-top: 0.05%;
 }
 .ParcNationaldesCalanques {
+    
     border-style: solid;
     border-color: #F2F2F2;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: white;
- 
+    padding-top: 0.05%;
 }
 .Notre-Dame-de-la-Garde {
     border-style: solid;
     border-color: #F2F2F2;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: white;
-    
+    padding-top: 0.05%;
    
 }
 .ParcdeLomgchamp {
     border-style: solid;
     border-color: #F2F2F2;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: white;
-    
+    padding-top: 0.05%;
     border-width: 30%;
 }
 
@@ -343,31 +345,33 @@ body {
 
 .Hébergement {
     width: 90%;
-    left: 5%
+    margin-left: 4%;
+  
 }
 
 .Hotellesoleildumatin1 {
     display: flex;
     background-color: white;
-    float: left;
-    width: 95%;
+        width: 95%;
     border-radius: 10%;
     margin-left: 2%;
     margin-bottom: 4%;
     margin-top: 4%;
     margin-right: 4%;
+    color: black;
 }
 
 .AucoeurdeleauChambresdhotes1 {
     display: flex;
     background-color: white;
-    float: left;
+    
     width: 95%;
     border-radius: 10%;
     margin-left: 2%;
     margin-bottom: 4%;
-    margin-top: 4%;
+    margin-top: 20%;
     margin-right: 4%;
+    color: black;
 }
 
 
@@ -375,13 +379,23 @@ body {
 .Hoteltoutbleuetblanc1 {
     display: flex;
     background-color: white;
-    float: left;
+    flex: 1%;
     width: 95%;
     border-radius: 10%;
     margin-left: 2%;
-    margin-bottom: 4%;
-    margin-top: 4%;
+    margin-bottom: 14%;
+    margin-top: 20%;
     margin-right: 4%;
-    
+    color: black;
+}
+
+.fortiles {
+    display: flex;
+    flex-direction: column;
+}
+
+.DameParc {
+    display: flex;
+    flex-direction: column;
 }
 
