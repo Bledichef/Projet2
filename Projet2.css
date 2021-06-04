@@ -4,6 +4,7 @@ body {
        display: flex;
        flex-direction: column;
      margin-left: 2%;
+     max-width: 98%;
 }
 
 
@@ -16,7 +17,8 @@ body {
         flex-wrap: wrap;
         flex-direction:row;
         padding-left: 1px;
-        margin-right: 25%;                  
+        margin-right: 25%;  
+               
     }
 
     
@@ -100,10 +102,22 @@ body {
     #h2 {
       font-weight: bold;
     }
-
-    .Filtres:hover {
+    
+    .iconAnimaux:hover {
         color: #DEEBFF;
     }
+
+    .iconRomantique:hover {
+        color: #DEEBFF;
+    }
+
+    .iconFamilial:hover {
+        color: #DEEBFF;
+    }
+  
+   .iconEconomique:hover {
+    color: #DEEBFF;
+   } 
 
   .Filtres {
       display: flex;    
