@@ -197,6 +197,7 @@ body {
     color: black;
     margin-left: 18%;
     margin-bottom: 5%;
+    text-decoration: none;
 }
    
 .AubergedelaCannebière{
@@ -211,6 +212,7 @@ body {
     color: black;
     margin-left: 4%;
     margin-bottom: 5%;
+    text-decoration: none;
 }
 
 .Hotellesmouettes {
@@ -226,6 +228,7 @@ body {
     color: black;
     margin-left: 15%;
     margin-bottom: 5%;
+    text-decoration: none;
 }
 
 .Hoteldelamer {
@@ -241,6 +244,7 @@ body {
     color: black;
     margin-left: 4%;
     margin-bottom: 5%;
+    text-decoration: none;
 }
 
 
@@ -258,6 +262,7 @@ body {
     color: black;
     margin-left: 18%;
     margin-bottom: 5%;
+    text-decoration: none;
 }
 
 .AubergelePanier {
@@ -273,6 +278,7 @@ body {
     color: black;
     margin-left: 15%;
     margin-bottom: 5%;
+    text-decoration: none;
 }
 
 .Afficherplus {
@@ -363,6 +369,7 @@ body {
     margin-top: 4%;
     margin-right: 4%;
     color: black;
+    text-decoration: none;
 }
 
 .AucoeurdeleauChambresdhotes1 {
@@ -376,6 +383,7 @@ body {
     margin-top: 20%;
     margin-right: 4%;
     color: black;
+    text-decoration: none;
 }
 
 
@@ -391,6 +399,7 @@ body {
     margin-top: 20%;
     margin-right: 4%;
     color: black;
+    text-decoration: none;
 }
 
 .fortiles {
@@ -402,5 +411,3 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-
