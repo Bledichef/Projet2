@@ -71,7 +71,8 @@ body {
    .recherche {
        border-color: whitesmoke;
       border-style: solid;
-      margin-right: 76%;
+      margin-right: 80%;
+      margin-left: 3%;
       background-color: #F2F2F2;
       border-radius: 10%;
          }
@@ -292,7 +293,7 @@ body {
     border-color: #F2F2F2;
     padding-left: 0.05%;
     padding-top: 0.05%;
-   
+    text-decoration: none;
 }
 .Fortdepomègues {
     border-style: solid;
@@ -300,7 +301,7 @@ body {
     border-radius: 5%;
     background-color: white;
     padding-top: 0.05%;
-    
+    text-decoration: none;
 }
 .ilesdufrioul {
     border-style: solid;
@@ -308,6 +309,7 @@ body {
     border-radius: 5%;
     background-color: white;
     padding-top: 0.05%;
+    text-decoration: none;
 }
 .ParcNationaldesCalanques {
     
@@ -316,6 +318,7 @@ body {
     border-radius: 5%;
     background-color: white;
     padding-top: 0.05%;
+    text-decoration: none;
 }
 .Notre-Dame-de-la-Garde {
     border-style: solid;
@@ -323,7 +326,7 @@ body {
     border-radius: 5%;
     background-color: white;
     padding-top: 0.05%;
-   
+    text-decoration: none;
 }
 .ParcdeLomgchamp {
     border-style: solid;
@@ -332,6 +335,7 @@ body {
     background-color: white;
     padding-top: 0.05%;
     border-width: 30%;
+    text-decoration: none;
 }
 
 .etoilebleu {
@@ -398,4 +402,5 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 
