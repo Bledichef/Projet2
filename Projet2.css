@@ -465,6 +465,7 @@ body {
 
  figure {
       display: block;
+      text-align: center;
  }
 
  footer {
@@ -547,5 +548,8 @@ aside {
     text-align: center;
     margin: 0% 0% 2% 3%;
 }
+
+
+
 
 }
