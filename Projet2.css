@@ -429,3 +429,123 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.iconEconoEtFamilial {
+    display: flex;
+    border-radius: 75%;
+    padding: 8px 8px 12px 12px;
+}
+
+/* Css pour version Mobile */
+
+@media all and (max-device-width: 480px) {
+
+    nav {
+        top: -5%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+    align-items: center;
+   
+    }
+
+    .recherche {
+        margin-right:0%
+    }
+   
+ .Filtres {
+     flex-direction: column;
+
+ }
+
+ section {
+     margin-right: 0%;
+     flex-direction: column;
+ }
+
+ figure {
+      display: block;
+ }
+
+ footer {
+     display: block;
+ }
+
+ .iconEconoEtFamilial {
+    display: flex;
+ }
+
+ .iconRomantique {
+     margin-right: 79%;
+ } 
+
+ .iconAnimaux {
+  margin-right: 77%;
+ }
+
+aside {
+    left: 0%;
+    position: relative;  
+    margin-top: 5%;
+}
+
+.Hotellesoleildumatin1 {
+   display: block;
+   text-align: center;
+   margin: 0% 0% 2% 3%;
+}
+
+.AucoeurdeleauChambresdhotes1 {
+    display: block;
+    text-align: center;
+    margin: 0% 0% 2% 3%;
+}
+
+.Hoteltoutbleuetblanc1 {
+    display: block;
+    text-align: center;
+    margin: 0% 0% 2% 3%;
+}
+
+.AubergedelaCannebière {
+    width: 90%;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.Hotelduport {
+    width: 90%;
+    margin-left: 2%;
+    text-align: center;
+    margin: 0% 0% 2% 3%;
+}
+
+.Hotellesmouettes {
+    width: 90%;
+    margin-left: 2%;
+    text-align: center;
+    margin: 0% 0% 2% 3%;
+}
+
+.Hoteldelamer {
+    width: 90%;
+    margin-left: 2%;
+    text-align: center;
+    margin: 0% 0% 2% 3%;
+}
+
+.HotelchezAmina {
+    width: 90%;
+    margin-left: 2%;
+    text-align: center;
+    margin: 0% 0% 2% 3%;
+}
+
+.AubergelePanier {
+    width: 90%;
+    margin-left: 2%;
+    text-align: center;
+    margin: 0% 0% 2% 3%;
+}
+
+}
