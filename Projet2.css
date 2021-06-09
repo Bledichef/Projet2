@@ -134,13 +134,14 @@ body {
   }
 
   .iconEconomique {
-      
+    display: flex;
       margin-top: 1%;
       margin-left: 2%;
       border-style: solid;
       border-color:#F2F2F2;
       border-radius: 60%;
-      padding: 3px 10px 3px 0px; 
+      padding: 9px 10px 3px 0px; 
+      text-align: center;
   }
 
   .logofamilial {
@@ -153,12 +154,13 @@ body {
   }
 
   .iconFamilial {
+      display: flex;
       margin-top: 1%;
       margin-left: 2%;
       border-style: solid;
       border-color:#F2F2F2;
       border-radius: 60%;
-      padding: 3px 10px 3px 0px; 
+      padding: 6px 10px 3px 0px; 
   }
 
   .logoromantique {
@@ -176,7 +178,7 @@ body {
       border-style: solid;
       border-color:#F2F2F2;
       border-radius: 60%;
-      padding: 3px 10px 3px 0px; 
+      padding: 11px 10px 3px 0px; 
   }
 
   .logoanimaux {
@@ -194,7 +196,7 @@ body {
       border-style: solid;
       border-color:#F2F2F2;
       border-radius: 60%;
-      padding: 3px 10px 3px 0px; 
+      padding: 12px 10px 3px 0px; 
   }
 
 .Hotelduport {
@@ -316,7 +318,7 @@ body {
     text-decoration: none;
 }
 .Fortdepomègues {
-    border-style: solid;
+   
     border-color: #F2F2F2;
     border-radius: 5%;
     background-color: white;
@@ -324,7 +326,7 @@ body {
     text-decoration: none;
 }
 .ilesdufrioul {
-    border-style: solid;
+   
     border-color: #F2F2F2;
     border-radius: 5%;
     background-color: white;
@@ -474,16 +476,19 @@ body {
 
  .iconEconoEtFamilial {
     display: flex;
+   
  }
 
  .iconRomantique {
      margin-right: 79%;
+     padding-right: 4%;
  } 
 
  .iconAnimaux {
   margin-right: 77%;
   display: flex;
   flex-wrap: nowrap;
+ 
  }
 
 aside {
@@ -551,8 +556,44 @@ aside {
     text-align: center;
     margin: 0% 0% 2% 3%;
 }
+.Filtres {
+    text-align: center;
+}
 
+.Vieuxport1 {
+    border-style: solid;
+    border-color: #F2F2F2;
+    border-radius: 5%;
+    background-color: white;
+    padding-top: 0.05%;
+    text-decoration: none;
+}
 
+.Fortdepomègues {
+    border-style: solid;
+    border-color: #F2F2F2;
+    border-radius: 5%;
+    background-color: white;
+    padding-top: 0.05%;
+    text-decoration: none;
+}
 
+.ilesdufrioul {
+    border-style: solid;
+    border-color: #F2F2F2;
+    border-radius: 5%;
+    background-color: white;
+    padding-top: 0.05%;
+    text-decoration: none;
+}
+
+.ParcNationalCalanques {
+    border-style: solid;
+    border-color: #F2F2F2;
+    border-radius: 5%;
+    background-color: white;
+    padding-top: 0.05%;
+    text-decoration: none;
+}
 
 }
