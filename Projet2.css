@@ -482,6 +482,8 @@ body {
 
  .iconAnimaux {
   margin-right: 77%;
+  display: flex;
+  flex-wrap: nowrap;
  }
 
 aside {
@@ -512,6 +514,7 @@ aside {
     width: 90%;
     margin-left: 2%;
     text-align: center;
+    margin: 0% 0% 2% 3%;
 }
 
 .Hotelduport {
