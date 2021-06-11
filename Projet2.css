@@ -21,12 +21,11 @@ body {
       
     }
 
-    
+   
 
     nav {
         display: flex;
-        justify-content: space-around;
-        position: absolute;
+       
         right: 0%;
         bottom: 90%;
         color: #0065FC;
@@ -66,10 +65,12 @@ body {
         justify-content: space-around;
           }
     
-    #logo {
-    left: 1%;
-   }
-
+          #logo {
+            left: 1%;
+          
+           }
+        
+    
    .recherche {
        border-color: whitesmoke;
       border-style: solid;
@@ -457,23 +458,66 @@ body {
     flex-direction: column;
 }
 
+.photoHoteltoutbleueetblanc {
+    width: 40%;
+}
+
 .iconEconoEtFamilial {
     display: flex;
     border-radius: 75%;
     padding: 8px 8px 12px 12px;
 }
 
-/* Css pour version Mobile */
+.photoAuBergeCannebière {
+    width: 60%;
+}
+
+.photoHotelduport {
+    width: 60%;
+}
+
+.photoHotellesmouettes {
+    width: 60%;
+}
+
+.photoHoteldelamer {
+    width: 60%;
+}
+
+.photoHotelchezAmina {
+    width: 60%;
+}
+
+.photoAubergelePanier {
+    width: 60%;
+}
+
+.photoHotelsoleildumatin {
+    width: 60%;
+}
+
+.photoAucoeurdeleau-chambre-dhotes {
+    width: 60%;
+}
+
+.photoHoteltoutbleueetblanc {
+    width: 60%;
+}
+
+
+
+
+
+                                                                    /* Css pour version Mobile */
 
 @media all and (max-device-width: 480px) {
 
     nav {
-        top: -5%;
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-    align-items: center;
-   
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+     
     }
 
     .recherche {
@@ -520,6 +564,7 @@ aside {
     left: 0%;
     position: relative;  
     margin-top: 5%;
+    
 }
 
 .Hotellesoleildumatin1 {
@@ -583,7 +628,7 @@ aside {
     margin: 0% 0% 2% 3%;
 }
 .Filtres {
-    text-align: center;
+      justify-content: space-between;
 }
 
 .Vieuxport1 {
@@ -662,5 +707,7 @@ aside {
   display: flex;
   justify-content: space-between;
  }
+
+
 
 }
