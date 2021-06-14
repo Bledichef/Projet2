@@ -129,6 +129,7 @@ body {
   .Filtres {
       display: flex;    
       font-weight: 900;
+      margin-top: 1%;
   }
  
   .logoeconomique {
@@ -472,6 +473,7 @@ body {
     display: flex;
     border-radius: 75%;
     padding: 8px 8px 12px 12px;
+    
 }
 
 .photoAuBergeCannebière {
@@ -711,13 +713,14 @@ aside {
  }
 
  .HébergementActivités {
-     margin-top: 20%;
+     margin-top: 10%;
      margin-left: 10%;
      width: 50%;
  }
 
- .texte {
-     align-items: center;
- }
+.recherche {
+    width: 120%;
+}
+
 
 }
