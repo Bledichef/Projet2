@@ -25,13 +25,19 @@ body {
 
     nav {
         display: flex;
-       
+   
         right: 0%;
         bottom: 90%;
         color: #0065FC;
         min-width: 30%;
     }
 
+   
+
+
+    .HébergementActivités {
+     margin-left: 75%;
+    }
  
 
     footer {
@@ -67,7 +73,7 @@ body {
     
           #logo {
             left: 1%;
-          
+    
            }
         
     
@@ -704,6 +710,14 @@ aside {
   justify-content: space-between;
  }
 
+ .HébergementActivités {
+     margin-top: 20%;
+     margin-left: 10%;
+     width: 50%;
+ }
 
+ .texte {
+     align-items: center;
+ }
 
 }
