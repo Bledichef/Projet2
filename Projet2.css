@@ -36,8 +36,13 @@ body {
 
 
     .HébergementActivités {
-     margin-left: 75%;
+     margin-left: 70%;
+     display:flex;
+    
     }
+
+  
+    
  
 
     footer {
@@ -524,7 +529,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        
      
     }
 
