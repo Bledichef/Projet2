@@ -38,11 +38,13 @@ body {
     .HébergementActivités {
      margin-left: 70%;
      display:flex;
-    
+     
     }
 
-  
-    
+  .Hebergement {
+      margin-right: 12px;
+  }
+ 
  
 
     footer {
@@ -142,8 +144,9 @@ body {
     border-color: #DEEBFF;
     border-style: solid;
     border-radius: 75%;
-    padding: 8px 8px 12px 12px;
+    padding:11px 10px 15px 15px;
     background-color:#DEEBFF ;
+    size: 10%;
   }
 
   .iconEconomique {
@@ -153,7 +156,7 @@ body {
       border-style: solid;
       border-color:#F2F2F2;
       border-radius: 60%;
-      padding: 9px 10px 3px 0px; 
+      padding: 16px 10px 3px 0px; 
       text-align: center;
   }
 
@@ -173,7 +176,7 @@ body {
       border-style: solid;
       border-color:#F2F2F2;
       border-radius: 60%;
-      padding: 6px 10px 3px 0px; 
+      padding: 16px 10px 3px 0px; 
   }
 
   .logoromantique {
@@ -330,6 +333,7 @@ body {
     padding-left: 0.05%;
     padding-top: 0.05%;
     text-decoration: none;
+    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
 }
 .Fortdepomègues {
    
@@ -338,6 +342,7 @@ body {
     background-color: white;
     padding-top: 0.05%;
     text-decoration: none;
+    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
 }
 .ilesdufrioul {
    
@@ -346,6 +351,7 @@ body {
     background-color: white;
     padding-top: 0.05%;
     text-decoration: none;
+    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
 }
 .ParcNationaldesCalanques {
     
@@ -355,6 +361,7 @@ body {
     background-color: white;
     padding-top: 0.05%;
     text-decoration: none;
+    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
 }
 
 .ilesdufrioul {
@@ -365,6 +372,7 @@ body {
     padding-top: 0.05%;
     border-width: 30%;
     text-decoration: none;
+    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
 }
 
 .Fortdepomègues {
@@ -375,6 +383,7 @@ body {
     padding-top: 0.05%;
     border-width: 30%;
     text-decoration: none;
+    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
 }
 
 .Notre-Dame-de-la-Garde {
@@ -385,6 +394,7 @@ body {
     padding-top: 0.05%;
     border-width: 30%;
     text-decoration: none;
+    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
 }
 
 .ParcdeLomgchamp {
@@ -395,6 +405,7 @@ body {
     padding-top: 0.05%;
     border-width: 30%;
     text-decoration: none;
+    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
 }
 
 .etoilebleu {
@@ -478,7 +489,13 @@ body {
     display: flex;
     border-radius: 75%;
     padding: 8px 8px 12px 12px;
-    
+    display: flex;
+    margin-top: 1%;
+    margin-left: 2%;
+  
+   
+    border-radius: 60%;
+    padding: 6px 10px 3px 0px; 
 }
 
 .photoAuBergeCannebière {
@@ -725,6 +742,7 @@ aside {
      margin-top: 10%;
      margin-left: 10%;
      width: 50%;
+     justify-content: space-around;
  }
 
 .recherche {
