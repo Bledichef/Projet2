@@ -793,7 +793,7 @@ aside {
 @media all and (max-device-width: 1024px) {
 
 aside {
-    top: 30%;
+    top: 27%;
     height: auto;
     width: 30%;
 }
@@ -803,38 +803,52 @@ aside {
 }
 
 figure {
-   
- 
-    flex-wrap: nowrap;
+     
+     flex-wrap: nowrap;
 }
 
 .photoFort {
-    width: 70%;
+    width: 95%;
 }
 
 .photoVieuxport {
-    width: 70%;
+    width: 95%;
 }
 
 .photoiles {
-    width: 70%;
+    width: 95%;
 }
 
 .photoCalanques {
-    width: 70%;
+    width: 95%;
 }
 
 .photoDamedelagarde {
-    width: 70%;
+    width: 90%;
 }
 
 .photolomgchamp {
-    width: 70%;
+    width: 90%;
 }
 
 .photoHotelsoleildumatin {
     width: 38%;
 }
 
+}
+
+
+@media all and (max-device-width: 950px) {
+    aside {
+           width: 100%;
+    }
+
+    .photoCalanques {
+        width: 80%;
+    }
+
+    .photoVieuxport {
+        width: 80%;
+    }
 
 }
