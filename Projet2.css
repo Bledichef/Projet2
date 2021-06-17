@@ -542,6 +542,11 @@ body {
 
 @media all and (max-device-width: 480px) {
 
+body {
+    margin-left: 10%;
+    
+}
+
     nav {
         display: flex;
         flex-direction: row;
@@ -579,12 +584,12 @@ body {
  }
 
  .iconRomantique {
-     margin-right: 77%;
+     margin-right: 73%;
      padding-right: 4%;
  } 
 
  .iconAnimaux {
-  margin-right: 77%;
+  margin-right: 73%;
   display: flex;
   flex-wrap: nowrap;
  
@@ -698,39 +703,63 @@ aside {
 }
 
 .photoAuBergeCannebière {
-    width: 60%;
+    width: 80%;
 }
 
 .photoHotelduport {
-    width: 60%;
+    width: 80%;
 }
 
 .photoHotellesmouettes {
-    width: 60%;
+    width: 80%;
 }
 
 .photoHoteldelamer {
-    width: 60%;
+    width: 80%;
 }
 
 .photoHotelchezAmina {
-    width: 60%;
+    width: 80%;
 }
 
 .photoAubergelePanier {
-    width: 60%;
+    width: 80%;
 }
 
 .photoHotelsoleildumatin {
-    width: 60%;
+    width: 80%;
 }
 
 .photoAucoeurdeleau-chambre-dhotes {
-    width: 60%;
+    width: 80%;
 }
 
 .photoHoteltoutbleueetblanc {
-    width: 60%;
+    width: 80%;
+}
+
+.photoVieuxport {
+    width: 70%;
+}
+
+.photoiles {
+    width: 80%;
+}
+
+.photoCalanques {
+    width: 70%;
+}
+
+.photoDamedelagarde {
+    width: 80%;
+}
+
+.photolomgchamp {
+    width: 80%;
+}
+
+.photoFort {
+    width: 80%;
 }
 
 .populaire {
@@ -747,7 +776,7 @@ aside {
 
 .recherche {
     width: 120%;
-}
+} 
 
 
 }
