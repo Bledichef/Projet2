@@ -97,7 +97,7 @@ body {
          .barrederecherche {
              border-style: none;
              border-color: #F2F2F2;
-          
+         
          }
 
          .logoinfo {
@@ -226,11 +226,11 @@ body {
     background-color: white;
     padding-left: 4%;
     padding-top: 1%;
-    padding-bottom: 2%;
-    width: 15%;
+    
+    width: 25%;
     height: 20%;
     color: black;
-    margin-left: 18%;
+    margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
 }
@@ -242,7 +242,7 @@ body {
     background-color: white;
     padding-left: 4%;
     padding-top: 1%;
-    width: 15%;
+    width: 25%;
     height: 20%;
     color: black;
     margin-left: 4%;
@@ -259,10 +259,10 @@ body {
     padding-left: 4%;
     padding-top: 1%;
     padding-bottom: 2%;
-    width: 15%;
+    width: 25%;
     height: 4%;
     color: black;
-    margin-left: 15%;
+    margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
 }
@@ -275,7 +275,7 @@ body {
     padding-left: 4%;
     padding-top: 1%;
     padding-bottom: 3%;
-    width: 15%;
+    width: 25%;
     height: 4%;
     color: black;
     margin-left: 4%;
@@ -292,11 +292,11 @@ body {
     background-color: white;
     padding-left: 4%;
     padding-top: 1%;
-    padding-bottom: 1%;
-    width: 15%;
+    padding-bottom: 3%;
+    width: 25%;
     height: 4%;
     color: black;
-    margin-left: 18%;
+    margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
 }
@@ -308,11 +308,11 @@ body {
     background-color: white;
     padding-left: 4%;
     padding-top: 1%;
-    padding-bottom: 1%;
-    width: 15%;
+    padding-bottom: 3%;
+    width: 25%;
     height: 4%;
     color: black;
-    margin-left: 15%;
+    margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
 }
@@ -511,7 +511,7 @@ body {
 }
 
 .photoHotellesmouettes {
-    width: 70%;
+    width: 80%;
 }
 
 .photoHoteldelamer {
@@ -527,7 +527,7 @@ body {
 }
 
 .photoHotelsoleildumatin {
-    width: 40%;
+    width: 80%;
 }
 
 
@@ -560,7 +560,7 @@ body {
     }
 
     .recherche {
-        margin-right:0%
+        margin-right: auto;
     }
    
  .Filtres {
@@ -584,6 +584,7 @@ body {
 
  .iconEconoEtFamilial {
     display: flex;
+    
    
  }
 
@@ -831,9 +832,7 @@ figure {
     width: 90%;
 }
 
-.photoHotelsoleildumatin {
-    width: 38%;
-}
+
 
 }
 
