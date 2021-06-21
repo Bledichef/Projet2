@@ -3,7 +3,7 @@ body {
     font-family: 'Raleway', sans-serif;
        display: flex;
        flex-direction: column;
-     margin-left: 2%;
+    
      max-width: 98%;
 }
 
@@ -45,16 +45,37 @@ body {
       margin-right: 12px;
   }
  
+  .Hebergement:hover {
+      border-top: 3px blue solid;
+      
+  }
+
+  .Activites01:hover {
+    border-top: 3px blue solid;
+  }
+
+  .Inscrire:hover {
+    border-top: 3px blue solid;
+  }
  
 
     footer {
-        
+        margin-left: 0%;
         padding-bottom: 20px;
         border-color: #F2F2F2;
         background-color:#F2F2F2;
-      
+    
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
+       
+    }
+
+    .Fonctionnement {
+        margin-right: 14%;
+    }
+
+    .Hebergementfoot {
+        margin-right: 14%;
     }
 
     aside {
@@ -64,7 +85,7 @@ body {
         border: 1px solid #F2F2F2;
         background-color: #F2F2F2;
         border-radius: 5PX;
-        top: 40%;
+        top: 44%;
         left: 78%;
         height: 85%;
         
@@ -74,10 +95,18 @@ body {
     figure {
         
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-wrap: nowrap;
+        margin: auto;    
+        max-height: 100%;     
+        max-width: 100%;      
+      
           }
-    
+
+          
+     
+
+
+
           #logo {
             left: 1%;
     
@@ -97,7 +126,8 @@ body {
          .barrederecherche {
              border-style: none;
              border-color: #F2F2F2;
-         
+             width: 300px; 
+             height: 50px;
          }
 
          .logoinfo {
@@ -108,6 +138,8 @@ body {
         background-color: #0065FC;
         color: white;
         border-radius: 10%;
+        width: 150px;
+        height: 50px;
     }
 
     .textperso {
@@ -337,7 +369,7 @@ body {
     padding-top: 0.05%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
-  
+
 }
 .Fortdepomègues {
    
@@ -358,7 +390,7 @@ body {
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
 }
 .ParcNationaldesCalanques {
-    
+    max-width: 25%;
     border-style: solid;
     border-color: #F2F2F2;
     border-radius: 5%;
@@ -474,11 +506,13 @@ body {
 .fortiles {
     display: flex;
     flex-direction: column;
+   
 }
 
 .DameParc {
     display: flex;
     flex-direction: column;
+  
 }
 .Hotelsoleilalign {
     display: flex;
@@ -487,6 +521,7 @@ body {
 
 .photoHoteltoutbleueetblanc {
     width: 40%;
+    max-width: 40%;
 }
 
 .iconEconoEtFamilial {
@@ -527,13 +562,16 @@ body {
 }
 
 .photoHotelsoleildumatin {
-    width: 80%;
+    width: 40%;
+    max-width: 40%;
 }
+
 
 
 
 .photoAucoeurdeleau-chambre-dhotes {
     width: 40%;
+    max-width: 40%;
 }
 
 .Inscrire {
@@ -546,10 +584,10 @@ body {
 
 @media all and (max-device-width: 480px) {
 
-body {
-    margin-left: 15%;
     
-}
+
+    
+
 
     nav {
         display: flex;
@@ -580,7 +618,11 @@ body {
 
  footer {
      display: block;
+    
  }
+
+
+ 
 
  .iconEconoEtFamilial {
     display: flex;
@@ -710,6 +752,7 @@ aside {
     padding-top: 0.05%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+  
 }
 
 .photoAuBergeCannebière {
@@ -737,15 +780,21 @@ aside {
 }
 
 .photoHotelsoleildumatin {
-    width: 80%;
+    width: 70%;
+   
+    max-width: 100%;
 }
 
 .photoAucoeurdeleau-chambre-dhotes {
-    width: 80%;
+    width: 70%;
+   
+    max-width: 100%;
 }
 
 .photoHoteltoutbleueetblanc {
-    width: 80%;
+    width: 68%;
+   
+    max-width: 100%;
 }
 
 .photoVieuxport {
@@ -774,6 +823,7 @@ aside {
 
 .populaire {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
  }
 
