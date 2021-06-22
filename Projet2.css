@@ -17,8 +17,8 @@ body {
         flex-wrap: wrap;
         flex-direction:row;
         padding-left: 1px;
-        margin-right: 25%;  
-      
+        margin-right: 5%;  
+     
     }
 
    
@@ -46,16 +46,16 @@ body {
   }
  
   .Hebergement:hover {
-      border-top: 3px blue solid;
+      border-top: 3px #0065FC solid;
       
   }
 
   .Activites01:hover {
-    border-top: 3px blue solid;
+    border-top: 3px #0065FC solid;
   }
 
   .Inscrire:hover {
-    border-top: 3px blue solid;
+    border-top: 3px #0065FC solid;
   }
  
 
@@ -81,13 +81,11 @@ body {
     aside {
         display: flex;
         flex-direction: column;
-        position: absolute;               
+                      
         border: 1px solid #F2F2F2;
         background-color: #F2F2F2;
         border-radius: 5PX;
-        top: 44%;
-        left: 78%;
-        height: 85%;
+        
         
            
         }
@@ -96,10 +94,9 @@ body {
         
         display: flex;
         flex-wrap: nowrap;
-        margin: auto;    
-        max-height: 100%;     
-        max-width: 100%;      
-      
+        max-width: 50%;
+        max-height: 50%;
+       justify-content: flex-start;
           }
 
           
@@ -250,7 +247,7 @@ body {
       padding: 12px 10px 3px 0px; 
   }
 
-.Hotelduport {
+.Hotelduport10 {
     
     border-style: solid;
     border-color: white;
@@ -258,32 +255,30 @@ body {
     background-color: white;
     padding-left: 4%;
     padding-top: 1%;
-    
     width: 25%;
-    height: 20%;
+    
     color: black;
     margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
 }
 
-.AubergedelaCannebière{
+.Aubergedelacannebiere10 {
     border-style: solid;
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 4%;
+    padding-left: 2%;
     padding-top: 1%;
     width: 25%;
-    height: 20%;
     color: black;
     margin-left: 4%;
     margin-bottom: 5%;
     text-decoration: none;
-   
+  
 }
 
-.Hotellesmouettes {
+.hotellesmouettes10 {
     border-style: solid;
     border-color: white;
     border-radius: 10%;
@@ -291,8 +286,7 @@ body {
     padding-left: 4%;
     padding-top: 1%;
     padding-bottom: 2%;
-    width: 25%;
-    height: 4%;
+  width: 25%;
     color: black;
     margin-left: 2%;
     margin-bottom: 5%;
@@ -308,7 +302,6 @@ body {
     padding-top: 1%;
     padding-bottom: 3%;
     width: 25%;
-    height: 4%;
     color: black;
     margin-left: 4%;
     margin-bottom: 5%;
@@ -317,7 +310,7 @@ body {
 
 
 
-.HotelchezAmina {
+.HotelchezAmina10 {
     border-style: solid;
     border-color: white;
     border-radius: 10%;
@@ -325,15 +318,14 @@ body {
     padding-left: 4%;
     padding-top: 1%;
     padding-bottom: 3%;
-    width: 25%;
-    height: 4%;
+   width: 25%;
     color: black;
     margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
 }
 
-.AubergelePanier {
+.AubergelePanier10 {
     border-style: solid;
     border-color: white;
     border-radius: 10%;
@@ -341,12 +333,12 @@ body {
     padding-left: 4%;
     padding-top: 1%;
     padding-bottom: 3%;
-    width: 25%;
-    height: 4%;
+  width: 25%;
     color: black;
     margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
+   
 }
 
 .Afficherplus {
@@ -369,6 +361,7 @@ body {
     padding-top: 0.05%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+  
 
 }
 .Fortdepomègues {
@@ -578,6 +571,17 @@ body {
     margin-left: 0.5%;
 }
 
+.zoneactivité {
+    max-width: 90%;
+    max-height: 50%;
+}
+
+.Hebergementetpluspopulaire {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-decoration: none;
+}
 
 
                                                                     /* Css pour version Mobile */
@@ -585,9 +589,34 @@ body {
 @media all and (max-device-width: 480px) {
 
     
-
+.Hebergementetpluspopulaire {
+    display: flex;
+    flex-direction: column-reverse;
+}
     
+.Hebergement {
+    margin-right: 12px;
+    font-size: 160%;
+    
+}
 
+.Hebergement:hover {
+    border-bottom: 3px #0065FC solid;
+    border-top: none;
+}
+
+.Activites01 {
+    font-size: 160%;
+}
+
+.Activites01:hover {
+  border-bottom: 3px #0065FC solid;
+  border-top: none;
+}
+
+.Inscrire:hover {
+  border-top: 3px #0065FC solid;
+}
 
     nav {
         display: flex;
@@ -609,11 +638,13 @@ body {
  section {
      margin-right: 0%;
      flex-direction: column;
+    
  }
 
  figure {
       display: block;
       text-align: center;
+      max-width: 100%;
  }
 
  footer {
@@ -650,39 +681,39 @@ aside {
 }
 
 .Hotellesoleildumatin1 {
-   display: block;
+   display: flex;
    text-align: center;
    margin: 0% 0% 2% 3%;
    
 }
 
 .AucoeurdeleauChambresdhotes1 {
-    display: block;
+    display: flex;
     text-align: center;
     margin: 0% 0% 2% 3%;
 }
 
 .Hoteltoutbleuetblanc1 {
-    display: block;
+    display: flex;
     text-align: center;
     margin: 0% 0% 2% 3%;
 }
 
-.AubergedelaCannebière {
+.Aubergedelacannebiere10 {
+    width: 90%;
+    margin-left: 2%;
+    text-align: center;
+    margin: 2px 0% 2% 3%;
+}
+
+.Hotelduport10 {
     width: 90%;
     margin-left: 2%;
     text-align: center;
     margin: 0% 0% 2% 3%;
 }
 
-.Hotelduport {
-    width: 90%;
-    margin-left: 2%;
-    text-align: center;
-    margin: 0% 0% 2% 3%;
-}
-
-.Hotellesmouettes {
+.hotellesmouettes10 {
     width: 90%;
     margin-left: 2%;
     text-align: center;
@@ -696,14 +727,14 @@ aside {
     margin: 0% 0% 2% 3%;
 }
 
-.HotelchezAmina {
+.HotelchezAmina10 {
     width: 90%;
     margin-left: 2%;
     text-align: center;
     margin: 0% 0% 2% 3%;
 }
 
-.AubergelePanier {
+.AubergelePanier10 {
     width: 90%;
     margin-left: 2%;
     text-align: center;
@@ -724,6 +755,7 @@ aside {
     padding-top: 0.05%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+   
 }
 
 .Fortdepomègues {
@@ -792,33 +824,36 @@ aside {
 }
 
 .photoHoteltoutbleueetblanc {
-    width: 68%;
-   
+    width: 60%;
+   height: 50%;
     max-width: 100%;
 }
 
 .photoVieuxport {
-    width: 70%;
+    width: 450px;
+    max-height: 350px;
+    
 }
 
 .photoiles {
-    width: 80%;
+    width: 50%;
 }
 
 .photoCalanques {
-    width: 70%;
+    width: 450px;
+    max-height: 350px;
 }
 
 .photoDamedelagarde {
-    width: 80%;
+    width: 50%;
 }
 
 .photolomgchamp {
-    width: 80%;
+    width: 50%;
 }
 
 .photoFort {
-    width: 80%;
+    width: 50%;
 }
 
 .populaire {
@@ -830,13 +865,18 @@ aside {
  .HébergementActivités {
      margin-top: 10%;
      margin-left: 10%;
-     width: 50%;
+     width: 100%;
      justify-content: space-around;
  }
 
 .recherche {
     width: 120%;
 } 
+
+.zoneactivité {
+    max-width: 90%;
+    max-height: 50%;
+}
 }
                                                                  /* Css pour version tablette */
 
@@ -846,7 +886,7 @@ aside {
 aside {
     top: 27%;
     height: auto;
-    width: 30%;
+    width: auto;
 }
 
 .recherche {
@@ -901,3 +941,6 @@ figure {
     }
 
 }
+.zoneactivité {
+    max-width: 90%;
+    max-height: 50%;
