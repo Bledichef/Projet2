@@ -18,7 +18,7 @@ body {
         flex-direction:row;
         padding-left: 1px;
         margin-right: 5%;  
-     
+      
     }
 
    
@@ -357,7 +357,7 @@ body {
      width: 25%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
-  
+    color: black;
 }
 
 .photoFort {
@@ -373,6 +373,7 @@ body {
     width: 80%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+    color: black;
 }
 
 .photoiles {
@@ -386,7 +387,7 @@ body {
     border-color: #F2F2F2;
     border-radius: 9%;
     background-color: white;
-  
+    color: black;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
 }
@@ -406,6 +407,7 @@ body {
     padding-top: 0.05%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+    color: black;
 }
 
 .photoDamedelagarde {
@@ -423,6 +425,7 @@ body {
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
     width: 80%;
+    color: black;
 }
 
 .photolomgchamp {
@@ -440,6 +443,7 @@ body {
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
     width: 80%;
+    color: black;
 }
 
 .etoilebleu {
@@ -586,7 +590,7 @@ body {
     margin-left: 0.5%;
 }
 
-.zoneactivité {
+.zoneactivite1 {
     max-width: 100%;
     display: flex;
     justify-content: space-between;
@@ -635,6 +639,22 @@ body {
 
 @media all and (max-device-width: 480px) {
 
+    .iconEconomique {
+      font-size: 1.5em;
+    }
+
+    .iconFamilial {
+        font-size: 1.5em;
+    }
+
+    .iconRomantique {
+        font-size: 1.5em;
+        
+    }
+
+    .iconAnimaux {
+        font-size: 1.5em;
+    }
     
 .Hebergementetpluspopulaire {
     display: flex;
@@ -679,13 +699,14 @@ body {
    
  .Filtres {
      flex-direction: column;
-
+    width: 150%;
+    
  }
 
  section {
      margin-right: 0%;
      flex-direction: column;
-    
+     margin-top: 2%;
  }
 
  figure {
@@ -709,19 +730,19 @@ body {
  }
 
  .iconRomantique {
-     margin-right: 73%;
+     margin-right: 77%;
      padding-right: 4%;
  } 
 
  .iconAnimaux {
-  margin-right: 73%;
+  margin-right: 78%;
   display: flex;
   flex-wrap: nowrap;
- 
+text-align: center;
  }
 
 aside {
-    left: 0%;
+   
     position: relative;  
     margin-top: 5%;
     
@@ -744,6 +765,7 @@ aside {
     display: flex;
     text-align: center;
     margin: 0% 0% 2% 3%;
+    width: 85%;
 }
 
 .Aubergedelacannebiere10 {
@@ -792,8 +814,10 @@ aside {
 }
 .Vieuxport {
     box-shadow: none;
-
+   
 }
+
+
 
 .Vieuxport1 {
     border-style: solid;
@@ -804,7 +828,7 @@ aside {
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
     width: 100%;
-   
+    color: black;
 }
 
 .Fortdepomègues {
@@ -925,9 +949,13 @@ aside {
     width: 120%;
 } 
 
-.zoneactivité {
+
+
+.zoneactivite1 {
     max-width: 90%;
     max-height: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 }
                                                                  /* Css pour version tablette */
@@ -999,8 +1027,9 @@ figure {
     .ParcdeLomgchamp {
         width: 100%;
     }
+    .zoneactivite1 {
+        max-width: 100%;
 
 }
-.zoneactivité {
-    max-width: 100%;
+
     
