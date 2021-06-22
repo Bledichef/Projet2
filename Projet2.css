@@ -4,7 +4,7 @@ body {
        display: flex;
        flex-direction: column;
     
-     max-width: 98%;
+    
 }
 
 
@@ -93,9 +93,9 @@ body {
     figure {
        
         display: flex;
-        flex-wrap: nowrap;
-        max-width: 50%;
-        max-height: 50%;
+      
+        width: 100%;
+       
        justify-content: flex-start;
           }
 
@@ -357,7 +357,7 @@ body {
     background-color: white;   
     border-style: solid;
     border-color: #F2F2F2;
-     
+     width: 25%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
   
@@ -366,24 +366,26 @@ body {
 .photoFort {
     border-radius: 4%;
    width: auto;
+   width: 100%;
 }
 
 .Fortdepomègues {   
     border-color: #F2F2F2;
     border-radius: 9%;
     background-color: white;
-    
+    width: 80%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
 }
 
 .photoiles {
     border-radius: 4%;
-    width: auto;
+   
+    width: 100%;
 }
 
 .ilesdufrioul {
-   
+    width: 80%;
     border-color: #F2F2F2;
     border-radius: 9%;
     background-color: white;
@@ -394,11 +396,12 @@ body {
 
 .photoCalanques {
     border-radius: 4%;
-    width: auto;
+    width: 100%;
+
 }
 
 .ParcNationaldesCalanques {
-    max-width: 25%;
+    width: 25%;
     border-style: solid;
     border-color: #F2F2F2;
     border-radius: 10%;
@@ -410,7 +413,7 @@ body {
 
 .photoDamedelagarde {
     border-radius: 4%;
-    width: auto;
+    width: 100%;
 }
 
 .Notre-Dame-de-la-Garde {
@@ -422,11 +425,12 @@ body {
     border-width: 30%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+    width: 80%;
 }
 
 .photolomgchamp {
     border-radius: 4%;
-    width: auto%;
+    width: 100%;
 }
 
 .ParcdeLomgchamp {
@@ -438,6 +442,7 @@ body {
     border-width: 30%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+    width: 80%;
 }
 
 .etoilebleu {
@@ -584,8 +589,10 @@ body {
 }
 
 .zoneactivité {
-    max-width: 90%;
-    max-height: 50%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
 }
 
 .Hebergementetpluspopulaire {
@@ -597,6 +604,7 @@ body {
 
 .photoVieuxport {
     border-radius: 10%;
+    width: 100%;
 }
 
 
@@ -781,6 +789,7 @@ aside {
     background-color: white;
     padding-top: 0.05%;
     text-decoration: none;
+    
 }
 
 .ilesdufrioul {
@@ -790,6 +799,7 @@ aside {
     background-color: white;
     padding-top: 0.05%;
     text-decoration: none;
+    
 }
 
 .ParcNationalCalanques {
@@ -959,5 +969,5 @@ figure {
 
 }
 .zoneactivité {
-    max-width: 90%;
-    max-height: 50%;
+    max-width: 100%;
+    
