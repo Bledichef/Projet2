@@ -252,7 +252,7 @@ body {
     background-color: white;
     padding-left: 2%;
     padding-top: 1%;
-    width: 28%;
+    width: 26%;
     
     color: black;
     margin-left: 2%;
@@ -267,7 +267,7 @@ body {
     background-color: white;
     padding-left: 2%;
     padding-top: 1%;
-    width: 28%;
+    width: 26%;
     color: black;
     margin-left: 1%;
     margin-bottom: 5%;
@@ -283,7 +283,7 @@ body {
     padding-left: 2%;
     padding-top: 1%;
     padding-bottom: 2%;
-  width: 28%;
+  width: 26%;
     color: black;
     margin-left: 2%;
     margin-bottom: 5%;
@@ -298,7 +298,7 @@ body {
     padding-left: 2%;
     padding-top: 1%;
     padding-bottom: 3%;
-    width: 28%;
+    width: 26%;
     color: black;
     margin-left: 1%;
     margin-bottom: 5%;
@@ -312,10 +312,10 @@ body {
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 4%;
+    padding-left: 2%;
     padding-top: 1%;
     padding-bottom: 3%;
-   width: 28%;
+   width: 26%;
     color: black;
     margin-left: 2%;
     margin-bottom: 5%;
@@ -327,10 +327,10 @@ body {
     border-color: white;
     border-radius: 10%;
     background-color: white;
-    padding-left: 4%;
+    padding-left: 2%;
     padding-top: 1%;
     padding-bottom: 3%;
-  width: 28%;
+  width: 26%;
     color: black;
     margin-left: 2%;
     margin-bottom: 5%;
@@ -461,6 +461,7 @@ body {
     display: flex;
     background-color: white;
         width: 95%;
+        height: 18%;
     border-radius: 10%;
     margin-left: 2%;
     margin-bottom: 4%;
@@ -473,7 +474,7 @@ body {
 .AucoeurdeleauChambresdhotes1 {
     display: flex;
     background-color: white;
-    
+    height: 18%;
     width: 95%;
     border-radius: 10%;
     margin-left: 2%;
@@ -489,7 +490,7 @@ body {
 .Hoteltoutbleuetblanc1 {
     display: flex;
     background-color: white;
-   
+    height: 18%;
     width: 95%;
     border-radius: 10%;
     margin-left: 2%;
@@ -604,6 +605,31 @@ body {
     width: 100%;
 }
 
+.Hotelduport {
+    text-decoration: none;
+    color: black;
+}
+
+.AubergedelaCannebière {
+    text-decoration: none;
+    color: black;
+}
+
+.Hotellesmouettes {
+    text-decoration: none;
+    color: black;
+}
+
+.HotelchezAmina {
+    text-decoration: none;
+    color: black;
+}
+
+.AubergelePanier {
+    text-decoration: none;
+    color: black;
+    
+}
 
                                                                     /* Css pour version Mobile */
 
