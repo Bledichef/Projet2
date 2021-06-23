@@ -253,12 +253,12 @@ body {
     background-color: white;
     padding-left: 2%;
     padding-top: 1%;
-    width: 26%;
-    
+    width: 26%;    
     color: black;
     margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
+    padding: 10px;
 }
 
 .Aubergedelacannebiere10 {
@@ -290,6 +290,7 @@ body {
     margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
+    padding: 10px;
 }
 
 .Hoteldelamer {
@@ -305,6 +306,7 @@ body {
     margin-left: 1%;
     margin-bottom: 5%;
     text-decoration: none;
+    padding: 10px;
 }
 
 
@@ -322,6 +324,7 @@ body {
     margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
+    padding: 10px;
 }
 
 .AubergelePanier10 {
@@ -337,7 +340,7 @@ body {
     margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
-   
+    padding: 10px;
 }
 
 .Afficherplus {
@@ -358,7 +361,7 @@ body {
     border-color: #F2F2F2;
      width: 25%;
     text-decoration: none;
-    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+    box-shadow:  0px 0px 5px 1px #F2F2F2 ;
     color: black;
     margin-right: 3%;
 }
@@ -375,7 +378,7 @@ body {
     background-color: white;
     width: 80%;
     text-decoration: none;
-    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+    box-shadow:  0px 0px 5px 2px #F2F2F2 ;
     color: black;
 }
 
@@ -392,7 +395,7 @@ body {
     background-color: white;
     color: black;
     text-decoration: none;
-    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+    box-shadow:  0px 0px 5px 2px #F2F2F2 ;
     margin-top: 15%;
 }
 
@@ -410,7 +413,7 @@ body {
     background-color: white;
     padding-top: 0.05%;
     text-decoration: none;
-    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+    box-shadow:  0px 0px 5px 1px #F2F2F2 ;
     color: black;
     margin-right: 3%;
 }
@@ -428,7 +431,7 @@ body {
     padding-top: 0.05%;
    
     text-decoration: none;
-    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+    box-shadow:  0px 0px 5px 2px #F2F2F2 ;
     width: 80%;
     color: black;
 }
@@ -446,7 +449,7 @@ body {
     padding-top: 0.05%;
    
     text-decoration: none;
-    box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+    box-shadow:  0px 0px 5px 2px #F2F2F2 ;
     width: 80%;
     color: black;
     margin-top: 15%;
@@ -555,27 +558,27 @@ body {
 }
 
 .photoHotelduport {
-    width: 80%;
+    width: 100%;
     border-radius: 15%;
 }
 
 .photoHotellesmouettes {
-    width: 80%;
+    width: 100%;
     border-radius: 15%;
 }
 
 .photoHoteldelamer {
-    width: 80%;
+    width: 100%;
     border-radius: 15%;
 }
 
 .photoHotelchezAmina {
-    width: 80%;
+    width: 100%;
     border-radius: 15%;
 }
 
 .photoAubergelePanier {
-    width: 80%;
+    width: 100%;
     border-radius: 15%;
 }
 
