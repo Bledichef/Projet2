@@ -94,7 +94,7 @@ body {
     figure {
                display: flex;
               width: 100%;
-              justify-content:space-between;
+              
           }
 
           
@@ -392,6 +392,7 @@ body {
     color: black;
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
+    margin-top: 15%;
 }
 
 .photoCalanques {
@@ -447,6 +448,7 @@ body {
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
     width: 80%;
     color: black;
+    margin-top: 15%;
 }
 
 .etoilebleu {
@@ -600,7 +602,7 @@ body {
 .zoneactivite1 {
     max-width: 100%;
     display: flex;
-    justify-content: space-between;
+  
    
 }
 
@@ -707,7 +709,7 @@ body {
    
  .Filtres {
      flex-direction: column;
-    width: 150%;
+    width: 100%;
     
  }
 
@@ -738,12 +740,12 @@ body {
  }
 
  .iconRomantique {
-     margin-right: 77%;
+     margin-right: 72%;
      padding-right: 4%;
  } 
 
  .iconAnimaux {
-  margin-right: 78%;
+  margin-right: 70%;
   display: flex;
   flex-wrap: nowrap;
 text-align: center;
@@ -856,6 +858,7 @@ aside {
     background-color: white;
     padding-top: 0.05%;
     text-decoration: none;
+    margin-top: 0%;
     
 }
 
@@ -868,6 +871,10 @@ aside {
     text-decoration: none;
     box-shadow:  0px 0px 5px 13px #F2F2F2 ;
   
+}
+
+.ParcdeLomgchamp {
+    margin-top: 0%;
 }
 
 .photoAuBergeCannebière {
@@ -954,7 +961,7 @@ aside {
  }
 
 .recherche {
-    width: 120%;
+    width: 100%;
 } 
 
 
@@ -977,9 +984,7 @@ aside {
     width: auto;
 }
 
-.recherche {
-    margin-right: auto;
-}
+
 
 figure {
      
