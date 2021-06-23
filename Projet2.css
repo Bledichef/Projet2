@@ -775,7 +775,8 @@ aside {
     display: flex;
     text-align: center;
     margin: 0% 0% 2% 3%;
-    width: 85%;
+    width: 95%;
+    
 }
 
 .Aubergedelacannebiere10 {
@@ -879,26 +880,32 @@ aside {
 
 .photoAuBergeCannebière {
     width: 95%;
+    height: 40%;
 }
 
 .photoHotelduport {
     width: 95%;
+    height: 40%;
 }
 
 .photoHotellesmouettes {
     width: 95%;
+    height: 40%;
 }
 
 .photoHoteldelamer {
     width: 95%;
+    height: 40%;
 }
 
 .photoHotelchezAmina {
     width: 95%;
+    height: 40%;
 }
 
 .photoAubergelePanier {
     width: 95%;
+    height: 40%;
 }
 
 .photoHotelsoleildumatin {
@@ -955,7 +962,7 @@ aside {
 
  .HébergementActivités {
      margin-top: 10%;
-     margin-left: 10%;
+     margin-left: 1%;
      width: 100%;
      justify-content: space-around;
  }
