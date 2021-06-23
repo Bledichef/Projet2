@@ -273,7 +273,8 @@ body {
     margin-left: 1%;
     margin-bottom: 5%;
     text-decoration: none;
-  
+    padding: 10px;
+    
 }
 
 .hotellesmouettes10 {
@@ -548,7 +549,7 @@ body {
 }
 
 .photoAuBergeCannebière {
-    width: 80%;
+    width: 100%;
     border-radius: 15%;
    
 }
@@ -648,6 +649,9 @@ body {
                                                                     /* Css pour version Mobile */
 
 @media all and (max-device-width: 480px) {
+
+   
+
 
     .iconEconomique {
       font-size: 1.5em;
@@ -1046,9 +1050,11 @@ figure {
 
     .ParcdeLomgchamp {
         width: 100%;
-    }
+    } 
+    
     .zoneactivite1 {
         max-width: 100%;
 
 }
 
+}
