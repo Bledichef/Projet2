@@ -474,7 +474,7 @@ body {
     display: flex;
     background-color: white;
         width: 95%;
-        height: 18%;
+     
     border-radius: 10%;
     margin-left: 2%;
     margin-bottom: 4%;
@@ -487,7 +487,7 @@ body {
 .AucoeurdeleauChambresdhotes1 {
     display: flex;
     background-color: white;
-    height: 18%;
+   
     width: 95%;
     border-radius: 10%;
     margin-left: 2%;
@@ -503,7 +503,7 @@ body {
 .Hoteltoutbleuetblanc1 {
     display: flex;
     background-color: white;
-    height: 18%;
+   
     width: 95%;
     border-radius: 10%;
     margin-left: 2%;
