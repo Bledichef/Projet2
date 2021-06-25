@@ -1,4 +1,5 @@
 
+
 body {
 
     font-family: 'Raleway', sans-serif;
@@ -647,11 +648,13 @@ body {
     text-decoration: none;
     color: black;
     
-}
+} 
 
                                                                     /* Css pour version Mobile */
 
-@media all and (max-device-width: 480px) {
+   @media screen and (max-device-width: 480px) { 
+
+  /*  @media screen and (max-width: 1024px) {  */
 
    
 
@@ -986,11 +989,13 @@ aside {
     display: flex;
     justify-content: space-between;
 }
-}
-                                                                 /* Css pour version tablette */
+} 
+                                                                 /* Css pour version petit écran  */
 
 
-@media all and (max-device-width: 1024px) {
+  @media screen and (max-device-width: 1024px) { 
+
+  
 
 aside {
    
@@ -1031,10 +1036,14 @@ figure {
 
 
 
-}
+}   
 
+  /* css version tablette */ 
 
-@media all and (max-device-width: 950px) {
+   @media screen and (max-device-width: 950px) {  
+
+   
+
     aside {
            width: 100%;
     }
@@ -1058,6 +1067,6 @@ figure {
     .zoneactivite1 {
         max-width: 100%;
 
-}
+} 
 
 }
