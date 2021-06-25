@@ -996,6 +996,9 @@ aside {
 
   @media screen and (max-width: 1024px) { 
 
+    .etoilebleu {
+        margin-right: 5px;
+    }
  
 aside {
    
