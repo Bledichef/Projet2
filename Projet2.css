@@ -794,42 +794,33 @@ aside {
 .Aubergedelacannebiere10 {
     width: 90%;
     margin-left: 2%;
-    text-align: center;
+ 
     
 }
 
 .Hotelduport10 {
     width: 90%;
     margin-left: 2%;
-    text-align: center;
-    ;
 }
 
 .hotellesmouettes10 {
     width: 90%;
-    margin-left: 2%;
-    text-align: center;
-   
+    margin-left: 2%;     
 }
 
 .Hoteldelamer {
     width: 90%;
-    margin-left: 2%;
-    text-align: center;
-  
+    margin-left: 2%;     
 }
 
 .HotelchezAmina10 {
     width: 90%;
-    margin-left: 2%;
-    text-align: center;
-  
+    margin-left: 2%;  
 }
 
 .AubergelePanier10 {
     width: 90%;
     margin-left: 2%;
-    text-align: center;
     
 }
 .Filtres {
@@ -997,7 +988,12 @@ aside {
   @media screen and (max-width: 1024px) { 
 
     .etoilebleu {
-        margin-right: 2%;
+       
+        margin-left: 1%;
+    }
+
+    .etoilevide {
+        margin-left: 1%;
     }
  
 aside {
@@ -1007,7 +1003,7 @@ aside {
 }
 
 
-}
+
 
 figure {
      
@@ -1049,7 +1045,7 @@ figure {
 
 .ParcdeLomgchamp {
     width: 100%;}
-
+}
  
 
 
