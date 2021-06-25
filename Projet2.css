@@ -657,7 +657,9 @@ body {
   /*  @media screen and (max-width: 1024px) {  */
 
    
-
+    .etoilbleu {
+        margin-right: 1px;
+    }
 
     .iconEconomique {
       font-size: 1.5em;
@@ -1009,9 +1011,7 @@ figure {
      flex-wrap: nowrap;
 }
 
-.etoilbleu {
-    margin-right: 1px;
-}
+
 
 .photoFort {
     width: 95%;
