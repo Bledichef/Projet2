@@ -88,7 +88,7 @@ body {
     aside {
         display: flex;
         flex-direction: column;
-           width: 67%;
+           width: 40%;
     padding-left: 2%;           
         border: 1px solid #F2F2F2;
         background-color: #F2F2F2;
