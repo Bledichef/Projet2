@@ -40,13 +40,19 @@ body {
     .HébergementActivités {
      margin-left: 70%;
      display:flex;
-     
+     text-decoration: none;
     }
 
   .Hebergement {
-      margin-right: 12px;
+      padding: 20px;
+      text-decoration: none;
   }
  
+ .Activites01 {
+     padding: 20px;
+     text-decoration: none;
+ }
+
   .Hebergement:hover {
       border-top: 3px #0065FC solid;
       
@@ -56,10 +62,9 @@ body {
     border-top: 3px #0065FC solid;
   }
 
-  .Inscrire:hover {
-    border-top: 3px #0065FC solid;
+  #Activites {
+    text-decoration: none;
   }
- 
 
     footer {
         margin-left: 0%;
@@ -535,7 +540,7 @@ body {
 .photoHoteltoutbleueetblanc {
     width: 40%;
     max-width: 40%;
-    border-radius: 15%;
+    border-radius: 15% 0% 0% 15%;
     padding: 1% 1% 1%;
 }
 
@@ -554,39 +559,39 @@ body {
 
 .photoAuBergeCannebière {
     width: 100%;
-    border-radius: 15%;
+    border-radius: 15% 15% 0% 0%;
    
 }
 
 .photoHotelduport {
     width: 100%;
-    border-radius: 15%;
+    border-radius: 15% 15% 0% 0%;
 }
 
 .photoHotellesmouettes {
     width: 100%;
-    border-radius: 15%;
+    border-radius: 15% 15% 0% 0%;
 }
 
 .photoHoteldelamer {
     width: 100%;
-    border-radius: 15%;
+    border-radius: 15% 15% 0% 0%;
 }
 
 .photoHotelchezAmina {
     width: 100%;
-    border-radius: 15%;
+    border-radius: 15% 15% 0% 0%;
 }
 
 .photoAubergelePanier {
     width: 100%;
-    border-radius: 15%;
+    border-radius: 15% 15% 0% 0%;
 }
 
 .photoHotelsoleildumatin {
     width: 40%;
     max-width: 40%;
-    border-radius: 15%;
+    border-radius: 15% 0% 0% 15%;
     padding: 1% 1% 1%;
 }
 
@@ -596,12 +601,13 @@ body {
 .photoAucoeurdeleau-chambre-dhotes {
     width: 40%;
     max-width: 40%;
-    border-radius: 15%;
+    border-radius: 15% 0% 0% 15%;
     padding: 1% 1% 1%;
 }
 
 .Inscrire {
-    margin-left: 0.5%;
+    padding: 20px;
+    text-decoration: none;
 }
 
 .zoneactivite1 {
