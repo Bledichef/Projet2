@@ -69,7 +69,7 @@ body {
     footer {
         margin-left: 0%;
         padding-bottom: 20px;
-     
+        padding-left: 3%;
         background-color:#F2F2F2;
     
         display: flex;
@@ -92,7 +92,7 @@ body {
         border: 1px solid #F2F2F2;
         background-color: #F2F2F2;
         border-radius: 5PX;
-        justify-content: space-between;
+        
         
            
         }
@@ -373,9 +373,10 @@ body {
 }
 
 .photoFort {
-    border-radius: 4%;
+    border-radius: 4% 4% 0% 0%;
    width: auto;
    width: 100%;
+   box-shadow:  0px 0px 5px 1px #F2F2F2;
 }
 
 .Fortdepomègues {   
@@ -389,8 +390,8 @@ body {
 }
 
 .photoiles {
-    border-radius: 4%;
-   
+    border-radius: 4% 4% 0% 0%;
+    box-shadow:  0px 0px 5px 1px #F2F2F2;
     width: 100%;
 }
 
@@ -406,7 +407,7 @@ body {
 }
 
 .photoCalanques {
-    border-radius: 4%;
+    border-radius: 4% 4% 0% 0%;
     width: 100%;
 
 }
@@ -422,11 +423,13 @@ body {
     box-shadow:  0px 0px 5px 1px #F2F2F2 ;
     color: black;
     margin-right: 3%;
+    
 }
 
 .photoDamedelagarde {
-    border-radius: 4%;
+    border-radius: 4% 4% 0% 0%;
     width: 100%;
+    box-shadow:  0px 0px 5px 1px #F2F2F2;
 }
 
 .Notre-Dame-de-la-Garde {
@@ -443,8 +446,9 @@ body {
 }
 
 .photolomgchamp {
-    border-radius: 4%;
+    border-radius: 4% 4% 0% 0%;
     width: 100%;
+    box-shadow:  0px 0px 5px 1px #F2F2F2;
 }
 
 .ParcdeLomgchamp {
@@ -453,7 +457,7 @@ body {
     border-radius: 9%;
     background-color: white;
     padding-top: 0.05%;
-   
+    
     text-decoration: none;
     box-shadow:  0px 0px 5px 2px #F2F2F2 ;
     width: 80%;
@@ -480,11 +484,11 @@ body {
     display: flex;
     background-color: white;
         width: 95%;
-     
+     height: 29%;
     border-radius: 10%;
     margin-left: 2%;
     margin-bottom: 4%;
-    margin-top: 4%;
+    
     margin-right: 4%;
     color: black;
     text-decoration: none;
@@ -493,12 +497,12 @@ body {
 .AucoeurdeleauChambresdhotes1 {
     display: flex;
     background-color: white;
-   
+   height: 29%;
     width: 95%;
     border-radius: 10%;
     margin-left: 2%;
     margin-bottom: 4%;
-    margin-top: 20%;
+    
     margin-right: 4%;
     color: black;
     text-decoration: none;
@@ -509,12 +513,12 @@ body {
 .Hoteltoutbleuetblanc1 {
     display: flex;
     background-color: white;
-   
+   height: 29%;
     width: 95%;
     border-radius: 10%;
     margin-left: 2%;
     margin-bottom: 14%;
-    margin-top: 20%;
+    
     margin-right: 4%;
     color: black;
     text-decoration: none;
@@ -542,6 +546,7 @@ body {
     max-width: 40%;
     border-radius: 15% 0% 0% 15%;
     padding: 1% 1% 1%;
+    margin-right: 4%;
 }
 
 .iconEconoEtFamilial {
@@ -593,6 +598,7 @@ body {
     max-width: 40%;
     border-radius: 15% 0% 0% 15%;
     padding: 1% 1% 1%;
+    margin-right: 4%;
 }
 
 
@@ -603,6 +609,7 @@ body {
     max-width: 40%;
     border-radius: 15% 0% 0% 15%;
     padding: 1% 1% 1%;
+    margin-right: 4%;
 }
 
 .Inscrire {
@@ -625,9 +632,9 @@ body {
 }
 
 .photoVieuxport {
-    border-radius: 10%;
+    border-radius: 10% 10% 0% 0%;
     width: 100%;
-    
+    box-shadow:  0px 0px 5px 1px #F2F2F2;
 }
 
 .Hotelduport {
@@ -949,6 +956,7 @@ aside {
 .photoCalanques {
     width: 450px;
     max-height: 350px;
+    box-shadow:  0px 0px 5px 1px #F2F2F2;
 }
 
 .photoDamedelagarde {
