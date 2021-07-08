@@ -144,7 +144,7 @@ body {
     
 .fa-map-marker-alt {
     width: 30px;
-    border-radius: 10% 0% 0% 10%;
+    border-radius: 20px 0 0 20px;
     padding-left: 2%;
     background-color: #F2F2F2;
     height: 36px;
@@ -155,14 +155,14 @@ body {
     .bouton-perso {
         background-color: #0065FC;
         color: white;
-        border-radius: 0% 10% 10% 0%;
+        border-radius: 0 20px 20px 0;
         width: 150px;
         height: 50px;
     }
 
  
 
-    #h2 {
+    .h2 {
       font-weight: bold;
     }
     
@@ -270,10 +270,8 @@ body {
     
     border-style: solid;
     border-color: white;
-    border-radius: 10%;
-    background-color: white;
-    
-   
+    border-radius: 20px;
+    background-color: white;   
     width: 27%;    
     color: black;
     margin-left: 2%;
@@ -285,7 +283,7 @@ body {
 .Aubergedelacannebiere10 {
     border-style: solid;
     border-color: white;
-    border-radius: 20%;
+    border-radius: 20px;
     background-color: white;     
     width: 27%;
     color: black;
@@ -299,7 +297,7 @@ body {
 .hotellesmouettes10 {
     border-style: solid;
     border-color: white;
-    border-radius: 20%;
+    border-radius: 20px;
     background-color: white;
    
    
@@ -315,7 +313,7 @@ body {
 .Hoteldelamer {
     border-style: solid;
     border-color: white;
-    border-radius: 20%;
+    border-radius: 20px;
     background-color: white;
     
    
@@ -333,10 +331,8 @@ body {
 .HotelchezAmina10 {
     border-style: solid;
     border-color: white;
-    border-radius: 20%;
-    background-color: white;
-    
-    
+    border-radius: 20px;
+    background-color: white;    
     padding-bottom: 3%;
    width: 27%;
     color: black;
@@ -349,7 +345,7 @@ body {
 .AubergelePanier10 {
     border-style: solid;
     border-color: white;
-    border-radius: 20%;
+    border-radius: 20px;
     background-color: white;    
     padding-bottom: 3%;
   width: 27%;
@@ -372,7 +368,7 @@ body {
 
 
 .Vieuxport {     
-    border-radius: 10%;
+    border-radius: 20px;
     background-color: white;   
     border-style: solid;
     border-color: #F2F2F2;
@@ -385,15 +381,16 @@ body {
 }
 
 .photoFort {
-    border-radius: 4% 4% 0% 0%;
+    border-radius: 20px 20px 0 0;
    width: auto;
    width: 100%;
+   height: 190px;
    box-shadow:  0px 0px 5px 1px #F2F2F2;
 }
 
 .Fortdepomègues {   
     border-color: #F2F2F2;
-    border-radius: 9%;
+    border-radius: 20px;
     background-color: white;
     width: 80%;
     text-decoration: none;
@@ -403,7 +400,7 @@ body {
 }
 
 .photoiles {
-    border-radius: 4% 4% 0% 0%;
+    border-radius: 20px 20px 0 0;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
     width: 100%;
 }
@@ -411,7 +408,7 @@ body {
 .ilesdufrioul {
     width: 80%;
     border-color: #F2F2F2;
-    border-radius: 9%;
+    border-radius: 20px;
     background-color: white;
     color: black;
     text-decoration: none;
@@ -421,7 +418,7 @@ body {
 }
 
 .photoCalanques {
-    border-radius: 4% 4% 0% 0%;
+    border-radius: 20px 20px 0 0;
     width: 100%;
 
 }
@@ -430,7 +427,7 @@ body {
     width: 25%;
     border-style: solid;
     border-color: #F2F2F2;
-    border-radius: 10%;
+    border-radius: 20px;
     background-color: white;
     padding-top: 0.05%;
     text-decoration: none;
@@ -441,15 +438,16 @@ body {
 }
 
 .photoDamedelagarde {
-    border-radius: 4% 4% 0% 0%;
+    border-radius: 20px 20px 0 0;
     width: 100%;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
+  
 }
 
 .Notre-Dame-de-la-Garde {
     border-style: solid;
     border-color: #F2F2F2;
-    border-radius: 9%;
+    border-radius: 20px;
     background-color: white;
     padding-top: 0.05%;
     text-align: center;
@@ -460,7 +458,7 @@ body {
 }
 
 .photolomgchamp {
-    border-radius: 4% 4% 0% 0%;
+    border-radius: 20px 20px 0 0;
     width: 100%;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
 }
@@ -468,7 +466,7 @@ body {
 .ParcdeLomgchamp {
     border-style: solid;
     border-color: #F2F2F2;
-    border-radius: 9%;
+    border-radius: 20px;
     background-color: white;
     padding-top: 0.05%;
     text-align: center;
@@ -476,7 +474,7 @@ body {
     box-shadow:  0px 0px 5px 2px #F2F2F2 ;
     width: 80%;
     color: black;
-    margin-top: 15%;
+    margin-top: 90px;
 }
 
 
@@ -502,11 +500,10 @@ body {
     display: flex;
     background-color: white;
         width: 95%;
-     height: 29%;
-    border-radius: 10%;
-   
-    margin-bottom: 4%;
-    
+     height: 170px;
+    border-radius: 40px;   
+    margin-bottom: 120px;
+    margin-top: 27px;
     margin-right: 4%;
     color: black;
     text-decoration: none;
@@ -515,27 +512,25 @@ body {
 .AucoeurdeleauChambresdhotes1 {
     display: flex;
     background-color: white;
-   height: 29%;
+   height: 170px;
     width: 95%;
-    border-radius: 10%;
-   
-    margin-bottom: 4%;
-    
+    border-radius: 40px;   
+    margin-bottom: 120px;    
     margin-right: 4%;
     color: black;
     text-decoration: none;
 }
 
 .etoileenligne3 {
-    margin-top: 50%;
+    margin-top: 50px;
 }
 
 .etoileenligne2 {
-    margin-top: 50%;
+
 }
 
 .etoileenligne1 {
-    margin-top: 50%;
+ margin-top: 8px;
 }
 
 .texteCannebiere {
@@ -565,9 +560,9 @@ body {
 .Hoteltoutbleuetblanc1 {
     display: flex;
     background-color: white;
-   height: 29%;
+   height: 170px;
     width: 95%;
-    border-radius: 10%;
+    border-radius: 40px;
     margin-right: 4%;
     color: black;
     text-decoration: none;
@@ -613,33 +608,33 @@ body {
 
 .photoAuBergeCannebière {
     width: 100%;
-    border-radius: 18% 18% 0% 0%;
+    border-radius: 20px 20px 0 0 ;
    
 }
 
 .photoHotelduport {
     width: 100%;
-    border-radius: 18% 18% 0% 0%;
+    border-radius: 20px 20px 0 0;
 }
 
 .photoHotellesmouettes {
     width: 100%;
-    border-radius: 18% 18% 0% 0%;
+    border-radius: 20px 20px 0 0;
 }
 
 .photoHoteldelamer {
     width: 100%;
-    border-radius: 18% 18% 0% 0%;
+    border-radius: 20px 20px 0 0;
 }
 
 .photoHotelchezAmina {
     width: 100%;
-    border-radius: 18% 18% 0% 0%;
+    border-radius: 20px 20px 0 0;
 }
 
 .photoAubergelePanier {
     width: 100%;
-    border-radius: 18% 18% 0% 0%;
+    border-radius: 20px 20px 0 0;
 }
 
 .photoHotelsoleildumatin {
@@ -682,7 +677,7 @@ body {
 }
 
 .photoVieuxport {
-    border-radius: 10% 10% 0% 0%;
+    border-radius: 20px 20px 0 0;
     width: 100%;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
 }
@@ -721,7 +716,12 @@ body {
 
   /*  @media screen and (max-width: 1024px) {  */
 
-   
+   .bouton-perso {
+       border-radius: 15px 20px 20px 15px;
+       width: 50px;
+   }
+
+
     .etoilebleu {
         margin-right: 2%;
     }
@@ -741,6 +741,7 @@ body {
 
     .iconAnimaux {
         font-size: 1.5em;
+        margin-right: 650px;
     }
     
 .Hebergementetpluspopulaire {
@@ -809,8 +810,6 @@ body {
  }
 
 
- 
-
  .iconEconoEtFamilial {
     display: flex;
     
@@ -822,11 +821,9 @@ body {
      padding-right: 4%;
  } 
 
- .iconAnimaux {
-  margin-right: 70%;
+ .iconAnimaux {  
   display: flex;
   flex-wrap: nowrap;
-text-align: center;
  }
 
 aside {
@@ -991,7 +988,7 @@ aside {
 
 .photoHoteltoutbleueetblanc {
     width: 50%;
-    height: 360px;
+    
     max-width: 100%;
     border-radius: 15%;
 }
