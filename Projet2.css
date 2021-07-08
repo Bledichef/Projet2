@@ -712,9 +712,9 @@ body {
 
                                                                     /* Css pour version Mobile */
 
-   @media screen and (max-width: 991px) { 
+ /*  @media screen and (max-width: 991px) { */
 
-  /*  @media screen and (max-width: 1024px) {  */
+   @media screen and (max-width: 1024px) {  
 
    .bouton-perso {
        border-radius: 15px 20px 20px 15px;
@@ -829,7 +829,7 @@ body {
 aside {
     position: relative;  
     margin-top: 5%;
-    
+    width: auto;
 }
 
 .Hotellesoleildumatin1 {
@@ -928,6 +928,7 @@ aside {
     padding-top: 0.05%;
     text-decoration: none;
     margin-bottom: 20px;
+    width: auto;
 }
 
 .ilesdufrioul {
@@ -939,6 +940,7 @@ aside {
     text-decoration: none;
     margin-bottom: 20px;
     margin-top: 0px;
+    width: auto;
 }
 
 .ParcNationalCalanques {
@@ -954,10 +956,12 @@ aside {
 .Notre-Dame-de-la-Garde {
     border-radius: 20px;
     margin-bottom: 20px;
+    width: auto;
 }
 
 .ParcdeLomgchamp {
     margin-top: 0%;
+    width: auto;
 }
 
 .photoAuBergeCannebière {
@@ -1058,7 +1062,7 @@ aside {
                                                                  /* Css pour version petit écran  */
 
 
-  @media screen and (max-width: 1024px) { 
+ /* @media screen and (max-width: 1025px) { 
 
     .etoilebleu {
        
