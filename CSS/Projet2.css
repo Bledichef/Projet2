@@ -41,7 +41,7 @@ body {
 
 
     .HébergementActivités {
-     margin-left: 70%;
+     margin-left: 850px;
      display:flex;
      text-decoration: none;
     }
@@ -291,7 +291,6 @@ body {
     margin-left: 1%;
     margin-bottom: 5%;
     text-decoration: none;
-    padding:3px 8px 10px 13px;
     
 }
 
@@ -299,33 +298,27 @@ body {
     border-style: solid;
     border-color: white;
     border-radius: 20px;
-    background-color: white;
-   
-   
+    background-color: white;   
     padding-bottom: 2%;
   width: 27%;
     color: black;
     margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
-    padding:3px 8px 10px 13px;
-}
+    }
 
 .Hoteldelamer {
     border-style: solid;
     border-color: white;
     border-radius: 20px;
-    background-color: white;
-    
-   
+    background-color: white;   
     padding-bottom: 3%;
     width: 27%;
     color: black;
     margin-left: 1%;
     margin-bottom: 5%;
     text-decoration: none;
-    padding:3px 8px 10px 13px;
-}
+  }
 
 
 
@@ -340,8 +333,7 @@ body {
     margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
-    padding:3px 8px 10px 13px;
-}
+  }
 
 .AubergelePanier10 {
     border-style: solid;
@@ -354,8 +346,7 @@ body {
     margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
-    padding:3px 8px 10px 10px;
-}
+  }
 
 .Afficherplus {
     margin-left: 5%;
@@ -421,7 +412,7 @@ body {
 .photoCalanques {
     border-radius: 20px 20px 0 0;
     width: 100%;
-
+    height: 390px;
 }
 
 .ParcNationaldesCalanques {
@@ -454,7 +445,6 @@ body {
     text-align: center;
     text-decoration: none;
     box-shadow:  0px 0px 5px 2px #F2F2F2 ;
-    width: 80%;
     color: black;
 }
 
@@ -473,8 +463,7 @@ body {
     text-align: center;
     text-decoration: none;
     box-shadow:  0px 0px 5px 2px #F2F2F2 ;
-    width: 80%;
-    color: black;
+       color: black;
     margin-top: 90px;
 }
 
@@ -502,7 +491,7 @@ body {
     background-color: white;
         width: 95%;
      height: 170px;
-    border-radius: 40px;   
+    border-radius: 30px;   
     margin-bottom: 120px;
     margin-top: 27px;
     margin-right: 4%;
@@ -515,7 +504,7 @@ body {
     background-color: white;
    height: 170px;
     width: 95%;
-    border-radius: 40px;   
+    border-radius: 30px;   
     margin-bottom: 120px;    
     margin-right: 4%;
     color: black;
@@ -563,7 +552,7 @@ body {
     background-color: white;
    height: 170px;
     width: 95%;
-    border-radius: 40px;
+    border-radius: 30px;
     margin-right: 4%;
     color: black;
     text-decoration: none;
@@ -681,6 +670,7 @@ body {
     border-radius: 20px 20px 0 0;
     width: 100%;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
+    height: 450px;
 }
 
 .Hotelduport {
@@ -1025,10 +1015,7 @@ aside {
     width: 100%;
     max-height: 350px;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
-}
-
-
-
+  }
 
 
 .photoFort {
