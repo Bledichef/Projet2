@@ -5,11 +5,10 @@ body {
     font-family: 'Raleway', sans-serif;
        display: flex;
        flex-direction: column;
-   
-    
+       overflow-x: hidden;     
 }
 
-.Pagesansfooter {
+ .Pagesansfooter {
     margin-left: 2%;
     
 }
@@ -23,7 +22,7 @@ body {
         flex-direction:row;
         padding-left: 1px;
         margin-right: 5%;  
-     
+       
     }
 
    
@@ -35,27 +34,31 @@ body {
         bottom: 90%;
         color: #0065FC;
         min-width: 30%;
+      
     }
 
    
 
 
     .HébergementActivités {
-     margin-left: 1150px;
+     margin-left: auto;
      display:flex;
      text-decoration: none;
     }
 
+
+
+
   .Hebergement {
       padding: 20px;
       text-decoration: none;
-      margin-right: 75px;
+      margin-right: 100px;
   }
- 
+
  .Activites01 {
      padding: 20px;
      text-decoration: none;
-     margin-right: 75px;
+     margin-right: 100px;
  }
 
   .Hebergement:hover {
@@ -167,6 +170,7 @@ body {
 
     .h2 {
       font-weight: bold;
+   
     }
     
     .iconAnimaux:hover {
@@ -517,10 +521,6 @@ body {
 
 .etoileenligne3 {
     margin-top: 50px;
-}
-
-.etoileenligne2 {
-
 }
 
 .etoileenligne1 {
