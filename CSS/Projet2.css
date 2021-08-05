@@ -5,10 +5,11 @@ body {
     font-family: 'Raleway', sans-serif;
        display: flex;
        flex-direction: column;
-       overflow-x: hidden;     
+   
+    
 }
 
- .Pagesansfooter {
+.Pagesansfooter {
     margin-left: 2%;
     
 }
@@ -22,43 +23,39 @@ body {
         flex-direction:row;
         padding-left: 1px;
         margin-right: 5%;  
-       
+     
     }
 
    
 
     nav {
         display: flex;
-   
+        margin-left: 30px;
         right: 0%;
         bottom: 90%;
         color: #0065FC;
         min-width: 30%;
-      
     }
 
    
 
 
     .HébergementActivités {
-     margin-left: auto;
+     margin-left: 1150px;
      display:flex;
      text-decoration: none;
     }
 
-
-
-
   .Hebergement {
       padding: 20px;
       text-decoration: none;
-      margin-right: 100px;
+      margin-right: 75px;
   }
-
+ 
  .Activites01 {
      padding: 20px;
      text-decoration: none;
-     margin-right: 100px;
+     margin-right: 75px;
  }
 
   .Hebergement:hover {
@@ -125,7 +122,7 @@ body {
         
     
    .recherche {    
-      
+      margin-left: 30px;
       border-radius: 30% 10% 10% 30%;
     
          }
@@ -165,12 +162,14 @@ body {
         width: 150px;
         height: 50px;
     }
-
- 
-
-    .h2 {
-      font-weight: bold;
+h5 {
+    margin-left: 30px;
+}
    
+
+    h2 {
+      font-weight: bold;
+      margin-left: 30px;
     }
     
     .iconAnimaux:hover {
@@ -284,7 +283,7 @@ body {
     margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
-    padding:0 3px 10px 3px;
+    padding:3px 3px 10px 3px;
 }
 
 .Aubergedelacannebiere10 {
@@ -374,7 +373,7 @@ body {
     text-decoration: none;
     box-shadow:  0px 0px 5px 1px #F2F2F2 ;
     color: black;
-    margin-right: 20px;
+    margin-right: 3%;
     text-align: center;
 }
 
@@ -413,7 +412,7 @@ body {
     text-decoration: none;
     box-shadow:  0px 0px 5px 2px #F2F2F2 ;
     margin-top: 90px;
-    
+    margin-right: 30px;
     text-align: center;
 }
 
@@ -433,7 +432,7 @@ body {
     text-decoration: none;
     box-shadow:  0px 0px 5px 1px #F2F2F2 ;
     color: black;
-    margin-right: 20px;
+    margin-right: 3%;
     text-align: center;
 }
 
@@ -441,8 +440,7 @@ body {
     border-radius: 20px 20px 0 0;
     width: 100%;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
-    height: 180px;
-    margin-bottom: 30px;
+  
 }
 
 .Notre-Dame-de-la-Garde {
@@ -461,7 +459,6 @@ body {
     border-radius: 20px 20px 0 0;
     width: 100%;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
-    height: 180px;
 }
 
 .ParcdeLomgchamp {
@@ -492,8 +489,7 @@ body {
 
 .Hébergement {
     width: 90%;
-    margin-left: 4%;
-  
+      
 }
 
 .Hotellesoleildumatin1 {
@@ -523,6 +519,10 @@ body {
 
 .etoileenligne3 {
     margin-top: 50px;
+}
+
+.etoileenligne2 {
+
 }
 
 .etoileenligne1 {
@@ -568,7 +568,7 @@ body {
 .fortiles {
     display: flex;
     flex-direction: column;
-   margin-right: 20px;
+   
 }
 
 .DameParc {
@@ -670,6 +670,7 @@ body {
     justify-content: space-between;
     text-decoration: none;
     margin-bottom: 5%;
+    margin-left: 30px;
 }
 
 .photoVieuxport {
@@ -936,7 +937,7 @@ aside {
     padding-top: 0.05%;
     text-decoration: none;
     margin-bottom: 20px;
-    
+    margin-top: 0px;
     width: auto;
 }
 
@@ -1008,7 +1009,7 @@ aside {
 }
 
 .photoVieuxport {
-    width: 800px;
+    width: 100%;
     max-height: 350px;
     
 }
