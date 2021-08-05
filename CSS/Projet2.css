@@ -35,13 +35,14 @@ body {
         bottom: 90%;
         color: #0065FC;
         min-width: 30%;
+        justify-content: space-between;
     }
 
    
 
 
     .HébergementActivités {
-     margin-left: 1150px;
+     margin-left: 900px;
      display:flex;
      text-decoration: none;
     }
@@ -49,13 +50,13 @@ body {
   .Hebergement {
       padding: 20px;
       text-decoration: none;
-      margin-right: 75px;
+      margin-right: 50px;
   }
  
  .Activites01 {
      padding: 20px;
      text-decoration: none;
-     margin-right: 75px;
+     
  }
 
   .Hebergement:hover {
@@ -170,6 +171,7 @@ h5 {
     h2 {
       font-weight: bold;
       margin-left: 30px;
+      margin-top: 50px;
     }
     
     .iconAnimaux:hover {
@@ -199,9 +201,9 @@ h5 {
     border-color: #DEEBFF;
     border-style: solid;
     border-radius: 75%;
-    padding:15px 15px 15px 15px;
+    padding:28px; 
     background-color:#DEEBFF ;
-    
+    margin-right: 8px;
   }
 
   .iconEconomique {
@@ -210,8 +212,8 @@ h5 {
       margin-left: 2%;
       border-style: solid;
       border-color:#F2F2F2;
-      border-radius: 60%;
-      padding: 1px 10px 3px 0px; 
+      border-radius: 60px;
+      padding: 0px 20px 0px 0px; 
       align-items: center;
   }
 
@@ -220,8 +222,9 @@ h5 {
     border-color: #DEEBFF;
     border-style: solid;
     border-radius: 75%;
-    padding: 15px 15px 15px 15px;
+    padding: 28px;
     background-color:#DEEBFF ;
+    margin-right: 15px;
   }
 
   .iconFamilial {
@@ -230,8 +233,8 @@ h5 {
       margin-left: 2%;
       border-style: solid;
       border-color:#F2F2F2;
-      border-radius: 60%;
-      padding: 1px 10px 3px 0px; 
+      border-radius: 60px;
+      padding: 0 50px 0 0 ; 
       align-items: center;
   }
 
@@ -240,18 +243,18 @@ h5 {
     border-color: #DEEBFF;
     border-style: solid;
     border-radius: 75%;
-    padding: 15px 15px 15px 15px;
+    padding: 29px;
     background-color:#DEEBFF ;
-    
+    margin-right: 15px;
   }
 
   .iconRomantique {
-      margin-top: 1%;
+      margin-top: 25px;
       margin-left: 2%;
       border-style: solid;
       border-color:#F2F2F2;
-      border-radius: 60%;
-      padding: 11px 10px 3px 0px; 
+      border-radius: 60px;
+      padding: 0 20px 0 0; 
   }
 
   .logoanimaux {
@@ -259,17 +262,18 @@ h5 {
     border-color: #DEEBFF;
     border-style: solid;
     border-radius: 75%;
-    padding: 15px 15px 15px 15px;
+    padding: 29px;
     background-color:#DEEBFF ;
+    margin-right: 15px;
   }
 
   .iconAnimaux {
-      margin-top: 1%;
+      margin-top: 25px;
       margin-left: 1%;
       border-style: solid;
       border-color:#F2F2F2;
-      border-radius: 60%;
-      padding: 12px 10px 3px 0px; 
+      border-radius: 60px;
+      padding: 0 20px 0 0; 
   }
 
 .Hotelduport10 {
@@ -283,7 +287,7 @@ h5 {
     margin-left: 2%;
     margin-bottom: 5%;
     text-decoration: none;
-    padding:3px 3px 10px 3px;
+    
 }
 
 .Aubergedelacannebiere10 {
@@ -293,7 +297,7 @@ h5 {
     background-color: white;     
     width: 27%;
     color: black;
-    margin-left: 1%;
+    margin-left: 30px;
     margin-bottom: 5%;
     text-decoration: none;
     
@@ -320,7 +324,7 @@ h5 {
     padding-bottom: 3%;
     width: 27%;
     color: black;
-    margin-left: 1%;
+    margin-left: 30px;
     margin-bottom: 5%;
     text-decoration: none;
   }
@@ -566,7 +570,7 @@ h5 {
 }
 
 .fortiles {
-    display: flex;
+  display: flex;
     flex-direction: column;
    
 }
@@ -595,9 +599,7 @@ h5 {
     padding: 8px 8px 12px 12px;
     display: flex;
     margin-top: 1%;
-    margin-left: 2%;
-  
-   
+    margin-left: 2%;   
     border-radius: 60%;
     padding: 6px 10px 3px 0px; 
 }
@@ -739,7 +741,7 @@ h5 {
 
     .iconAnimaux {
         font-size: 1.5em;
-        margin-right: 650px;
+        margin-right: 600px;
     }
     
 .Hebergementetpluspopulaire {
@@ -815,7 +817,7 @@ h5 {
  }
 
  .iconRomantique {
-     margin-right: 72%;
+     margin-right: 600px;
      padding-right: 4%;
  } 
 
@@ -1046,7 +1048,12 @@ aside {
     width: 100%;
 } 
 
-
+.fortiles {
+       display: block;
+       flex-direction: column;
+      
+   }
+   
 
 .zoneactivite1 {
    margin-right: 50px;
