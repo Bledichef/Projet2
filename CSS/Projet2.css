@@ -207,7 +207,7 @@ h5 {
 
   .iconEconomique {
     display: flex;
-      margin-top: 1%;
+      margin-top: 10px;
       margin-left: 2%;
       border-style: solid;
       border-color:#F2F2F2;
@@ -228,7 +228,7 @@ h5 {
 
   .iconFamilial {
       display: flex;
-      margin-top: 1%;
+      margin-top: 10px;
       margin-left: 2%;
       border-style: solid;
       border-color:#F2F2F2;
@@ -248,7 +248,7 @@ h5 {
   }
 
   .iconRomantique {
-      margin-top: 25px;
+      margin-top: 40px;
       margin-left: 2%;
       border-style: solid;
       border-color:#F2F2F2;
@@ -267,7 +267,7 @@ h5 {
   }
 
   .iconAnimaux {
-      margin-top: 25px;
+      margin-top: 40px;
       margin-left: 1%;
       border-style: solid;
       border-color:#F2F2F2;
@@ -739,7 +739,7 @@ h5 {
 
     .iconAnimaux {
         font-size: 1.5em;
-        margin-right: 600px;
+       
     }
     
 .Hebergementetpluspopulaire {
@@ -779,7 +779,7 @@ h5 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;     
-        border-bottom:2px white solid;
+        border-bottom:2px #f2f2f2 solid
     }
 
     .recherche {
@@ -818,7 +818,7 @@ h5 {
  }
 
  .iconRomantique {
-     margin-right: 600px;
+   
      padding-right: 4%;
  } 
 
@@ -1087,7 +1087,7 @@ aside {
 
 @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
 
-    .logoromantique{
+  /*  .logoromantique{
         height: 28px;
         width: 26px;
     }
@@ -1100,11 +1100,9 @@ aside {
     }
     .iconAnimaux{
         margin-right: 100px;
-    }
+    }*/
 
-    nav {
-        border-bottom:2px #f2f2f2 solid;
-    }
+ 
 
 
 
