@@ -32,7 +32,7 @@ body {
         color: #0065FC;
         min-width: 30%;
         justify-content: space-between;
-        
+        border-bottom:2px white solid;
     }
 
    
@@ -779,6 +779,7 @@ h5 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;     
+        border-bottom:2px white solid;
     }
 
     .recherche {
@@ -1061,7 +1062,7 @@ aside {
 } 
 
 
-@media screen and (max-width: 575px){  /* code pour mobile */
+@media screen and (max-width: 575px){                                                                     /* code pour mobile */
     .iconRomantique {
         margin-right: 50px;
     }
@@ -1084,8 +1085,22 @@ aside {
 
 }
 
-@media screen and (min-width: 576px)  /* code pour tablette */ {
+@media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
 
+    .logoromantique{
+        height: 28px;
+        width: 26px;
+    }
+    .logoanimaux{
+        height: 29px;
+        width: 23px;
+    }
+    .iconRomantique{
+        margin-right: 100px;
+    }
+    .iconAnimaux{
+        margin-right: 100px;
+    }
 
     nav {
         border-bottom:2px #f2f2f2 solid;
@@ -1094,3 +1109,4 @@ aside {
 
 
 }
+
