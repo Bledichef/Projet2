@@ -5,7 +5,7 @@ body {
     font-family: 'Raleway', sans-serif;
        display: flex;
        flex-direction: column;
-   
+       overflow-x: hidden; 
     
 }
 
@@ -1073,11 +1073,67 @@ aside {
     margin-right: 0px;
 }
 .photoFort{
-    width: 881px;
+    width: 350px;
+}
+.zoneactivite1{
+    max-width: 370px;
+    }
+nav {
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 370px;
+    font-size: 10px;
+}
+.Inscrire{
+    top: -48px;
+    left: -44px;
+}
+.HébergementActivités{
+    position: relative;
+    left: -66px;
+}
+h2{
+    margin-left: 0px;
+}
+h5{
+    margin-left: 0px;
+}
+.recherche{
+    margin-left: 0px;
+}
+.Hebergementetpluspopulaire{
+    margin-left: 0px;
+}
+.iconEconoEtFamilial{
+    margin-left: 0px;
+}
+.Filtres{
+    max-width: 375px;
+}
+.iconRomantique{
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.iconAnimaux{
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.iconEconomique{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.iconFamilial{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.logoeconomique{
+    margin-right: 0px;
+}
+figure {
+    margin-left: 0px;
 }
 
 }
-
 @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
 
 
