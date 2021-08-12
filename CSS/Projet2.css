@@ -35,6 +35,8 @@ body {
         border-bottom:2px white solid;
     }
 
+  
+
    
     .classbordersection{
         display: flex;
@@ -235,6 +237,7 @@ h5 {
       border-radius: 60px;
       padding: 0 50px 0 0 ; 
       align-items: center;
+      margin-right: 50px;
   }
 
   .logoromantique {
@@ -249,7 +252,6 @@ h5 {
 
   .iconRomantique {
       margin-top: 40px;
-      margin-left: 2%;
       border-style: solid;
       border-color:#F2F2F2;
       border-radius: 60px;
@@ -705,7 +707,9 @@ h5 {
     color: black;
     
 } 
-
+.fa-search {
+    font-size: 0rem;
+}
 
 
                                                                     /* Css pour version Mobile */
@@ -718,7 +722,16 @@ h5 {
        border-radius: 15px 20px 20px 15px;
        width: 50px;
    }
-
+   .bouton-perso{
+    color:#0065FC ;
+    width: 70px;
+}
+.fa-search {
+    font-size: 1.5rem;
+    position: relative;
+    left: -50px;
+    color: whitesmoke;
+}
 
     .etoilebleu {
         margin-right: 2%;
@@ -1063,12 +1076,10 @@ aside {
 
 
 @media screen and (max-width: 575px){                                                                     /* code pour mobile */
-    .iconRomantique {
-        margin-right: 50px;
-    }
-    .iconAnimaux {
-        margin-right: 30px;
-    }
+ 
+.bouton-perso{
+    color:#0065FC ;
+}
 
     .photolomgchamp{
         height: 330px;
@@ -1087,20 +1098,8 @@ aside {
 
 @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
 
-  /*  .logoromantique{
-        height: 28px;
-        width: 26px;
-    }
-    .logoanimaux{
-        height: 29px;
-        width: 23px;
-    }
-    .iconRomantique{
-        margin-right: 100px;
-    }
-    .iconAnimaux{
-        margin-right: 100px;
-    }*/
+
+
 
  
 
