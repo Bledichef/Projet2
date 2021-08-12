@@ -111,7 +111,7 @@ body {
           }
 
           
-     #h3 {
+     h3 {
          font-weight: bold;
      }
 
@@ -168,6 +168,12 @@ h5 {
     margin-left: 30px;
 }
    
+h4 {
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+}
 
     h2 {
       font-weight: bold;
@@ -372,26 +378,30 @@ h5 {
     text-decoration: none;
 }
  
+.Fort {
+    box-shadow: 0px 0px 5px 2px #F2F2F2;
+    margin-right: 20px;
+    width: auto;
+    margin-bottom: 40px;
+    border-radius: 20px 20px 20px 20px;
+}
 
 
 .Vieuxport {     
     border-radius: 20px;
     background-color: white;   
-    border-style: solid;
     border-color: #F2F2F2;
-     width: 25%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 1px #F2F2F2 ;
     color: black;
-    margin-right: 3%;
-    text-align: center;
+   text-align: center;
+   margin-right: 30px;
 }
 
 .photoFort {
     border-radius: 20px 20px 0 0;
-   width: auto;
-   width: 100%;
-   height: 220px;
+    width: 473px;
+   height: 269px;
    box-shadow:  0px 0px 5px 1px #F2F2F2;
 }
 
@@ -399,14 +409,10 @@ h5 {
     border-color: #F2F2F2;
     border-radius: 20px;
     background-color: white;
-    width: 380px;
-    height: 300px;
-    text-decoration: none;
-    box-shadow:  0px 0px 5px 2px #F2F2F2 ;
-    color: black;
+   text-decoration: none;
+   color: black;
     text-align: center;
-    padding-bottom: 20px;
-}
+   }
 
 .photoiles {
     border-radius: 20px 20px 0 0;
@@ -415,14 +421,14 @@ h5 {
  }
 
 .ilesdufrioul {
-    width: 380px;
+   
     border-color: #F2F2F2;
     border-radius: 20px;
     background-color: white;
     color: black;
     text-decoration: none;
     box-shadow:  0px 0px 5px 2px #F2F2F2 ;
-    margin-top: 90px;
+   
     margin-right: 30px;
     text-align: center;
 }
@@ -430,12 +436,10 @@ h5 {
 .photoCalanques {
     border-radius: 20px 20px 0 0;
     width: 100%;
-    height: 500px;
+    height: 584px;
 }
 
 .ParcNationaldesCalanques {
-    width: 25%;
-    border-style: solid;
     border-color: #F2F2F2;
     border-radius: 20px;
     background-color: white;
@@ -443,7 +447,7 @@ h5 {
     text-decoration: none;
     box-shadow:  0px 0px 5px 1px #F2F2F2 ;
     color: black;
-    margin-right: 3%;
+    margin-right: 20px;
     text-align: center;
 }
 
@@ -451,7 +455,7 @@ h5 {
     border-radius: 20px 20px 0 0;
     width: 100%;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
-  
+    height: 225px;
 }
 
 .Notre-Dame-de-la-Garde {
@@ -470,6 +474,7 @@ h5 {
     border-radius: 20px 20px 0 0;
     width: 100%;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
+    height: 227px;
 }
 
 .ParcdeLomgchamp {
@@ -482,7 +487,7 @@ h5 {
     text-decoration: none;
     box-shadow:  0px 0px 5px 2px #F2F2F2 ;
        color: black;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 
@@ -664,10 +669,7 @@ h5 {
 }
 
 .zoneactivite1 {
-  
-    display: flex;
-  
-   
+      display: flex;  
 }
 
 .Hebergementetpluspopulaire {
@@ -679,11 +681,12 @@ h5 {
     margin-left: 30px;
 }
 
+
 .photoVieuxport {
     border-radius: 20px 20px 0 0;
     width: 100%;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
-    height: 530px;
+    height: 595px;
 }
 
 .Hotelduport {
@@ -741,7 +744,9 @@ h5 {
         margin-right: 2%;
     }
 
-
+.Fort{
+    margin-right: 0px;
+}
     
 .Hebergementetpluspopulaire {
     display: flex;
@@ -904,7 +909,6 @@ aside {
 }
 
 .Fortdepomègues {
-    border-style: solid;
     border-color: #F2F2F2;
     border-radius: 20px;
     background-color: white;
@@ -995,9 +999,8 @@ aside {
 
 .photoVieuxport {
     width: 100%;
-    max-height: 350px;
-    
-}
+    height: 400px;
+   }
 
 .photoiles {
    width: 100%;
@@ -1012,6 +1015,7 @@ aside {
 
 .photoFort {
   height: 350px;
+  width: 881px;
 }
 
 .populaire {
@@ -1039,7 +1043,7 @@ aside {
    
 
 .zoneactivite1 {
-   margin-right: 50px;
+  
     display: flex;
     justify-content: space-between;
 }
@@ -1052,18 +1056,25 @@ aside {
     color:#0065FC ;
 }
 
-    .photolomgchamp{
-        height: 330px;
-    }
+
     .photoDamedelagarde{
-        height: 340px;
+        height: 350px;
     }
     .photoiles{
-        height: 340px;
+        height: 350px;
+    }
+    .photolomgchamp{
+        height: 350px;
     }
     .zoneactivite1{
         margin-right: 0px;
     }
+.fort {
+    margin-right: 0px;
+}
+.photoFort{
+    width: 881px;
+}
 
 }
 
