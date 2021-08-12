@@ -205,11 +205,13 @@ h5 {
     padding:28px; 
     background-color:#DEEBFF ;
     margin-right: 8px;
+    height: 19px;
+    width: 20px;
   }
 
   .iconEconomique {
     display: flex;
-      margin-top: 10px;
+      margin-top: 30px;
       margin-left: 2%;
       border-style: solid;
       border-color:#F2F2F2;
@@ -226,25 +228,27 @@ h5 {
     padding: 28px;
     background-color:#DEEBFF ;
     margin-right: 15px;
+    height: 19px;
+    width: 15px;
   }
 
   .iconFamilial {
       display: flex;
-      margin-top: 10px;
-      margin-left: 2%;
+      margin-top: 30px;
+      margin-left: 20px;
       border-style: solid;
       border-color:#F2F2F2;
       border-radius: 60px;
       padding: 0 50px 0 0 ; 
       align-items: center;
-      margin-right: 50px;
+     
   }
 
   .logoromantique {
     color: #0065FC;
     border-color: #DEEBFF;
     border-style: solid;
-    border-radius: 75%;
+    border-radius: 60px;
     padding: 29px;
     background-color:#DEEBFF ;
     margin-right: 15px;
@@ -256,13 +260,14 @@ h5 {
       border-color:#F2F2F2;
       border-radius: 60px;
       padding: 0 20px 0 0; 
+      margin-left: 20px;
   }
 
   .logoanimaux {
     color: #0065FC;
     border-color: #DEEBFF;
     border-style: solid;
-    border-radius: 75%;
+    border-radius: 60px;
     padding: 29px;
     background-color:#DEEBFF ;
     margin-right: 15px;
@@ -270,11 +275,11 @@ h5 {
 
   .iconAnimaux {
       margin-top: 40px;
-      margin-left: 1%;
       border-style: solid;
       border-color:#F2F2F2;
       border-radius: 60px;
       padding: 0 20px 0 0; 
+      margin-left: 20px;
   }
 
 .Hotelduport10 {
@@ -597,8 +602,7 @@ h5 {
     border-radius: 75%;
     padding: 8px 8px 12px 12px;
     display: flex;
-    margin-top: 1%;
-    margin-left: 2%;   
+      margin-left: 2%;   
     border-radius: 60%;
     padding: 6px 10px 3px 0px; 
 }
@@ -737,23 +741,7 @@ h5 {
         margin-right: 2%;
     }
 
-    .iconEconomique {
-      font-size: 1.5em;
-    }
 
-    .iconFamilial {
-        font-size: 1.5em;
-    }
-
-    .iconRomantique {
-        font-size: 1.5em;
-        
-    }
-
-    .iconAnimaux {
-        font-size: 1.5em;
-       
-    }
     
 .Hebergementetpluspopulaire {
     display: flex;
@@ -821,23 +809,6 @@ h5 {
  footer {
      display: block;
     
- }
-
-
- .iconEconoEtFamilial {
-    display: flex;
-    
-   
- }
-
- .iconRomantique {
-   
-     padding-right: 4%;
- } 
-
- .iconAnimaux {  
-  display: flex;
-  flex-wrap: nowrap;
  }
 
 aside {
