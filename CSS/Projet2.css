@@ -1132,6 +1132,14 @@ h5{
 figure {
     margin-left: 0px;
 }
+.Hebergement:hover {
+    
+}
+
+.Activites01:hover {
+   border-left-width: 143px;
+   border-right-width: 143px;
+}
 
 }
 @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
