@@ -380,7 +380,7 @@ h4 {
  
 .Fort {
     box-shadow: 0px 0px 5px 2px #F2F2F2;
-    margin-right: 20px;
+    
     width: auto;
     margin-bottom: 20px;
     border-radius: 20px 20px 20px 20px;
@@ -396,7 +396,7 @@ h4 {
     box-shadow:  0px 0px 5px 1px #F2F2F2 ;
     color: black;
    text-align: center;
-   margin-right: 30px;
+   margin-right: 60px;
 }
 
 .photoFort {
@@ -429,8 +429,6 @@ h4 {
     color: black;
     text-decoration: none;
     box-shadow:  0px 0px 5px 2px #F2F2F2 ;
-   
-    margin-right: 15px;
     text-align: center;
 }
 
@@ -448,7 +446,7 @@ h4 {
     text-decoration: none;
     box-shadow:  0px 0px 5px 1px #F2F2F2 ;
     color: black;
-    margin-right: 20px;
+    margin-right: 60px;
     text-align: center;
 }
 
@@ -582,7 +580,7 @@ h4 {
 .fortiles {
   display: flex;
     flex-direction: column;
-   
+   margin-right: 50px;
 }
 
 .DameParc {
@@ -1150,7 +1148,7 @@ figure {
 
 
     figure {
-        margin-left: 20px;
+        margin-left: 60px;
     }
 
  
