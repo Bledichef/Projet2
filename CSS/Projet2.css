@@ -824,24 +824,19 @@ aside {
 .Hotellesoleildumatin1 {
    display: flex;
    text-align: center;
-   height: 260px;
-   margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .AucoeurdeleauChambresdhotes1 {
     display: flex;
     text-align: center;
-    height: 260px;
     margin-bottom: 20px;
 }
 
 .Hoteltoutbleuetblanc1 {
     display: flex;
     text-align: center;
-  height: 260px;
-   
-    
-}
+ }
 
 .Aubergedelacannebiere10 {
     width: 90%;
@@ -882,19 +877,19 @@ aside {
    
 }
 
-.etoileenligne1 {
+/*.etoileenligne1 {
     margin-top: 90px;
-}
+}*/
 
-.etoileenligne2 {
+/*.etoileenligne2 {
     margin-top: 130px;
-  /*  margin-right: 150px;*/
+  /*  margin-right: 150px;
 }
 
 .etoileenligne3 {
     margin-top: 130px;
-  /*  margin-right: 140px;*/
-}
+  /*  margin-right: 140px;
+}*/
 
 .Vieuxport1 {
     border-style: solid;
@@ -904,9 +899,7 @@ aside {
     padding-top: 0.05%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 1px #F2F2F2 ;
-    width: 870px;
-  
-    color: black;
+   color: black;
 }
 
 .Fortdepomègues {
@@ -939,7 +932,6 @@ aside {
     padding-top: 0.05%;
     text-decoration: none;
     box-shadow:  0px 0px 5px 1px #F2F2F2 ;  
-    width: 890px;
 }
 
 .Notre-Dame-de-la-Garde {
@@ -1003,11 +995,6 @@ aside {
     width: 100%;
     height: 400px;
    }
-
-.photoiles {
-   width: 100%;
-}
-
 .photoCalanques {
     width: 100%;
     max-height: 350px;
@@ -1069,22 +1056,62 @@ aside {
 .bouton-perso{
     color:#0065FC ;
 }
-
-
+.photoHotelsoleildumatin{
+    height: 160px;
+}
+.photoAucoeurdeleau-chambre-dhotes{
+    height: 160px;
+}
+.photoHoteltoutbleueetblanc{
+    height: 160px;
+}
+.photoAuBergeCannebière{
+    height: 150px;
+    width: 340px;
+}
+.photoHotelduport{
+    height: 150px;
+    width: 340px;
+}
+.photoHotellesmouettes{
+    height: 150px;
+    width: 340px;
+}
+.photoHoteldelamer{
+    height: 150px;
+    width: 340px;
+}
+.photoHotelchezAmina{
+    height: 150px;
+    width: 340px;
+}
+.photoAubergelePanier{
+    height: 150px;
+    width: 340px;
+}
+.photoCalanques{
+    width: 350px;
+    height: 160px;
+}
+.photoVieuxport{
+    width: 350px;
+    height: 160px;
+}
     .photoDamedelagarde{
        /* height: 350px;
         width: 500px;*/
-        width: 900px;
-        height: 400px;
+        width: 350px;
+        height: 160px;
     }
     .photoiles{
-        height: 350px;
+        height: 160px;
+        width: 350px;
     }
     .photolomgchamp{
       /*  height: 350px;
         width: 500px;*/
-        width: 900px;
-        height: 400px;
+        width: 350px;
+        height: 160px;
     }
     .zoneactivite1{
         margin-right: 0px;
@@ -1093,7 +1120,8 @@ aside {
     margin-right: 0px;
 }
 .photoFort{
-    width: 500px;
+    width: 350px;
+    height: 160px;
 }
 
 /*.zoneactivite1{
