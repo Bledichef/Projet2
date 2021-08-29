@@ -379,8 +379,7 @@ h4 {
 }
  
 .Fort {
-    box-shadow: 0px 0px 5px 2px #F2F2F2;
-    
+    box-shadow: 0px 0px 5px 2px #F2F2F2;    
     width: auto;
     margin-bottom: 20px;
     border-radius: 20px 20px 20px 20px;
@@ -401,7 +400,7 @@ h4 {
 
 .photoFort {
     border-radius: 20px 20px 0 0;
-    width: 384px;
+    width: 350px;
    height: 215px;
    box-shadow:  0px 0px 5px 1px #F2F2F2;
 }
@@ -418,7 +417,7 @@ h4 {
 .photoiles {
     border-radius: 20px 20px 0 0;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
-    width: 387px;
+    width: 350px;
  }
 
 .ilesdufrioul {
@@ -452,7 +451,7 @@ h4 {
 
 .photoDamedelagarde {
     border-radius: 20px 20px 0 0;
-    width: 376px;
+    width: 350px;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
     height: 165px;
 }
@@ -471,7 +470,7 @@ h4 {
 
 .photolomgchamp {
     border-radius: 20px 20px 0 0;
-    width: 376px;
+    width: 350px;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
     height: 165px;
 }
@@ -723,7 +722,12 @@ h4 {
  /*  @media screen and (max-width: 991px) { */
 
    @media screen and (max-width: 1024px) {  
-
+.Hotellesoleildumatin1{
+    margin-bottom: 80px;
+}
+.AucoeurdeleauChambresdhotes1{
+    margin-bottom: 80px;
+}
    .bouton-perso {
        border-radius: 15px 20px 20px 15px;
        width: 50px;
@@ -824,14 +828,12 @@ aside {
 .Hotellesoleildumatin1 {
    display: flex;
    text-align: center;
-  margin-bottom: 20px;
-}
+ }
 
 .AucoeurdeleauChambresdhotes1 {
     display: flex;
     text-align: center;
-    margin-bottom: 20px;
-}
+   }
 
 .Hoteltoutbleuetblanc1 {
     display: flex;
@@ -839,31 +841,31 @@ aside {
  }
 
 .Aubergedelacannebiere10 {
-    width: 350px;
+    width: 250px;
     margin-left: 2%;    
 }
 .Hotelduport10 {
-    width: 350px;
+    width: 250px;
     margin-left: 2%;
 }
 
 .hotellesmouettes10 {
-    width: 350px;
+    width: 250px;
     margin-left: 2%;     
 }
 
 .Hoteldelamer {
-    width: 350px;
+    width: 250px;
     margin-left: 2%;     
 }
 
 .HotelchezAmina10 {
-    width: 350px;
+    width: 250px;
     margin-left: 2%;  
 }
 
 .AubergelePanier10 {
-    width: 350px;
+    width: 250px;
     margin-left: 2%;
     
 }
@@ -886,7 +888,6 @@ aside {
     margin-top: 130px;
   /*  margin-right: 140px;
 }*/
-
 .Vieuxport1 {
     border-style: solid;
     border-color: #F2F2F2;
@@ -942,9 +943,8 @@ aside {
 }
 
 .photoAuBergeCannebière {
-    height: 300px;
+  /*  height: 300px;*/
 }
-
 .photoHotelduport {
     height: 300px;
 }
@@ -971,21 +971,15 @@ aside {
 
 .photoHotelsoleildumatin {
     width:250px;
-  height: 240px;
-    
 }
 
 .photoAucoeurdeleau-chambre-dhotes {
     width: 250px;
-    height: 240px;
-  
-    
-}
+   }
 
 .photoHoteltoutbleueetblanc {
     width: 250px;
-    height: 240px;   
-}
+   }
 
 .photoVieuxport {
     width: 650px;
@@ -1045,6 +1039,27 @@ aside {
 }
 .activitétext{
     margin-left: 25px;
+}
+.Hotellesmouettes{
+    width: 250px;
+}
+.photoVieuxport{
+    width: 530px;
+}
+.photoFort{
+    width: 530px;
+}
+.photoiles{
+    width: 530px;
+}
+.photoCalanques{
+    width: 530px;
+}
+.photoDamedelagarde{
+    width: 530px;
+}
+.photolomgchamp{
+    width: 530px;
 }
 } 
 
@@ -1190,6 +1205,45 @@ figure {
 
     figure {
         margin-left: 10px;
+    }
+    section {
+        align-items: center;
+        flex-direction: initial;
+        justify-content: space-evenly;
+        margin-left: 3px;
+    }
+    .Afficherplus{
+        margin-left: 80px;
+    }
+    .photoAuBergeCannebière{
+        height: 200px;
+        width: 250px;
+    }
+    .photoHotelduport{
+        height: 200px;
+        width: 250px;
+    }
+    .photoHotellesmouettes{
+        height: 200px;
+        width: 250px;
+    }
+    .photoHoteldelamer{
+        height: 200px;
+        width: 250px;
+    }
+    .photoHotelchezAmina{
+        height: 200px;
+        width: 250px;
+    }
+    .photoAubergelePanier{
+        height: 200px;
+        width: 250px;
+    }
+    .AubergedelaCannebière{
+        width: 251px;
+    }
+    .Hotelduport{
+        width: 249px;
     }
 
  
