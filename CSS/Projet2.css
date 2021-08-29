@@ -839,35 +839,31 @@ aside {
  }
 
 .Aubergedelacannebiere10 {
-    width: 90%;
+    width: 350px;
     margin-left: 2%;    
 }
-
-.DameParc{
-    margin-right: 60px;
-}
 .Hotelduport10 {
-    width: 90%;
+    width: 350px;
     margin-left: 2%;
 }
 
 .hotellesmouettes10 {
-    width: 90%;
+    width: 350px;
     margin-left: 2%;     
 }
 
 .Hoteldelamer {
-    width: 90%;
+    width: 350px;
     margin-left: 2%;     
 }
 
 .HotelchezAmina10 {
-    width: 90%;
+    width: 350px;
     margin-left: 2%;  
 }
 
 .AubergelePanier10 {
-    width: 90%;
+    width: 350px;
     margin-left: 2%;
     
 }
@@ -992,19 +988,33 @@ aside {
 }
 
 .photoVieuxport {
-    width: 100%;
-    height: 400px;
+    width: 650px;
+    height: 380px;
    }
 .photoCalanques {
-    width: 100%;
-    max-height: 350px;
+    width: 650px;
+    max-height: 380px;
     box-shadow:  0px 0px 5px 1px #F2F2F2;
   }
-
-
+.photoiles{
+    width: 650px;
+    height: 380px;
+}
+.photoCalanques{
+    width: 650px;
+    height: 380px;
+}
+.photoDamedelagarde{
+    width: 650px;
+    height: 380px;
+}
+.photolomgchamp{
+    width: 650px;
+    height: 380px;
+}
 .photoFort {
-  height: 350px;
-  width: 881px;
+  height: 380px;
+  width: 650px;
 }
 
 .populaire {
@@ -1027,28 +1037,15 @@ aside {
 .fortiles {
        display: block;
        flex-direction: column;
-      margin-right: 60px;
-   }
-   
-
+         }
 .zoneactivite1 {
-  
+    margin-left: 10px;  
     display: flex;
     justify-content: space-between;
 }
-
-.photoDamedelagarde{
-    /* height: 350px;
-     width: 500px;*/
-     width: 900px;
-     height: 400px;
- }
- .photolomgchamp{
-    /*  height: 350px;
-      width: 500px;*/
-      width: 900px;
-      height: 400px;
-  }
+.activitétext{
+    margin-left: 25px;
+}
 } 
 
 @media screen and (max-width: 575px){                                                                     /* code pour mobile */
@@ -1192,7 +1189,7 @@ figure {
 
 
     figure {
-        margin-left: 60px;
+        margin-left: 10px;
     }
 
  
