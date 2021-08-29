@@ -1066,6 +1066,7 @@ aside {
 @media screen and (max-width: 576px){                                                                     /* code pour mobile */
  section{
      flex-direction: column;
+     margin-left: 12px;
  }
 .bouton-perso{
     color:#0065FC ;
@@ -1081,50 +1082,50 @@ aside {
 }
 .photoAuBergeCannebière{
     height: 150px;
-    width: 340px;
+    width: 330px;
 }
 .photoHotelduport{
     height: 150px;
-    width: 340px;
+    width: 330px;
 }
 .photoHotellesmouettes{
     height: 150px;
-    width: 340px;
+    width: 330px;
 }
 .photoHoteldelamer{
     height: 150px;
-    width: 340px;
+    width: 330px;
 }
 .photoHotelchezAmina{
     height: 150px;
-    width: 340px;
+    width: 330px;
 }
 .photoAubergelePanier{
     height: 150px;
-    width: 340px;
+    width: 330px;
 }
 .photoCalanques{
-    width: 350px;
+    width: 340px;
     height: 160px;
 }
 .photoVieuxport{
-    width: 350px;
+    width: 340px;
     height: 160px;
 }
     .photoDamedelagarde{
        /* height: 350px;
         width: 500px;*/
-        width: 350px;
+        width: 340px;
         height: 160px;
     }
     .photoiles{
         height: 160px;
-        width: 350px;
+        width: 340px;
     }
     .photolomgchamp{
       /*  height: 350px;
         width: 500px;*/
-        width: 350px;
+        width: 340px;
         height: 160px;
     }
     .zoneactivite1{
@@ -1134,7 +1135,7 @@ aside {
     margin-right: 0px;
 }
 .photoFort{
-    width: 350px;
+    width: 340px;
     height: 160px;
 }
 
@@ -1200,8 +1201,18 @@ figure {
    border-left-width: 143px;
    border-right-width: 143px;
 }
-
-
+.logoanimaux{
+    padding: 19px;
+}
+.logoeconomique{
+    padding: 19px;
+}
+.logofamilial{
+    padding: 19px;
+}
+.logoromantique{
+    padding: 19px;
+}
 }
 @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
 
