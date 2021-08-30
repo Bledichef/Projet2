@@ -819,11 +819,13 @@ aside {
 .Hotellesoleildumatin1 {
    display: flex;
    text-align: center;
+   margin-bottom: 0px;
  }
 
 .AucoeurdeleauChambresdhotes1 {
     display: flex;
     text-align: center;
+    margin-bottom: 0px;
    }
 
 .Hoteltoutbleuetblanc1 {
