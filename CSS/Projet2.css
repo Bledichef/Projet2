@@ -21,7 +21,6 @@ body {
         margin-left: 30px;
         right: 0%;
         bottom: 90%;
-        color: #0065FC;
         min-width: 30%;
         justify-content: space-between;
         border-bottom:2px white solid;
@@ -32,7 +31,7 @@ body {
     }
 
     .HébergementActivités {
- 
+ color: black;
      display:flex;
      text-decoration: none;
     }
@@ -41,21 +40,23 @@ body {
       padding: 20px;
       text-decoration: none;
      /* margin-right: 50px;*/
+     color: black;
   }
  
  .Activites01 {
      padding: 20px;
      text-decoration: none;
-     
- }
+     color: black;
+     }
 
   .Hebergement:hover {
       border-top: 3px #0065FC solid;
-      
+      color: blue;
   }
 
   .Activites01:hover {
     border-top: 3px #0065FC solid;
+    color: blue;
   }
 
   #Activites {
@@ -653,7 +654,7 @@ h4 {
 .Inscrire {
     padding: 20px;
     text-decoration: none;
-
+color: black;
 }
 
 .zoneactivite1 {
@@ -1251,6 +1252,30 @@ figure {
 @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
 
 
+.Vieuxport1{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.Fort{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.iles{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.ParcNationalCalanques{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.Notre-Dame-de-la-Garde{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.ParcdeLomgchamp{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
     figure {
         margin-left: 10px;
     }
@@ -1293,8 +1318,12 @@ figure {
     .Hotelduport{
         width: 249px;
     }
-
- 
+.activitétext{
+    text-align: center;
+}
+ .fortiles{
+     margin-right: 0px;
+ }
 
 
 
