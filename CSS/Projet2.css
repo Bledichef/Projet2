@@ -6,24 +6,16 @@ body {
        display: flex;
        flex-direction: column;
        overflow-x: hidden; 
-    
-}
-
-
+    }
      section {
-     
         display: flex;
         border-radius: 5px;
         background-color:#F2F2F2;
         flex-wrap: wrap;
         flex-direction:row;
         padding-left: 1px;
-        margin-right: 5%;  
-     
+        margin-right: 30px;      
     }
-
-   
-
     nav {
         display: flex;
         margin-left: 30px;
@@ -34,10 +26,7 @@ body {
         justify-content: space-between;
         border-bottom:2px white solid;
     }
- 
-  
-
-   
+    
     .classbordersection{
         display: flex;
     }
@@ -95,7 +84,7 @@ body {
     aside {
         display: flex;
         flex-direction: column;
-           width: 40%;
+           width: 900px;
     padding-left: 2%;           
         border: 1px solid #F2F2F2;
         background-color: #F2F2F2;
@@ -294,12 +283,11 @@ h4 {
     border-color: white;
     border-radius: 20px;
     background-color: white;   
-    width: 27%;    
     color: black;
-    margin-left: 2%;
+    margin-left: 30px;
     margin-bottom: 5%;
     text-decoration: none;
-    
+    padding-bottom: 2%;
 }
 
 .Aubergedelacannebiere10 {
@@ -307,12 +295,11 @@ h4 {
     border-color: white;
     border-radius: 20px;
     background-color: white;     
-    width: 27%;
     color: black;
     margin-left: 30px;
     margin-bottom: 5%;
     text-decoration: none;
-    
+    padding-bottom: 2%;
 }
 
 .hotellesmouettes10 {
@@ -321,9 +308,8 @@ h4 {
     border-radius: 20px;
     background-color: white;   
     padding-bottom: 2%;
-  width: 27%;
     color: black;
-    margin-left: 2%;
+    margin-left: 30px;
     margin-bottom: 5%;
     text-decoration: none;
     }
@@ -333,8 +319,7 @@ h4 {
     border-color: white;
     border-radius: 20px;
     background-color: white;   
-    padding-bottom: 3%;
-    width: 27%;
+    padding-bottom: 2%;
     color: black;
     margin-left: 30px;
     margin-bottom: 5%;
@@ -348,10 +333,9 @@ h4 {
     border-color: white;
     border-radius: 20px;
     background-color: white;    
-    padding-bottom: 3%;
-   width: 27%;
+    padding-bottom: 2%;
     color: black;
-    margin-left: 2%;
+    margin-left: 30px;
     margin-bottom: 5%;
     text-decoration: none;
   }
@@ -361,10 +345,9 @@ h4 {
     border-color: white;
     border-radius: 20px;
     background-color: white;    
-    padding-bottom: 3%;
-  width: 27%;
+    padding-bottom: 2%;
     color: black;
-    margin-left: 2%;
+    margin-left: 30px;
     margin-bottom: 5%;
     text-decoration: none;
   }
@@ -611,33 +594,39 @@ h4 {
 }
 
 .photoAuBergeCannebière {
-    width: 100%;
+    width: 230px;
+    height: 170px;
     border-radius: 20px 20px 0 0 ;
    
 }
 
 .photoHotelduport {
-    width: 100%;
+    width: 230px;
+    height: 170px;
     border-radius: 20px 20px 0 0;
 }
 
 .photoHotellesmouettes {
-    width: 100%;
+    width: 230px;
+    height: 170px;
     border-radius: 20px 20px 0 0;
 }
 
 .photoHoteldelamer {
-    width: 100%;
+    width: 230px;
+    height: 170px;
     border-radius: 20px 20px 0 0;
 }
 
 .photoHotelchezAmina {
-    width: 100%;
+    width: 230px;
+    height: 170px;
     border-radius: 20px 20px 0 0;
 }
 
 .photoAubergelePanier {
-    width: 100%;
+    width: 230px;
+    height: 170px;
     border-radius: 20px 20px 0 0;
 }
 
