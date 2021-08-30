@@ -1213,6 +1213,35 @@ figure {
 .logoromantique{
     padding: 19px;
 }
+.Aubergedelacannebiere10 {
+    width: 330px;
+    margin-left: 2%;    
+}
+.Hotelduport10 {
+    width: 330px;
+    margin-left: 2%;
+}
+
+.hotellesmouettes10 {
+    width: 330px;
+    margin-left: 2%;     
+}
+
+.Hoteldelamer {
+    width: 330px;
+    margin-left: 2%;     
+}
+
+.HotelchezAmina10 {
+    width: 330px;
+    margin-left: 2%;  
+}
+
+.AubergelePanier10 {
+    width: 330px;
+    margin-left: 2%;
+    
+}
 }
 @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
 
