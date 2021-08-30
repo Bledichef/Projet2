@@ -710,6 +710,7 @@ h6 {
     font-size: small;
 }
 
+
                                                                     /* Css pour version Mobile */
 
  /*  @media screen and (max-width: 991px) { */
@@ -1251,10 +1252,10 @@ figure {
 }
 @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
 
-
+/*
 .Vieuxport1{
     text-align-last: center;
-    margin: 0 90px 10px 90px;
+   margin: 0 90px 10px 90px;
 }
 .Fort{
     text-align-last: center;
@@ -1275,7 +1276,7 @@ figure {
 .ParcdeLomgchamp{
     text-align-last: center;
     margin: 0 90px 10px 90px;
-}
+}*/
     figure {
         margin-left: 10px;
     }
@@ -1321,9 +1322,9 @@ figure {
 .activitétext{
     text-align: center;
 }
- .fortiles{
+ /*.fortiles{
      margin-right: 0px;
- }
+ }*/
 
 
 
