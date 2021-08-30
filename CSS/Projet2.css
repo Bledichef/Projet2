@@ -84,7 +84,7 @@ body {
     aside {
         display: flex;
         flex-direction: column;
-           width: 900px;
+           width: 850px;
     padding-left: 2%;           
         border: 1px solid #F2F2F2;
         background-color: #F2F2F2;
@@ -704,7 +704,9 @@ h4 {
 .fa-search {
     font-size: 0rem;
 }
-
+h6 {
+    font-size: small;
+}
 
                                                                     /* Css pour version Mobile */
 
