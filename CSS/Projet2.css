@@ -1057,6 +1057,34 @@ aside {
 .photolomgchamp{
     width: 530px;
 }
+
+.Vieuxport1{
+    text-align-last: center;
+   margin: 0 90px 10px 90px;
+}
+.Fort{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.iles{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.ParcNationalCalanques{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.Notre-Dame-de-la-Garde{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.ParcdeLomgchamp{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+ .fortiles{
+     margin-right: 0px;
+ }
 } 
 
 @media screen and (max-width: 576px){                                                                     /* code pour mobile */
