@@ -104,6 +104,7 @@ body {
 
           
      h3 {
+         font-size: 20px;
          font-weight: bold;
      }
 
@@ -716,7 +717,7 @@ font-size: 20px;
     font-size: 0rem;
 }
 h6 {
-    font-size: small;
+    font-size: 20px;
 }
 
 
