@@ -1039,55 +1039,7 @@ aside {
 .Hotellesmouettes{
     width: 250px;
 }
-.photoVieuxport{
-    width: 530px;
-}
-.photoFort{
-    width: 530px;
-}
-.photoiles{
-    width: 530px;
-}
-.photoCalanques{
-    width: 530px;
-}
-.photoDamedelagarde{
-    width: 530px;
-}
-.photolomgchamp{
-    width: 530px;
-}
 
-.Vieuxport1{
-    text-align-last: center;
-   margin: 0 90px 10px 90px;
-}
-.Fort{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
-.iles{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
-.ParcNationalCalanques{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
-.Notre-Dame-de-la-Garde{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
-.ParcdeLomgchamp{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
- .fortiles{
-     margin-right: 0px;
- }
- .activitétext{
-    text-align: center;
-}
 } 
 
 @media screen and (max-width: 576px){                                                                     /* code pour mobile */
@@ -1357,5 +1309,56 @@ figure {
 
 
 
+
+ /*@media screen and (min-width: 650px max-width:800px)
+ .photoVieuxport{
+    width: 530px;
+}
+.photoFort{
+    width: 530px;
+}
+.photoiles{
+    width: 530px;
+}
+.photoCalanques{
+    width: 530px;
+}
+.photoDamedelagarde{
+    width: 530px;
+}
+.photolomgchamp{
+    width: 530px;
+}
+
+.Vieuxport1{
+    text-align-last: center;
+   margin: 0 90px 10px 90px;
+}
+.Fort{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.iles{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.ParcNationalCalanques{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.Notre-Dame-de-la-Garde{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+.ParcdeLomgchamp{
+    text-align-last: center;
+    margin: 0 90px 10px 90px;
+}
+ .fortiles{
+     margin-right: 0px;
+ }
+ .activitétext{
+    text-align: center;
+}*/
 }
 
