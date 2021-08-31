@@ -210,6 +210,7 @@ h4 {
   }
 
   .iconEconomique {
+      font-size: 20px;
     display: flex;
       margin-top: 30px;
       margin-left: 2%;
@@ -221,6 +222,7 @@ h4 {
   }
 
   .logofamilial {
+      
     color: #0065FC;
     border-color: #DEEBFF;
     border-style: solid;
@@ -233,6 +235,7 @@ h4 {
   }
 
   .iconFamilial {
+      font-size: 20px;
       display: flex;
       margin-top: 30px;
       margin-left: 20px;
@@ -255,6 +258,7 @@ h4 {
   }
 
   .iconRomantique {
+      font-size: 20px;
       margin-top: 40px;
       border-style: solid;
       border-color:#F2F2F2;
@@ -274,6 +278,7 @@ h4 {
   }
 
   .iconAnimaux {
+      font-size: 20px;
       margin-top: 40px;
       border-style: solid;
       border-color:#F2F2F2;
