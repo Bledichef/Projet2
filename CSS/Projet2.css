@@ -417,7 +417,7 @@ h4 {
  }
 
 .iles {
-   
+    
     border-color: #F2F2F2;
     border-radius: 20px;
     background-color: white;
@@ -425,6 +425,7 @@ h4 {
     text-decoration: none;
     box-shadow:  0px 0px 5px 2px #F2F2F2 ;
     text-align: center;
+    padding-bottom: 5px;
 }
 
 .photoCalanques {
@@ -482,6 +483,7 @@ h4 {
     box-shadow:  0px 0px 5px 2px #F2F2F2 ;
        color: black;
     margin-top: 40px;
+    padding-bottom: 5px;
 }
 
 
@@ -671,6 +673,7 @@ color: black;
 
 .zoneactivite1 {
       display: flex;  
+      margin-left: 60px;
 }
 
 .Hebergementetpluspopulaire {
@@ -1044,6 +1047,7 @@ aside {
     margin-left: 10px;  
     display: flex;
     justify-content: space-between;
+  
 }
 .activitétext{
     margin-left: 25px;
