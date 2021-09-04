@@ -376,8 +376,7 @@ h4 {
  
 .Fort {
     box-shadow: 0px 0px 5px 2px #F2F2F2;    
-    width: auto;
-    margin-bottom: 20px;
+       margin-bottom: 20px;
     border-radius: 20px 20px 20px 20px;
     padding-bottom: 2px;
 }
@@ -1061,7 +1060,7 @@ aside {
 @media screen and (max-width: 576px){                                                                     /* code pour mobile */
  section{
      flex-direction: column;
-     margin-left: 12px;
+    
  }
 .bouton-perso{
     color:#0065FC ;
@@ -1128,6 +1127,7 @@ aside {
     }
 .fort {
     margin-right: 0px;
+    width: 347px;
 }
 .photoFort{
     width: 340px;
@@ -1172,10 +1172,12 @@ h5{
 .iconRomantique{
     margin-left: 0px;
     margin-top: 10px;
+    width: 230px;
 }
 .iconAnimaux{
     margin-left: 0px;
     margin-top: 10px;
+    width: 230px;
 }
 .iconEconomique{
     margin-left: 0px;
@@ -1247,6 +1249,24 @@ figure {
 .Inscrire{
     left: -89px;
     font-size: 20px;
+}
+.Hotellesoleildumatin1{
+    margin-bottom: 15px;
+    height: 163px;
+}
+.AucoeurdeleauChambresdhotes1{
+    margin-bottom: 15px;
+    height: 163px;
+}
+.Hoteltoutbleuetblanc1{
+margin-bottom: 15px;
+height: 163px;
+}
+.etoileenligne3{
+    margin-top: 0px;
+}
+.fortiles{
+    margin-right: 0px;
 }
 }
 @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
