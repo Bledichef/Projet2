@@ -1479,5 +1479,90 @@ height: 163px;
 }
 }
 @media screen and (max-width:360px){
-
+.Inscrire{
+    left: -128px;
+    top: -69px;
+}
+.textpersobarrederecherche{
+    width: 165px;
+}
+.logofamilial{
+    margin-right: 0px;
+}
+.iconEconomique{
+    padding: 0;
+}
+.iconFamilial{
+    padding: 0 15px 0 0;
+}
+header{
+    margin-right: 20px;
+}
+.fa-search{
+    left: 250px;
+    top: -38px;
+}
+aside{
+    width: 300px;
+}
+.Aubergedelacannebiere10{
+    width: 278px;
+}
+.photoAuBergeCannebière{
+    width: 280px;
+}
+.Hotelduport10{
+    width: 278px;
+}
+.photoHotelduport{
+    width: 280px;
+}
+.hotellesmouettes10{
+    width: 278px;
+}
+.photoHotellesmouettes{
+    width: 280px;
+}
+.Hoteldelamer{
+    width: 278px;
+}
+.photoHoteldelamer{
+   width: 280px;
+}
+.HotelchezAmina10{
+    width: 278px;
+}
+.photoHotelchezAmina{
+    width: 280px;
+}
+.AubergelePanier10{
+    width: 278px;
+}
+.photoAubergelePanier{
+    width: 280px;
+}
+.Hebergementetpluspopulaire{
+    margin-right: 45px;
+}
+.zoneactivite1{
+    margin-right: 50px;
+}
+.photoVieuxport{
+    width: 279px;
+}
+.photoFort{
+    width: 279px;
+}
+.photoiles{
+    width: 279px;
+}
+.photoCalanques{
+    width: 279px;
+}
+.photoDamedelagarde{
+    width: 279px;
+}
+.photolomgchamp{
+    width: 279px;
+}
 }
