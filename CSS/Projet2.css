@@ -1407,7 +1407,7 @@ height: 163px;
     nav {
          margin-left: 30px;
      }
- }
+ 
  header{
      margin-left: 15px;
  }
@@ -1476,4 +1476,8 @@ height: 163px;
 .fa-search{
     left: 235px;
     top: -38px;
+}
+}
+@media screen and (max-width:360px){
+
 }
