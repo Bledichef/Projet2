@@ -1403,4 +1403,77 @@ height: 163px;
     text-align: center;
 }*/
 }
-
+@media screen and (max-width:321px){
+    nav {
+         margin-left: 30px;
+     }
+ }
+ header{
+     margin-left: 15px;
+ }
+ aside{
+     width: 355px;
+     margin-left: 7px;
+ }
+ section{
+     margin-left: 10px;
+     width: 360px;
+ }
+ .Hotellesoleildumatin1{
+     width: 347px;
+ }
+ .AucoeurdeleauChambresdhotes1{
+     width: 347px;
+ }
+ .Hoteltoutbleuetblanc1{
+     width: 347px;
+ }
+ .Aubergedelacannebiere10{
+     margin-left: 10px;
+ }
+ .Hotelduport10{
+     margin-left: 10px;
+ }
+ .hotellesmouettes10{
+     margin-left: 10px;
+ }
+ .Hoteldelamer{
+     margin-left: 10px;
+ }
+ .HotelchezAmina10{
+     margin-left: 10px;
+ }
+ .AubergelePanier10{
+     margin-left: 10px;
+ }
+ .zoneactivite1{
+     width: 350px;
+ }
+ figure{
+     margin-left: 3px;
+     margin-right: 0px;
+ }
+ footer{
+     margin-left: -5px;
+     width: 380px;
+ }
+ .HébergementActivités{
+     margin-top: 20px;
+ }
+ .logo{
+     margin-right: 45px;
+     margin-left: -23px;
+ }
+.textpersobarrederecherche{
+    width: 159px;
+}
+.fa-map-marker-alt{
+    width: 25px;
+}
+.bouton-perso{
+    width: 60px;
+}
+.fa-search{
+    left: 235px;
+    top: -38px;
+}
