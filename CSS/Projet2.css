@@ -1403,21 +1403,46 @@ height: 163px;
     text-align: center;
 }*/
 }
-@media screen and (max-width:321px){
+@media screen and (max-width:320px){
     nav {
          margin-left: 30px;
      }
  
  header{
      margin-left: 15px;
- }
+      }
+
  aside{
      width: 355px;
      margin-left: 7px;
  }
  section{
-     margin-left: 10px;
+     margin-left: 25px;
      width: 360px;
+ }
+ .Vieuxport1{
+     width: 284px;
+     margin-left: 25px;
+ }
+ .fort{
+    width: 284px;
+    margin-left: 25px;
+ }
+ .iles{
+    width: 284px;
+    margin-left: 25px;
+ }
+ .ParcNationalCalanques{
+    width: 284px;
+    margin-left: 25px;
+ }
+ .Notre-Dame-de-la-Garde{
+    width: 284px;
+    margin-left: 25px;
+ }
+ .ParcdeLomgchamp{
+    width: 284px;
+    margin-left: 25px;
  }
  .Hotellesoleildumatin1{
      width: 347px;
@@ -1459,29 +1484,39 @@ height: 163px;
  }
  .HébergementActivités{
      margin-top: 20px;
+     left: 5px;
  }
  .logo{
-     margin-right: 45px;
+     margin-right: 34px;
      margin-left: -23px;
  }
 .textpersobarrederecherche{
     width: 159px;
 }
 .fa-map-marker-alt{
-    width: 25px;
+    width: 15px;
 }
 .bouton-perso{
-    width: 60px;
+    width: 50px;
 }
 .fa-search{
-    left: 235px;
+    left: 226px;
     top: -38px;
+}
+.Inscrire{
+    left: -30px;
 }
 }
 @media screen and (max-width:360px){
+    section{
+        width: 360px;
+    }
 .Inscrire{
     left: -128px;
     top: -69px;
+}
+.Hebergementetpluspopulaire{
+    margin-left: 32px;
 }
 .textpersobarrederecherche{
     width: 165px;
@@ -1502,9 +1537,7 @@ header{
     left: 250px;
     top: -38px;
 }
-aside{
-    width: 356px;
-}
+
 .Aubergedelacannebiere10{
     width: 278px;
 }
@@ -1541,11 +1574,10 @@ aside{
 .photoAubergelePanier{
     width: 280px;
 }
-.Hebergementetpluspopulaire{
-    margin-right: 45px;
-}
+
 .zoneactivite1{
     margin-right: 50px;
+    margin-left: 30px;
 }
 .photoVieuxport{
     width: 279px;
