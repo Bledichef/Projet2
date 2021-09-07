@@ -1059,9 +1059,12 @@ aside {
 
 @media screen and (max-width: 576px){                                                                     /* code pour mobile */
  section{
-     flex-direction: column;
-    
+     flex-direction: column;    
  }
+ .fa-search{
+    left: -52px;
+    top: 6px;
+}
 .bouton-perso{
     color:#0065FC ;
 }
@@ -1344,64 +1347,12 @@ height: 163px;
     .Hotelduport{
         width: 249px;
     }
+ 
 
  /*.fortiles{
      margin-right: 0px;
  }*/
 
-
-
-
- /*@media screen and (min-width: 650px max-width:800px)
- .photoVieuxport{
-    width: 530px;
-}
-.photoFort{
-    width: 530px;
-}
-.photoiles{
-    width: 530px;
-}
-.photoCalanques{
-    width: 530px;
-}
-.photoDamedelagarde{
-    width: 530px;
-}
-.photolomgchamp{
-    width: 530px;
-}
-
-.Vieuxport1{
-    text-align-last: center;
-   margin: 0 90px 10px 90px;
-}
-.Fort{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
-.iles{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
-.ParcNationalCalanques{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
-.Notre-Dame-de-la-Garde{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
-.ParcdeLomgchamp{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
- .fortiles{
-     margin-right: 0px;
- }
- .activitétext{
-    text-align: center;
-}*/
 }
 @media screen and (max-width:320px){
     nav {
@@ -1507,7 +1458,7 @@ height: 163px;
     left: -30px;
 }
 }
-@media screen and (max-width:360px){
+@media screen and (max-width:364px){
     section{
         width: 360px;
     }
@@ -1597,4 +1548,18 @@ header{
 .photolomgchamp{
     width: 279px;
 }
+
+}
+
+@media screen and (max-width:361px){
+    .fa-search{
+        left: 290px;
+        top: -36px;
+    }
+}
+@media screen and (max-width:414px){
+    .fa-search{
+        left: -55px;
+        top: 6px;
+    }
 }
