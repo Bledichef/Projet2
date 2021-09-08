@@ -781,7 +781,6 @@ h6 {
   }
 
   figure {
-    margin-left: 100px;
     display: block;
     text-align: center;
     max-width: 100%;
@@ -847,19 +846,6 @@ h6 {
     box-shadow: none;
   }
 
-  /*.etoileenligne1 {
-    margin-top: 90px;
-}*/
-
-  /*.etoileenligne2 {
-    margin-top: 130px;
-  /*  margin-right: 150px;
-}
-
-.etoileenligne3 {
-    margin-top: 130px;
-  /*  margin-right: 140px;
-}*/
   .Vieuxport1 {
     border-style: solid;
     border-color: #f2f2f2;
@@ -914,9 +900,6 @@ h6 {
     width: auto;
   }
 
-  /*.photoAuBergeCannebière {
-    height: 300px;
-}*/
   .photoHotelduport {
     height: 300px;
   }
@@ -950,33 +933,33 @@ h6 {
   }
 
   .photoVieuxport {
-    width: 650px;
+    /*  width: 650px;*/
     height: 380px;
   }
   .photoCalanques {
-    width: 650px;
+    /* width: 650px;*/
     max-height: 380px;
     box-shadow: 0px 0px 5px 1px #f2f2f2;
   }
   .photoiles {
-    width: 650px;
+    /*  width: 650px;*/
     height: 380px;
   }
   .photoCalanques {
-    width: 650px;
+    /*   width: 650px;*/
     height: 380px;
   }
   .photoDamedelagarde {
-    width: 650px;
+    /* width: 650px;*/
     height: 380px;
   }
   .photolomgchamp {
-    width: 650px;
+    /* width: 650px;*/
     height: 380px;
   }
   .photoFort {
     height: 380px;
-    width: 650px;
+    /* width: 650px;*/
   }
 
   .populaire {
@@ -1015,17 +998,24 @@ h6 {
     text-align: center;
   }
 }
+@media screen and (min-width: 370px) and (max-width: 380px) {
+  .fa-search {
+    left: 288px;
+    top: -40px;
+  }
+}
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 400px) {
   /* code pour mobile */
   section {
     flex-direction: column;
-    margin-left: 20px;
+    width: 360px;
+    padding-left: 10px;
   }
-  .fa-search {
+  /* .fa-search {
     left: -52px;
     top: 6px;
-  }
+  }*/
   .bouton-perso {
     color: #0065fc;
   }
@@ -1087,8 +1077,9 @@ h6 {
     height: 160px;
   }
   .zoneactivite1 {
+    width: 390px;
     margin-right: 0px;
-    margin-left: 0px;
+    margin-left: 5px;
   }
   .fort {
     margin-right: 0px;
@@ -1099,9 +1090,6 @@ h6 {
     height: 160px;
   }
 
-  /*.zoneactivite1{
-    max-width: 370px;
-    }*/
   nav {
     margin-right: 0px;
     margin-left: 0px;
@@ -1109,8 +1097,9 @@ h6 {
     font-size: 10px;
   }
   .Inscrire {
-    top: -48px;
-    left: -44px;
+    top: -70px;
+    left: -88px;
+    font-size: 20px;
   }
   .HébergementActivités {
     position: relative;
@@ -1159,7 +1148,7 @@ h6 {
     margin-right: 0px;
   }
   figure {
-    margin-left: 0px;
+    margin-left: 5px;
   }
 
   .Activites01:hover {
@@ -1214,10 +1203,7 @@ h6 {
   .Activites01 {
     font-size: 20px;
   }
-  .Inscrire {
-    left: -89px;
-    font-size: 20px;
-  }
+
   .Hotellesoleildumatin1 {
     margin-bottom: 15px;
     height: 163px;
@@ -1242,36 +1228,14 @@ h6 {
   h4 {
     text-align: left;
   }
+  aside {
+    width: 360px;
+  }
+  footer {
+    width: 360px;
+  }
 }
 @media screen and (min-width: 576px) /* code pour tablette */ {
-  /*
-.Vieuxport1{
-    text-align-last: center;
-   margin: 0 90px 10px 90px;
-}
-.Fort{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
-.iles{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
-.ParcNationalCalanques{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
-.Notre-Dame-de-la-Garde{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}
-.ParcdeLomgchamp{
-    text-align-last: center;
-    margin: 0 90px 10px 90px;
-}*/
-  /* figure {
-    margin-left: 10px;
-  }*/
   section {
     align-items: center;
     flex-direction: initial;
@@ -1324,49 +1288,49 @@ h6 {
      margin-right: 0px;
  }*/
 }
-@media screen and (max-width: 320px) {
-  nav {
-    margin-left: 30px;
-  }
+@media screen and (max-width: 321px) and (min-width: 315px) {
   .Hebergementetpluspopulaire {
     margin-left: 13px;
   }
   header {
     margin-left: 15px;
+    width: 400px;
   }
 
   aside {
-    width: 355px;
+    width: 370px;
     margin-left: 7px;
+    padding-left: 20px;
   }
   section {
     margin-left: 10px;
-    width: 362px;
+    width: 370px;
     align-items: center;
     padding-right: 10px;
   }
+
   .Vieuxport1 {
-    width: 284px;
+    width: 343px;
     margin-left: 25px;
   }
   .Fort {
-    width: 284px;
+    width: 343px;
     margin-left: 25px;
   }
   .iles {
-    width: 284px;
+    width: 343px;
     margin-left: 25px;
   }
   .ParcNationalCalanques {
-    width: 284px;
+    width: 343px;
     margin-left: 25px;
   }
   .Notre-Dame-de-la-Garde {
-    width: 284px;
+    width: 343px;
     margin-left: 25px;
   }
   .ParcdeLomgchamp {
-    width: 284px;
+    width: 343px;
     margin-left: 25px;
   }
   .Hotellesoleildumatin1 {
@@ -1405,17 +1369,14 @@ h6 {
   }
   footer {
     margin-left: -5px;
-    width: 412px;
+    width: 440px;
     padding-left: 20px;
   }
   .HébergementActivités {
     margin-top: 20px;
     left: 5px;
   }
-  .logo {
-    margin-right: 34px;
-    margin-left: -23px;
-  }
+
   .textpersobarrederecherche {
     width: 159px;
   }
@@ -1426,22 +1387,34 @@ h6 {
     width: 50px;
   }
   .fa-search {
-    left: 226px;
-    top: -38px;
+    left: -40px;
+    top: 4px;
   }
   .Inscrire {
-    left: -30px;
+    left: -45px;
+    top: -50px;
   }
 }
-@media screen and (max-width: 364px) {
+@media screen and (max-width: 364px) and (min-width: 359px) {
   section {
-    width: 350px;
+    width: 365px;
     margin-right: 0px;
     margin-left: 0px;
+    padding-left: 24px;
+  }
+  figure {
+    padding-left: 22px;
+  }
+  aside {
+    width: 370px;
+    padding-left: 15px;
+  }
+  .fa-search {
+    left: 250px;
   }
   .Inscrire {
-    left: -128px;
-    top: -69px;
+    left: -50px;
+    top: -68px;
   }
   .Hebergementetpluspopulaire {
     margin-left: 5px;
@@ -1506,6 +1479,7 @@ h6 {
   .zoneactivite1 {
     margin-right: 50px;
     margin-left: 0px;
+    padding-left: 20px;
   }
   .photoVieuxport {
     width: 279px;
@@ -1525,45 +1499,279 @@ h6 {
   .photolomgchamp {
     width: 279px;
   }
+  .Vieuxport1 {
+    width: 280px;
+  }
+  .Fort {
+    width: 280px;
+  }
+  .iles {
+    width: 280px;
+  }
+  .ParcNationalCalanques {
+    width: 280px;
+  }
+  .Notre-Dame-de-la-Garde {
+    width: 280px;
+  }
+  .Notre-Dame-de-la-Garde {
+    width: 280px;
+  }
+  .ParcdeLomgchamp {
+    width: 280px;
+  }
+  footer {
+    width: 410px;
+  }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 390px) and (max-width: 414px) {
   .fa-search {
     left: -55px;
     top: 6px;
   }
   section {
-    margin-left: 10px;
+    width: 425px;
+    padding-left: 35px;
   }
   .zoneactivite1 {
-    margin-left: 10px;
-  }
-}
-@media screen and (max-width: 361px) {
-  .fa-search {
-    left: 285px;
-    top: -36px;
-  }
-}
-@media screen and (max-width: 540px) {
-  .zoneactivite1 {
+    margin-left: 15px;
     width: 390px;
-    margin-left: 70px;
   }
-  section {
-    width: 480px;
-    align-items: center;
+  figure {
+    width: 400px;
+  }
+  .Inscrire {
+    top: -78px;
+    right: 190px;
+  }
+  .Activites01 {
+    padding-right: 100px;
   }
   aside {
-    width: 500px;
+    width: 445px;
+    padding-left: 20px;
+    padding-left: 15px;
+  }
+  .Hotellesoleildumatin1 {
+    margin-bottom: 10px;
+  }
+  .Hebergementetpluspopulaire {
+    margin-left: 5px;
+  }
+  .AucoeurdeleauChambresdhotes1 {
+    margin-bottom: 10px;
+  }
+  .Hoteltoutbleuetblanc1 {
+    margin-bottom: 10px;
+  }
+  .Aubergedelacannebiere10 {
+    width: 360px;
+  }
+  .photoAuBergeCannebière {
+    width: 360px;
+  }
+  h3 {
+    margin-bottom: -10px;
+  }
+  h6 {
+    margin-bottom: 15px;
+  }
+  h4 {
+    text-align: left;
+  }
+  .Hotelduport10 {
+    width: 360px;
+  }
+  .photoHotelduport {
+    width: 360px;
+    height: 170px;
+  }
+  .hotellesmouettes10 {
+    width: 360px;
+  }
+  .photoHotellesmouettes {
+    width: 360px;
+    height: 170px;
+  }
+  .Hoteldelamer {
+    width: 360px;
+  }
+  .photoHoteldelamer {
+    width: 360px;
+    height: 170px;
+  }
+  .HotelchezAmina10 {
+    width: 360px;
+  }
+  .photoHotelchezAmina {
+    width: 360px;
+    height: 170px;
+  }
+  .AubergelePanier10 {
+    width: 360px;
+  }
+  .photoAubergelePanier {
+    width: 360px;
+    height: 170px;
+  }
+  .Vieuxport1 {
+    width: 350px;
+  }
+  .ParcNationalCalanques {
+    width: 350px;
+  }
+  footer {
+    width: 470px;
+  }
+  nav {
+    margin-left: 0px;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+  .iconFamilial {
+    margin-left: 0px;
+  }
+  .iconEconomique {
+    margin-left: 0px;
+  }
+  .iconRomantique {
+    width: 250px;
+  }
+  .iconAnimaux {
+    width: 250px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 540px) and (min-width: 500px) {
+  .zoneactivite1 {
+    width: 665px;
+    margin-left: 35px;
+  }
+  .Inscrire {
+    top: -85px;
+    left: 115px;
+  }
+  nav {
+    margin-left: 0px;
+  }
+  section {
+    width: 670px;
+    align-items: center;
+  }
+  section {
+    align-items: center;
+    flex-direction: initial;
+    justify-content: space-evenly;
+    margin-left: 3px;
+  }
+  aside {
+    width: 660px;
+  }
+  .Hotellesoleildumatin1 {
+    margin-bottom: 10px;
+  }
+  .AucoeurdeleauChambresdhotes1 {
+    margin-bottom: 10px;
+  }
+  .Hoteltoutbleuetblanc1 {
+    margin-bottom: 10px;
+  }
+  .photoiles {
+    width: 580px;
+  }
+  .photoCalanques {
+    width: 580px;
+  }
+  .photoDamedelagarde {
+    width: 580px;
+  }
+  .photolomgchamp {
+    width: 580px;
+  }
+  .photoFort {
+    width: 580px;
+  }
+  .photoVieuxport {
+    width: 580px;
+  }
+  .photoAuBergeCannebière {
+    height: 300px;
+    width: 252px;
+  }
+  .photoHotelduport {
+    width: 252px;
+  }
+  .photoHotellesmouettes {
+    width: 252px;
+  }
+  .photoHoteldelamer {
+    width: 252px;
+  }
+  .photoHotelchezAmina {
+    width: 252px;
+  }
+  .photoAubergelePanier {
+    width: 252px;
+  }
+  footer {
+    display: flex;
+    width: 755px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 750px) {
   figure {
     width: 675px;
     margin-left: 55px;
   }
   .zoneactivite1 {
     margin-left: 0px;
+  }
+  .iconAnimaux {
+    width: 265px;
+  }
+  .iconRomantique {
+    width: 265px;
+  }
+  .photoVieuxport {
+    /* width: 650px;*/
+    height: 380px;
+  }
+  .photoCalanques {
+    /*  width: 650px;*/
+    max-height: 380px;
+    box-shadow: 0px 0px 5px 1px #f2f2f2;
+  }
+  .photoiles {
+    width: 650px;
+    height: 380px;
+  }
+  .photoCalanques {
+    width: 650px;
+    height: 380px;
+  }
+  .photoDamedelagarde {
+    width: 650px;
+    height: 380px;
+  }
+  .photolomgchamp {
+    width: 650px;
+    height: 380px;
+  }
+  .photoFort {
+    height: 380px;
+    width: 650px;
+  }
+}
+@media screen and (max-width: 285px) and (min-width: 270px) {
+  .Hebergement {
+    margin-left: 130px;
+  }
+  header {
+    width: 345px;
+  }
+  .fa-search {
+    top: -37px;
+    left: 285px;
   }
 }
