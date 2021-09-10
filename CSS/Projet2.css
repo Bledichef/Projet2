@@ -693,15 +693,6 @@ h6 {
 
 /* Css pour version Mobile */
 
-@media screen and (max-width: 1022px) and (min-with: 1028px) {
-  .photoFort {
-    width: 650px;
-  }
-  .photoiles {
-    width: 650px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .Hotellesoleildumatin1 {
     margin-bottom: 80px;
@@ -949,7 +940,7 @@ h6 {
     box-shadow: 0px 0px 5px 1px #f2f2f2;
   }
   .photoiles {
-    /*  width: 650px;*/
+    /* width: 650px;*/
     height: 380px;
   }
   .photoCalanques {
@@ -989,6 +980,7 @@ h6 {
   .fortiles {
     display: block;
     flex-direction: column;
+    margin-right: 0px;
   }
   .zoneactivite1 {
     width: 820px;
@@ -1005,18 +997,27 @@ h6 {
     text-align: center;
   }
 }
-@media screen and (max-width: 1022px) and (min-with: 1028px) {
+@media screen and (max-width: 1028px) and (min-width: 1022px) {
   .photoFort {
-    width: 650px;
+    width: 735px;
   }
   .photoiles {
-    width: 650px;
+    width: 735px;
   }
   .photoDamedelagarde {
-    width: 650px;
+    width: 735px;
   }
   .photolomgchamp {
-    width: 650px;
+    width: 735px;
+  }
+  .fortiles {
+    margin-right: 0px;
+  }
+  .footer {
+    width: 1024px;
+  }
+  .zoneactivite1 {
+    margin-left: 100px;
   }
 }
 @media screen and (min-width: 370px) and (max-width: 380px) {
