@@ -1101,7 +1101,7 @@ h6 {
   .zoneactivite1 {
     width: 390px;
     margin-right: 0px;
-    margin-left: 5px;
+    margin-left: 2px;
   }
   .fort {
     margin-right: 0px;
@@ -1557,7 +1557,7 @@ h6 {
     width: 380px;
   }
   .zoneactivite1 {
-    margin-left: -25px;
+    margin-left: -22px;
     width: 390px;
   }
   figure {
@@ -1672,7 +1672,7 @@ h6 {
 @media screen and (max-width: 540px) and (min-width: 500px) {
   .zoneactivite1 {
     width: 665px;
-    margin-left: 35px;
+    margin-left: 45px;
   }
   .Inscrire {
     top: -85px;
@@ -1748,10 +1748,10 @@ h6 {
 @media screen and (max-width: 768px) and (min-width: 750px) {
   figure {
     width: 675px;
-    margin-left: 55px;
+    margin-left: 60px;
   }
   .zoneactivite1 {
-    margin-left: 0px;
+    margin-left: -20px;
   }
   .iconAnimaux {
     width: 265px;
@@ -1764,29 +1764,32 @@ h6 {
     height: 380px;
   }
   .photoCalanques {
-    /*  width: 650px;*/
+    width: 670px;
     max-height: 380px;
     box-shadow: 0px 0px 5px 1px #f2f2f2;
   }
   .photoiles {
-    width: 650px;
+    width: 670px;
     height: 380px;
   }
   .photoCalanques {
-    width: 650px;
+    width: 670px;
     height: 380px;
   }
   .photoDamedelagarde {
-    width: 650px;
+    width: 670px;
     height: 380px;
   }
   .photolomgchamp {
-    width: 650px;
+    width: 670px;
     height: 380px;
   }
   .photoFort {
     height: 380px;
-    width: 650px;
+    width: 670px;
+  }
+  .Hebergementetpluspopulaire {
+    margin-left: 5px;
   }
 }
 @media screen and (max-width: 285px) and (min-width: 270px) {
