@@ -637,6 +637,7 @@ h2 {
   padding: 20px;
   text-decoration: none;
   color: black;
+  left: 150px;
 }
 
 .zoneactivite1 {
@@ -760,6 +761,7 @@ h6 {
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 2px #f2f2f2 solid;
+    width: 800px;
   }
 
   .recherche {
@@ -969,7 +971,7 @@ h6 {
   .HébergementActivités {
     margin-top: 10%;
     margin-left: 1%;
-    width: 100%;
+
     justify-content: space-around;
   }
 
@@ -1018,12 +1020,6 @@ h6 {
   }
   .zoneactivite1 {
     margin-left: 100px;
-  }
-}
-@media screen and (min-width: 370px) and (max-width: 380px) {
-  .fa-search {
-    left: 288px;
-    top: -40px;
   }
 }
 
@@ -1257,6 +1253,28 @@ h6 {
     width: 360px;
   }
 }
+@media screen and (min-width: 370px) and (max-width: 380px) {
+  .fa-search {
+    left: 288px;
+    top: -40px;
+  }
+  .HébergementActivités {
+    width: 350px;
+  }
+  aside {
+    margin-left: 7px;
+  }
+  section {
+    margin-left: 7px;
+  }
+  .zoneactivite1 {
+    width: 375px;
+    margin-left: 10px;
+  }
+  footer {
+    width: 365px;
+  }
+}
 @media screen and (min-width: 576px) /* code pour tablette */ {
   section {
     align-items: center;
@@ -1320,14 +1338,15 @@ h6 {
   }
 
   aside {
-    width: 330px;
+    width: 395px;
     margin-left: 7px;
   }
   section {
-    width: 345px;
+    width: 385px;
     align-items: center;
     padding-right: 10px;
     padding-left: 0px;
+    margin-left: 10px;
   }
   .iconFamilial {
     padding: 0 30px 0 0;
@@ -1357,13 +1376,13 @@ h6 {
     margin-left: 25px;
   }
   .Hotellesoleildumatin1 {
-    width: 320px;
+    width: 385px;
   }
   .AucoeurdeleauChambresdhotes1 {
-    width: 320px;
+    width: 385px;
   }
   .Hoteltoutbleuetblanc1 {
-    width: 320px;
+    width: 385px;
   }
   .Aubergedelacannebiere10 {
     margin-left: 10px;
@@ -1385,6 +1404,7 @@ h6 {
   }
   .zoneactivite1 {
     width: 350px;
+    margin-left: 40px;
   }
   figure {
     margin-left: -15px;
@@ -1398,6 +1418,7 @@ h6 {
   .HébergementActivités {
     margin-top: 20px;
     left: 5px;
+    width: 240px;
   }
 
   .textpersobarrederecherche {
@@ -1414,8 +1435,11 @@ h6 {
     top: 4px;
   }
   .Inscrire {
-    left: -105px;
+    left: -85px;
     top: -50px;
+  }
+  .Hebergement {
+    margin-left: 140px;
   }
 }
 @media screen and (max-width: 364px) and (min-width: 359px) {
@@ -1442,6 +1466,9 @@ h6 {
   .Inscrire {
     left: -85px;
     top: -68px;
+  }
+  .Hebergement {
+    margin-right: 0px;
   }
   .HébergementActivités {
     width: 325px;
@@ -1563,24 +1590,27 @@ h6 {
     top: 6px;
   }
   section {
-    width: 380px;
+    width: auto;
   }
   .zoneactivite1 {
-    margin-left: -22px;
+    margin-left: 0px;
     width: 390px;
+    padding-bottom: 40px;
   }
   figure {
+    margin: 0;
     width: 400px;
+    padding-left: 20px;
   }
   .Inscrire {
-    top: -78px;
-    right: 210px;
+    top: -65px;
+    right: 104px;
   }
   .Activites01 {
     padding-right: 100px;
   }
   aside {
-    width: 365px;
+    width: auto;
     padding-left: 20px;
     padding-left: 12px;
   }
@@ -1588,7 +1618,7 @@ h6 {
     margin-bottom: 10px;
   }
   .Hebergementetpluspopulaire {
-    margin-left: 5px;
+    margin-left: 0px;
   }
   .AucoeurdeleauChambresdhotes1 {
     margin-bottom: 10px;
@@ -1647,16 +1677,28 @@ h6 {
     height: 170px;
   }
   .Vieuxport1 {
-    width: 350px;
+    /* width: 350px;*/
+    margin-right: 0px;
   }
-  .ParcNationalCalanques {
-    width: 350px;
+  .photoFort {
+    width: 380px;
   }
+  .photoiles {
+    width: 380px;
+  }
+  .photoDamedelagarde {
+    width: 380px;
+  }
+  .photolomgchamp {
+    width: 380px;
+  }
+
   footer {
-    width: 410px;
+    width: 375px;
   }
   nav {
     margin-left: 0px;
+    width: 310px;
   }
   .logo {
     margin-left: 10px;
@@ -1677,21 +1719,51 @@ h6 {
   .iconEconoEtFamilial {
     margin-left: 0px;
   }
+  .HébergementActivités {
+    position: relative;
+    left: 45px;
+    width: 194px;
+  }
+  .Activites01 {
+    padding-right: 0px;
+  }
+  .recherche {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 413px) and (max-width: 415px) {
+  figure {
+    padding-left: 6px;
+  }
+  footer {
+    width: 385px;
+  }
+  aside {
+    padding-left: 18px;
+  }
+  section {
+    padding-left: 7px;
+  }
 }
 @media screen and (max-width: 540px) and (min-width: 500px) {
   .zoneactivite1 {
-    width: 665px;
-    margin-left: 45px;
+    width: 530px;
+    margin-left: 55px;
   }
   .Inscrire {
     top: -85px;
-    left: 115px;
+    left: 10px;
+  }
+  figure {
+    margin-left: 0px;
   }
   nav {
+    width: 530px;
     margin-left: 0px;
   }
   section {
-    width: 670px;
+    width: 540px;
     align-items: center;
   }
   section {
@@ -1699,9 +1771,11 @@ h6 {
     flex-direction: initial;
     justify-content: space-evenly;
     margin-left: 3px;
+    padding-right: 13px;
   }
   aside {
-    width: 660px;
+    width: 530px;
+    padding-left: 22px;
   }
   .Hotellesoleildumatin1 {
     margin-bottom: 10px;
@@ -1713,22 +1787,22 @@ h6 {
     margin-bottom: 10px;
   }
   .photoiles {
-    width: 580px;
+    width: 525px;
   }
   .photoCalanques {
-    width: 580px;
+    width: 525px;
   }
   .photoDamedelagarde {
-    width: 580px;
+    width: 525px;
   }
   .photolomgchamp {
-    width: 580px;
+    width: 525px;
   }
   .photoFort {
-    width: 580px;
+    width: 525px;
   }
   .photoVieuxport {
-    width: 580px;
+    width: 525px;
   }
   .photoAuBergeCannebière {
     height: 300px;
@@ -1749,9 +1823,13 @@ h6 {
   .photoAubergelePanier {
     width: 252px;
   }
+  .Hebergementetpluspopulaire {
+    width: 530px;
+  }
   footer {
     display: flex;
-    width: 755px;
+    width: 530px;
+    padding-right: 95px;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 750px) {
@@ -1760,6 +1838,7 @@ h6 {
     margin-left: 60px;
   }
   .zoneactivite1 {
+    width: 675px;
     margin-left: -20px;
   }
   .iconAnimaux {
@@ -1799,6 +1878,7 @@ h6 {
   }
   .Hebergementetpluspopulaire {
     margin-left: 5px;
+    margin-left: 20px;
   }
   .Hotellesoleildumatin1 {
     margin-bottom: 20px;
@@ -1808,6 +1888,24 @@ h6 {
   }
   .Hoteltoutbleuetblanc1 {
     margin-bottom: 20px;
+  }
+  nav {
+    width: 615px;
+  }
+  .Inscrire {
+    top: -90px;
+  }
+  header {
+    width: 675px;
+  }
+  section {
+    width: 675px;
+    padding-right: 23px;
+    padding-left: 8px;
+  }
+  aside {
+    width: 675px;
+    padding-left: 32px;
   }
 }
 @media screen and (max-width: 285px) and (min-width: 270px) {
@@ -1820,5 +1918,20 @@ h6 {
   .fa-search {
     top: -37px;
     left: 285px;
+  }
+  .HébergementActivités {
+    width: 250px;
+  }
+  .Hebergementetpluspopulaire {
+    margin-left: 2px;
+  }
+  aside {
+    padding-left: 17px;
+  }
+  .zoneactivite1 {
+    margin-left: 13px;
+  }
+  footer {
+    width: 370px;
   }
 }
