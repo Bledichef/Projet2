@@ -1298,13 +1298,13 @@ h6 {
     width: 249px;
   }
   .Hotellesoleildumatin1 {
-    margin-bottom: 20px;
+    margin-bottom: 90px;
   }
   .AucoeurdeleauChambresdhotes1 {
-    margin-bottom: 20px;
+    margin-bottom: 90px;
   }
   .Hoteltoutbleuetblanc1 {
-    margin-bottom: 20px;
+    margin-bottom: 90px;
   }
   /*.fortiles{
      margin-right: 0px;
@@ -1419,28 +1419,35 @@ h6 {
   }
 }
 @media screen and (max-width: 364px) and (min-width: 359px) {
+  body {
+    overflow-x: hidden;
+  }
   section {
-    width: 365px;
+    width: 344px;
     margin-right: 0px;
     margin-left: 0px;
-    padding-left: 24px;
+    padding-left: 0px;
   }
   figure {
     padding-left: 22px;
   }
   aside {
-    width: 370px;
-    padding-left: 15px;
+    width: 340px;
+    padding-left: 0px;
   }
   .fa-search {
-    left: 250px;
+    left: -55px;
+    top: 3px;
   }
   .Inscrire {
-    left: -50px;
+    left: -85px;
     top: -68px;
   }
+  .HébergementActivités {
+    width: 325px;
+  }
   .Hebergementetpluspopulaire {
-    margin-left: 5px;
+    margin-left: 0px;
   }
   .textpersobarrederecherche {
     width: 165px;
@@ -1453,13 +1460,6 @@ h6 {
   }
   .iconFamilial {
     padding: 0 15px 0 0;
-  }
-  header {
-    margin-right: 20px;
-  }
-  .fa-search {
-    left: 250px;
-    top: -38px;
   }
 
   .Aubergedelacannebiere10 {
@@ -1500,9 +1500,9 @@ h6 {
   }
 
   .zoneactivite1 {
+    width: 340px;
     margin-right: 50px;
     margin-left: 0px;
-    padding-left: 20px;
   }
   .photoVieuxport {
     width: 279px;
@@ -1544,7 +1544,16 @@ h6 {
     width: 280px;
   }
   footer {
-    width: 410px;
+    width: 335px;
+  }
+  .Hotellesoleildumatin1 {
+    width: 100%;
+  }
+  .AucoeurdeleauChambresdhotes1 {
+    width: 100%;
+  }
+  .Hoteltoutbleuetblanc1 {
+    width: 100%;
   }
 }
 
@@ -1790,6 +1799,15 @@ h6 {
   }
   .Hebergementetpluspopulaire {
     margin-left: 5px;
+  }
+  .Hotellesoleildumatin1 {
+    margin-bottom: 20px;
+  }
+  .AucoeurdeleauChambresdhotes1 {
+    margin-bottom: 20px;
+  }
+  .Hoteltoutbleuetblanc1 {
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 285px) and (min-width: 270px) {
