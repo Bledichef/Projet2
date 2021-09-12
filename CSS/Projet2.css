@@ -1799,20 +1799,23 @@ h6 {
   }
 }
 @media screen and (max-width: 540px) and (min-width: 500px) {
+  body {
+    margin-left: 0px;
+  }
   .zoneactivite1 {
     width: 530px;
-    margin-left: 55px;
+    margin-left: 15px;
   }
   .Inscrire {
     top: -85px;
-    left: 10px;
+    left: -57px;
   }
   figure {
     margin-left: 0px;
   }
   nav {
     width: 530px;
-    margin-left: 0px;
+    margin-left: 5px;
   }
   section {
     width: 540px;
@@ -1877,11 +1880,15 @@ h6 {
   }
   .Hebergementetpluspopulaire {
     width: 530px;
+    margin-left: 0px;
   }
   footer {
     display: flex;
     width: 530px;
-    padding-right: 95px;
+    padding-right: 10px;
+  }
+  .HébergementActivités {
+    width: 415px;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 750px) {
