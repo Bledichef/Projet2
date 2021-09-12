@@ -1258,6 +1258,9 @@ h6 {
     left: 288px;
     top: -40px;
   }
+  nav {
+    width: 300px;
+  }
   .HébergementActivités {
     width: 350px;
   }
@@ -1270,6 +1273,9 @@ h6 {
   .zoneactivite1 {
     width: 375px;
     margin-left: 10px;
+  }
+  header {
+    width: 345px;
   }
   footer {
     width: 365px;
@@ -1329,20 +1335,21 @@ h6 {
  }*/
 }
 @media screen and (max-width: 321px) and (min-width: 315px) {
-  .Hebergementetpluspopulaire {
-    margin-left: 13px;
-  }
   header {
-    margin-left: 15px;
-    width: 400px;
+    width: 319px;
   }
 
   aside {
-    width: 395px;
-    margin-left: 7px;
+    width: 315px;
+    margin-left: 12px;
+    padding-left: 4px;
   }
+  .Hotellesoleildumatin1 {
+    width: 100%;
+  }
+
   section {
-    width: 385px;
+    width: 315px;
     align-items: center;
     padding-right: 10px;
     padding-left: 0px;
@@ -1352,59 +1359,101 @@ h6 {
     padding: 0 30px 0 0;
   }
   .Vieuxport1 {
-    width: 343px;
+    width: 315px;
     margin-left: 25px;
+  }
+  .photoVieuxport {
+    width: 315px;
   }
   .Fort {
-    width: 343px;
+    width: 315px;
     margin-left: 25px;
+  }
+  .photoFort {
+    width: 315px;
   }
   .iles {
-    width: 343px;
+    width: 315px;
     margin-left: 25px;
+  }
+  .photoiles {
+    width: 315px;
   }
   .ParcNationalCalanques {
-    width: 343px;
+    width: 315px;
     margin-left: 25px;
+  }
+  .photoCalanques {
+    width: 315px;
   }
   .Notre-Dame-de-la-Garde {
-    width: 343px;
+    width: 315px;
     margin-left: 25px;
+  }
+  .photoDamedelagarde {
+    width: 315px;
   }
   .ParcdeLomgchamp {
-    width: 343px;
+    width: 315px;
     margin-left: 25px;
   }
+  .photolomgchamp {
+    width: 315px;
+  }
   .Hotellesoleildumatin1 {
-    width: 385px;
+    width: 310px;
   }
   .AucoeurdeleauChambresdhotes1 {
-    width: 385px;
+    width: 310px;
   }
   .Hoteltoutbleuetblanc1 {
-    width: 385px;
+    width: 310px;
   }
   .Aubergedelacannebiere10 {
     margin-left: 10px;
+    width: 247px;
+  }
+  .photoAuBergeCannebière {
+    width: 249px;
   }
   .Hotelduport10 {
     margin-left: 10px;
+    width: 247px;
+  }
+  .photoHotelduport {
+    width: 249px;
   }
   .hotellesmouettes10 {
     margin-left: 10px;
+    width: 247px;
+  }
+  .photoHotellesmouettes {
+    width: 249px;
   }
   .Hoteldelamer {
     margin-left: 10px;
+    width: 249px;
+  }
+  .photoHoteldelamer {
+    width: 249px;
   }
   .HotelchezAmina10 {
     margin-left: 10px;
+    width: 249px;
+  }
+  .photoHotelchezAmina {
+    width: 249px;
   }
   .AubergelePanier10 {
     margin-left: 10px;
+    width: 249px;
+  }
+  .photoAubergelePanier {
+    width: 249px;
   }
   .zoneactivite1 {
-    width: 350px;
-    margin-left: 40px;
+    width: 300px;
+    margin-left: 5px;
   }
   figure {
     margin-left: -15px;
@@ -1412,12 +1461,15 @@ h6 {
   }
   footer {
     margin-left: -5px;
-    width: 440px;
-    padding-left: 20px;
+    width: 320px;
+    padding-left: 35px;
+  }
+  nav {
+    width: 315px;
   }
   .HébergementActivités {
     margin-top: 20px;
-    left: 5px;
+    left: -80px;
     width: 240px;
   }
 
