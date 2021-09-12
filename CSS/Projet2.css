@@ -1265,10 +1265,12 @@ h6 {
     width: 350px;
   }
   aside {
-    margin-left: 7px;
+    margin-left: -5px;
+    padding-left: 15px;
   }
   section {
-    margin-left: 7px;
+    margin-left: -5px;
+    padding-left: 15px;
   }
   .zoneactivite1 {
     width: 375px;
@@ -1362,46 +1364,52 @@ h6 {
     padding: 0 30px 0 0;
   }
   .Vieuxport1 {
-    width: 315px;
+    width: 278px;
     margin-left: 13px;
   }
   .photoVieuxport {
-    width: 315px;
+    width: 280px;
+    height: 200px;
   }
   .Fort {
-    width: 315px;
+    width: 278px;
     margin-left: 13px;
   }
   .photoFort {
-    width: 315px;
+    width: 280px;
+    height: 200px;
   }
   .iles {
-    width: 315px;
-    /* margin-left: 25px;*/
+    width: 278px;
+    margin-left: 13px;
   }
   .photoiles {
-    width: 315px;
+    width: 280px;
+    height: 200px;
   }
   .ParcNationalCalanques {
-    width: 315px;
+    width: 278px;
     margin-left: 13px;
   }
   .photoCalanques {
-    width: 315px;
+    width: 280px;
+    height: 200px;
   }
   .Notre-Dame-de-la-Garde {
-    width: 315px;
+    width: 278px;
     margin-left: 13px;
   }
   .photoDamedelagarde {
-    width: 315px;
+    width: 280px;
+    height: 200px;
   }
   .ParcdeLomgchamp {
-    width: 315px;
+    width: 278px;
     margin-left: 13px;
   }
   .photolomgchamp {
-    width: 315px;
+    width: 280px;
+    height: 200px;
   }
   .Hotellesoleildumatin1 {
     width: 310px;
@@ -1456,7 +1464,7 @@ h6 {
   }
   .zoneactivite1 {
     width: 300px;
-    /*  margin-left: 5px;*/
+    margin-left: 20px;
   }
   figure {
     margin-left: -15px;
@@ -1464,7 +1472,7 @@ h6 {
   }
   footer {
     margin-left: -5px;
-    width: 280px;
+    width: 300px;
     padding-left: 35px;
   }
   nav {
@@ -1507,16 +1515,18 @@ h6 {
   section {
     width: 344px;
     margin-right: 0px;
-    margin-left: 7px;
-    padding-left: 0px;
+    margin-left: 0px;
+    padding-left: 8px;
+    padding-right: 6px;
   }
   figure {
     padding-left: 22px;
   }
   aside {
     width: 340px;
-    padding-left: 0px;
-    margin-left: 7px;
+    padding-left: 8px;
+    padding-right: 6px;
+    margin-left: 0px;
   }
   .fa-search {
     left: -55px;
@@ -1588,7 +1598,7 @@ h6 {
   .zoneactivite1 {
     width: 340px;
     margin-right: 50px;
-    margin-left: 10px;
+    margin-left: 0px;
   }
   .photoVieuxport {
     width: 279px;
@@ -1653,7 +1663,9 @@ h6 {
   }
   section {
     width: auto;
-    margin-left: 5px;
+    margin-left: 0px;
+    margin-left: -5px;
+    margin-right: -10px;
   }
   .zoneactivite1 {
     margin-left: 0px;
@@ -1676,7 +1688,8 @@ h6 {
     width: auto;
     padding-left: 20px;
     padding-left: 17px;
-    margin-left: 5px;
+    margin-left: -5px;
+    margin-right: -10px;
   }
   .Hotellesoleildumatin1 {
     margin-bottom: 10px;
@@ -1764,7 +1777,8 @@ h6 {
   }
 
   footer {
-    width: 375px;
+    width: 400px;
+    margin-left: -10px;
   }
   nav {
     margin-left: 0px;
@@ -1807,10 +1821,12 @@ h6 {
     padding-left: 6px;
   }
   footer {
-    width: 385px;
+    margin-left: -10px;
+    width: 410px;
   }
   aside {
     padding-left: 18px;
+    margin-left: -5;
   }
   section {
     padding-left: 7px;
