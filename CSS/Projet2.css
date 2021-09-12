@@ -1344,7 +1344,7 @@ h6 {
 
   aside {
     width: 315px;
-    margin-left: 12px;
+    /*margin-left: 12px;*/
     padding-left: 4px;
   }
   .Hotellesoleildumatin1 {
@@ -1356,49 +1356,49 @@ h6 {
     align-items: center;
     padding-right: 10px;
     padding-left: 0px;
-    margin-left: 10px;
+    /* margin-left: 10px;*/
   }
   .iconFamilial {
     padding: 0 30px 0 0;
   }
   .Vieuxport1 {
     width: 315px;
-    margin-left: 25px;
+    margin-left: 13px;
   }
   .photoVieuxport {
     width: 315px;
   }
   .Fort {
     width: 315px;
-    margin-left: 25px;
+    margin-left: 13px;
   }
   .photoFort {
     width: 315px;
   }
   .iles {
     width: 315px;
-    margin-left: 25px;
+    /* margin-left: 25px;*/
   }
   .photoiles {
     width: 315px;
   }
   .ParcNationalCalanques {
     width: 315px;
-    margin-left: 25px;
+    margin-left: 13px;
   }
   .photoCalanques {
     width: 315px;
   }
   .Notre-Dame-de-la-Garde {
     width: 315px;
-    margin-left: 25px;
+    margin-left: 13px;
   }
   .photoDamedelagarde {
     width: 315px;
   }
   .ParcdeLomgchamp {
     width: 315px;
-    margin-left: 25px;
+    margin-left: 13px;
   }
   .photolomgchamp {
     width: 315px;
@@ -1456,7 +1456,7 @@ h6 {
   }
   .zoneactivite1 {
     width: 300px;
-    margin-left: 5px;
+    /*  margin-left: 5px;*/
   }
   figure {
     margin-left: -15px;
@@ -1464,7 +1464,7 @@ h6 {
   }
   footer {
     margin-left: -5px;
-    width: 320px;
+    width: 280px;
     padding-left: 35px;
   }
   nav {
@@ -1473,7 +1473,7 @@ h6 {
   .HébergementActivités {
     margin-top: 20px;
     left: -80px;
-    width: 240px;
+    width: 235px;
   }
   .iconEconoEtFamilial {
     flex-wrap: wrap;
@@ -1492,7 +1492,7 @@ h6 {
     top: 4px;
   }
   .Inscrire {
-    left: -115px;
+    left: -130px;
     top: -50px;
   }
   .Hebergement {
