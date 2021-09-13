@@ -1072,27 +1072,27 @@ h6 {
   }
   .photoCalanques {
     width: 340px;
-    height: 160px;
+    height: 300px;
   }
   .photoVieuxport {
     width: 340px;
-    height: 160px;
+    height: 300px;
   }
   .photoDamedelagarde {
     /* height: 350px;
         width: 500px;*/
     width: 340px;
-    height: 160px;
+    height: 300px;
   }
   .photoiles {
-    height: 160px;
+    height: 300px;
     width: 340px;
   }
   .photolomgchamp {
     /*  height: 350px;
         width: 500px;*/
     width: 340px;
-    height: 160px;
+    height: 300px;
   }
   .zoneactivite1 {
     width: 390px;
@@ -1105,7 +1105,7 @@ h6 {
   }
   .photoFort {
     width: 340px;
-    height: 160px;
+    height: 300px;
   }
 
   nav {
@@ -1267,10 +1267,12 @@ h6 {
   aside {
     margin-left: -5px;
     padding-left: 15px;
+    padding-right: 15px;
   }
   section {
     margin-left: -5px;
     padding-left: 15px;
+    padding-right: 15px;
   }
   .zoneactivite1 {
     width: 375px;
@@ -1281,6 +1283,33 @@ h6 {
   }
   footer {
     width: 365px;
+  }
+  .Hotellesoleildumatin1 {
+    margin-left: 5px;
+  }
+  .AucoeurdeleauChambresdhotes1 {
+    margin-left: 5px;
+  }
+  .Hoteltoutbleuetblanc1 {
+    margin-left: 5px;
+  }
+  .Aubergedelacannebiere10 {
+    margin-left: 10px;
+  }
+  .Hotelduport10 {
+    margin-left: 10px;
+  }
+  .hotellesmouettes10 {
+    margin-left: 10px;
+  }
+  .Hoteldelamer {
+    margin-left: 10px;
+  }
+  .HotelchezAmina10 {
+    margin-left: 10px;
+  }
+  .AubergelePanier10 {
+    margin-left: 10px;
   }
 }
 @media screen and (min-width: 576px) /* code pour tablette */ {
@@ -1332,6 +1361,7 @@ h6 {
   .Hoteltoutbleuetblanc1 {
     margin-bottom: 90px;
   }
+
   /*.fortiles{
      margin-right: 0px;
  }*/
@@ -1653,6 +1683,7 @@ h6 {
   }
   nav {
     width: 335px;
+    margin-left: 5px;
   }
 }
 
