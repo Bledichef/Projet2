@@ -2065,3 +2065,46 @@ h6 {
     margin-left: 4px;
   }
 }
+@media screen and (max-width: 850px) and (min-width: 790px) {
+  .zoneactivite1 {
+    width: 790px;
+    margin-left: 0px;
+  }
+  .photoFort {
+    width: 735px;
+  }
+  .photoiles {
+    width: 735px;
+  }
+  .photoDamedelagarde {
+    width: 735px;
+  }
+  .photolomgchamp {
+    width: 735px;
+  }
+  figure {
+    margin-left: 15px;
+  }
+  .Vieuxport1 {
+    margin-right: 0px;
+  }
+  .fortiles {
+    margin-right: 0px;
+  }
+  nav {
+    width: 630px;
+  }
+  .Inscrire {
+    top: -95px;
+    left: 100px;
+  }
+  .Hebergementetpluspopulaire {
+    margin-left: 0px;
+  }
+  aside {
+    padding-left: 30px;
+  }
+  section {
+    padding-right: 30px;
+  }
+}
