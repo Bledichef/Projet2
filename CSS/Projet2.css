@@ -1794,17 +1794,27 @@ h6 {
     /* width: 350px;*/
     margin-right: 0px;
   }
+  .photoVieuxport {
+    height: 300px;
+  }
+  .photoCalanques {
+    height: 300px;
+  }
   .photoFort {
     width: 380px;
+    height: 300px;
   }
   .photoiles {
     width: 380px;
+    height: 300px;
   }
   .photoDamedelagarde {
     width: 380px;
+    height: 300px;
   }
   .photolomgchamp {
     width: 380px;
+    height: 300px;
   }
 
   footer {
