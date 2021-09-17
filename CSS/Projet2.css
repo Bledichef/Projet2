@@ -933,7 +933,7 @@ h6 {
   }
 
   .photoVieuxport {
-    /*  width: 650px;*/
+      width: 740px;
     height: 750px;
   }
   .photoCalanques {
@@ -942,24 +942,24 @@ h6 {
     box-shadow: 0px 0px 5px 1px #f2f2f2;
   }
   .photoiles {
-    /* width: 650px;*/
+     width: 740px;
     height: 750px;
   }
   .photoCalanques {
-    /*   width: 650px;*/
+      width: 740px;
     height: 750px;
   }
   .photoDamedelagarde {
-    /* width: 650px;*/
+     width: 740px;
     height: 750px;
   }
   .photolomgchamp {
-    /* width: 650px;*/
+     width: 740px;
     height: 750px;
   }
   .photoFort {
     height: 750px;
-    /* width: 650px;*/
+     width: 740px;
   }
 
   .populaire {
@@ -1796,9 +1796,11 @@ h6 {
   }
   .photoVieuxport {
     height: 300px;
+    width: 385px;
   }
   .photoCalanques {
     height: 300px;
+    width: 385px;
   }
   .photoFort {
     width: 380px;
