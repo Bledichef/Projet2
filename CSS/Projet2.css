@@ -2132,3 +2132,134 @@ h6 {
     padding-right: 30px;
   }
 }
+@media screen and (min-width: 540px) and (max-width: 748px) {
+  section {
+    align-items: center;
+  }
+  .Aubergedelacannebiere10 {
+    width: auto;
+  }
+  .Hotelduport10 {
+    width: auto;
+  }
+  .hotellesmouettes10 {
+    width: auto;
+  }
+  .Hoteldelamer {
+    width: auto;
+  }
+  .HotelchezAmina10 {
+    width: auto;
+  }
+  .AubergelePanier10 {
+    width: auto;
+  }
+  .zoneactivite1 {
+    margin-left: 20px;
+  }
+  figure {
+    margin-left: 5px;
+  }
+  .Vieuxport1 {
+    width: 500px;
+  }
+  .photoVieuxport {
+    width: 500px;
+    height: 400px;
+  }
+  .Fort {
+    width: 500px;
+  }
+  .photoFort {
+    width: 500px;
+    height: 400px;
+  }
+  .iles {
+    width: 500px;
+  }
+  .photoiles {
+    width: 500px;
+    height: 400px;
+  }
+  .ParcNationalCalanques {
+    width: 500px;
+  }
+  .photoCalanques {
+    width: 500px;
+    height: 400px;
+  }
+  .Notre-Dame-de-la-Garde {
+    width: 500px;
+  }
+  .photoDamedelagarde {
+    width: 500px;
+    height: 400px;
+  }
+  .ParcdeLomgchamp {
+    width: 500px;
+  }
+  .photolomgchamp {
+    width: 500px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 497px) {
+  .HébergementActivités {
+    position: relative;
+    left: -300px;
+  }
+  .Inscrire {
+    left: -133px;
+  }
+  section {
+    align-items: center;
+  }
+  .zoneactivite1 {
+    margin-left: 10px;
+  }
+  figure {
+    margin-left: 0px;
+  }
+  .Vieuxport1 {
+    width: 400px;
+  }
+  .photoVieuxport {
+    width: 400px;
+    height: 400px;
+  }
+  .Fort {
+    width: 400px;
+  }
+  .photoFort {
+    width: 400px;
+    height: 400px;
+  }
+  .iles {
+    width: 400px;
+  }
+  .photoiles {
+    width: 400px;
+    height: 400px;
+  }
+  .ParcNationalCalanques {
+    width: 400px;
+  }
+  .photoCalanques {
+    width: 400px;
+    height: 400px;
+  }
+  .Notre-Dame-de-la-Garde {
+    width: 400px;
+  }
+  .photoDamedelagarde {
+    width: 400px;
+    height: 400px;
+  }
+  .ParcdeLomgchamp {
+    width: 400px;
+  }
+  .photolomgchamp {
+    width: 400px;
+    height: 400px;
+  }
+}
