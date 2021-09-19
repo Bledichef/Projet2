@@ -1002,7 +1002,7 @@ h6 {
     text-align: center;
   }
 }
-@media screen and (max-width: 1028px) and (min-width: 1022px) {
+@media screen and (max-width: 1030px) and (min-width: 1020px) {
   .photoFort {
     width: 735px;
   }
@@ -2271,7 +2271,7 @@ h6 {
     height: 400px;
   }
 }
-@media screen and (min-width: 1035px) and (max-width: 1400px) {
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
   section {
     margin-right: 15px;
   }
@@ -2332,5 +2332,40 @@ h6 {
   }
   .AubergelePanier10 {
     margin-left: 0px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .zoneactivite1 {
+    margin-left: 20px;
+  }
+  .fortiles {
+    width: 600px;
+  }
+  .DameParc {
+    width: 600px;
+  }
+  .Vieuxport1 {
+    width: 600;
+  }
+  .ParcNationalCalanques {
+    width: 600px;
+  }
+  .photoFort {
+    width: 100%;
+  }
+  .photoiles {
+    width: 100%;
+  }
+  .photoDamedelagarde {
+    width: 100%;
+  }
+  .photolomgchamp {
+    width: 100%;
+  }
+  .photoVieuxport {
+    width: 100%;
+  }
+  .photoCalanques {
+    width: 100%;
   }
 }
