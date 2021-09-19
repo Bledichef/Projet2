@@ -2288,10 +2288,10 @@ h6 {
   .DameParc {
     width: 350px;
   }
-  .Vieuxport1 {
-    width: 350;
+  .Vieuxport {
+    width: 350px;
   }
-  .ParcNationalCalanques {
+  .ParcNationaldesCalanques {
     width: 350px;
   }
   .photoFort {
@@ -2333,6 +2333,9 @@ h6 {
   .AubergelePanier10 {
     margin-left: 0px;
   }
+  .zoneactivite1 {
+    margin-left: 10px;
+  }
 }
 @media screen and (min-width: 1400px) {
   .zoneactivite1 {
@@ -2344,10 +2347,10 @@ h6 {
   .DameParc {
     width: 600px;
   }
-  .Vieuxport1 {
-    width: 600;
+  .Vieuxport {
+    width: 600px;
   }
-  .ParcNationalCalanques {
+  .ParcNationaldesCalanques {
     width: 600px;
   }
   .photoFort {
