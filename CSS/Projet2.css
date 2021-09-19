@@ -88,7 +88,8 @@ footer {
 }
 
 .Hebergementfoot {
-  margin-right: 14%;
+  margin-left: 30px;
+  margin-right: 240px;
 }
 
 aside {
@@ -299,6 +300,7 @@ h2 {
   margin-bottom: 5%;
   text-decoration: none;
   padding-bottom: 2%;
+  box-shadow: 0px 0px 5px 1px #fcfafa00;
 }
 
 .hotellesmouettes10 {
@@ -693,6 +695,9 @@ h2 {
 }
 h6 {
   font-size: small;
+}
+.Vieuxport1 {
+  box-shadow: 0px 0px 5px 1px #f2f2f2;
 }
 
 /* Css pour version Mobile */
@@ -2340,6 +2345,10 @@ h6 {
 @media screen and (min-width: 1400px) {
   .zoneactivite1 {
     margin-left: 20px;
+    margin-right: 20px;
+  }
+  figure {
+    margin: 0px;
   }
   .fortiles {
     width: 600px;
