@@ -976,7 +976,6 @@ h6 {
   .HébergementActivités {
     margin-top: 10%;
     margin-left: 1%;
-
     justify-content: space-around;
   }
 
@@ -1002,6 +1001,9 @@ h6 {
   }
   h4 {
     text-align: center;
+  }
+  .Hebergementfoot {
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 1030px) and (min-width: 1020px) {
@@ -1322,6 +1324,9 @@ h6 {
   .iconFamilial {
     padding: 0px 40px 0 0;
   }
+  .Hebergementfoot {
+    margin-left: 0px;
+  }
 }
 @media screen and (min-width: 576px) /* code pour tablette */ {
   section {
@@ -1377,7 +1382,7 @@ h6 {
      margin-right: 0px;
  }*/
 }
-@media screen and (max-width: 321px) and (min-width: 315px) {
+@media screen and (max-width: 374px) and (min-width: 310px) {
   body {
     margin-left: 1px;
   }
@@ -1393,7 +1398,9 @@ h6 {
   .Hotellesoleildumatin1 {
     width: 100%;
   }
-
+  .Hebergementfoot {
+    margin-left: 0px;
+  }
   section {
     width: 315px;
     align-items: center;
@@ -1570,18 +1577,19 @@ h6 {
     margin-left: 0px;
   }
   .fa-search {
-    left: -55px;
+    left: -41px;
     top: 3px;
   }
   .Inscrire {
     left: -85px;
-    top: -68px;
+    top: -52px;
   }
   .Hebergement {
     margin-right: 0px;
   }
   .HébergementActivités {
     width: 310px;
+    left: -95px;
   }
   .Hebergementetpluspopulaire {
     margin-left: 0px;
@@ -1639,7 +1647,7 @@ h6 {
   .zoneactivite1 {
     width: 340px;
     margin-right: 50px;
-    margin-left: 0px;
+    margin-left: 15px;
   }
   .photoVieuxport {
     width: 279px;
@@ -1682,6 +1690,10 @@ h6 {
   }
   footer {
     width: 350px;
+    padding-left: 12px;
+  }
+  .Hebergementfoot {
+    margin-left: 0px;
   }
   .Hotellesoleildumatin1 {
     width: 100%;
@@ -1833,6 +1845,9 @@ h6 {
   footer {
     width: 400px;
     margin-left: -10px;
+  }
+  .Hebergementfoot {
+    margin-left: 0px;
   }
   nav {
     margin-left: 0px;
@@ -1988,6 +2003,15 @@ h6 {
   .HébergementActivités {
     width: 415px;
   }
+  .Hebergementfoot {
+    margin-right: 20px;
+  }
+  .Fonctionnement {
+    margin-right: 20px;
+  }
+  .Assistance {
+    padding-right: 20px;
+  }
 }
 @media screen and (max-width: 768px) and (min-width: 750px) {
   figure {
@@ -2064,6 +2088,9 @@ h6 {
   aside {
     width: 675px;
     padding-left: 32px;
+  }
+  .Hebergementfoot {
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 285px) and (min-width: 270px) {
