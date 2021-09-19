@@ -2272,6 +2272,16 @@ h6 {
   }
 }
 @media screen and (min-width: 1035px) and (max-width: 1400px) {
+  section {
+    margin-right: 15px;
+  }
+  aside {
+    justify-content: space-between;
+  }
+  h2 {
+    margin-left: 0px;
+    margin-top: 66px;
+  }
   .fortiles {
     width: 350px;
   }
@@ -2301,5 +2311,26 @@ h6 {
   }
   .photoCalanques {
     width: 100%;
+  }
+  .Hebergementetpluspopulaire {
+    margin-left: 0px;
+  }
+  .Aubergedelacannebiere10 {
+    margin-left: 0px;
+  }
+  .Hotelduport10 {
+    margin-left: 0px;
+  }
+  .hotellesmouettes10 {
+    margin-left: 0px;
+  }
+  .Hoteldelamer {
+    margin-left: 0px;
+  }
+  .HotelchezAmina10 {
+    margin-left: 0px;
+  }
+  .AubergelePanier10 {
+    margin-left: 0px;
   }
 }
