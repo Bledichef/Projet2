@@ -3,6 +3,8 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  margin: 0px;
+  max-width: auto;
 }
 section {
   display: flex;
@@ -643,7 +645,7 @@ h2 {
 
 .zoneactivite1 {
   display: flex;
-  margin-left: 60px;
+  /* margin-left: 60px;*/
 }
 
 .Hebergementetpluspopulaire {
@@ -1311,6 +1313,12 @@ h6 {
   }
   .AubergelePanier10 {
     margin-left: 10px;
+  }
+  .logoeconomique {
+    margin-right: 5px;
+  }
+  .iconFamilial {
+    padding: 0px 40px 0 0;
   }
 }
 @media screen and (min-width: 576px) /* code pour tablette */ {
@@ -2261,5 +2269,37 @@ h6 {
   .photolomgchamp {
     width: 400px;
     height: 400px;
+  }
+}
+@media screen and (min-width: 1035px) and (max-width: 1400px) {
+  .fortiles {
+    width: 350px;
+  }
+  .DameParc {
+    width: 350px;
+  }
+  .Vieuxport1 {
+    width: 350;
+  }
+  .ParcNationalCalanques {
+    width: 350px;
+  }
+  .photoFort {
+    width: 100%;
+  }
+  .photoiles {
+    width: 100%;
+  }
+  .photoDamedelagarde {
+    width: 100%;
+  }
+  .photolomgchamp {
+    width: 100%;
+  }
+  .photoVieuxport {
+    width: 100%;
+  }
+  .photoCalanques {
+    width: 100%;
   }
 }
