@@ -829,18 +829,19 @@ h6 {
   .Hotellesoleildumatin1 {
     display: flex;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
   }
 
   .AucoeurdeleauChambresdhotes1 {
     display: flex;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
   }
 
   .Hoteltoutbleuetblanc1 {
     display: flex;
     text-align: center;
+    margin-bottom: 25px;
   }
 
   .Aubergedelacannebiere10 {
@@ -2940,6 +2941,56 @@ h6 {
     width: auto;
   }
 
+}
+
+@media screen and (min-width: 415px) and (max-width: 575px) {
+  .photoAuBergeCannebière {
+    width: 100%;
+  }
+
+  .Aubergedelacannebiere10 {
+    width: 85%;
+  }
+
+  .Hotelduport10 {
+    width: 85%;
+  }
+
+  .photoHotelduport {
+    width: 100%;
+  }
+
+  .hotellesmouettes10 {
+    width: 85%;
+  }
+
+  .photoHotellesmouettes {
+    width: 100%;
+  }
+
+  .Hoteldelamer {
+    width: 85%;
+  }
+
+  .photoHoteldelamer {
+    width: 100%;
+  }
+
+  .HotelchezAmina10 {
+    width: 85%;
+  }
+
+  .photoHotelchezAmina {
+    width: 100%;
+  }
+
+  .AubergelePanier10 {
+    width: 85%;
+  }
+
+  .photoAubergelePanier {
+    width: 100%;
+  }
 }
 
 @media screen and (min-with: 600px) and (max-with: 748px) {
