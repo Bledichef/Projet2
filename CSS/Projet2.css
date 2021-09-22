@@ -1678,7 +1678,7 @@ h6 {
     margin-left: -5px;
     width: 300px;
     padding-left: 35px;
-    padding-right: 25px;
+    padding-right: 20px;
   }
 
   nav {
@@ -1929,12 +1929,15 @@ h6 {
 
   section {
     width: auto;
-    margin-left: 0px;
-    margin-left: -5px;
-    margin-right: -10px;
+    padding-right: 20px;
+
+    /*  margin-left: 0px;
+    margin-left: -5px;*/
+    margin-right: 0px;
   }
 
   .zoneactivite1 {
+    max-width: 100%;
     margin-left: 0px;
     width: 390px;
     padding-bottom: 40px;
@@ -2537,7 +2540,7 @@ h6 {
   }
 
   .Vieuxport1 {
-    width: 500px;
+    width: 100%;
   }
 
   .photoVieuxport {
@@ -2546,7 +2549,7 @@ h6 {
   }
 
   .Fort {
-    width: 500px;
+    width: 100%;
   }
 
   .photoFort {
@@ -2555,7 +2558,7 @@ h6 {
   }
 
   .iles {
-    width: 500px;
+    width: 100%;
   }
 
   .photoiles {
@@ -2564,7 +2567,7 @@ h6 {
   }
 
   .ParcNationalCalanques {
-    width: 500px;
+    width: 100%;
   }
 
   .photoCalanques {
@@ -2573,7 +2576,7 @@ h6 {
   }
 
   .Notre-Dame-de-la-Garde {
-    width: 500px;
+    width: 100%;
   }
 
   .photoDamedelagarde {
@@ -2582,7 +2585,7 @@ h6 {
   }
 
   .ParcdeLomgchamp {
-    width: 500px;
+    width: 100%;
   }
 
   .photolomgchamp {
@@ -2594,7 +2597,8 @@ h6 {
 @media screen and (min-width: 380px) and (max-width: 497px) {
   .HébergementActivités {
     position: relative;
-    left: 35px;
+    left: -36px;
+    max-width: 100%;
   }
 
   .Inscrire {
@@ -2603,10 +2607,12 @@ h6 {
 
   section {
     align-items: center;
+    max-width: 100%;
   }
 
   .zoneactivite1 {
     margin-left: 10px;
+    max-width: 100%;
   }
 
   figure {
@@ -2615,11 +2621,13 @@ h6 {
 
   .Vieuxport1 {
     width: 400px;
+    max-width: 100%;
   }
 
   .photoVieuxport {
     width: 400px;
     height: 400px;
+    max-width: 100%;
   }
 
   .Fort {
@@ -2665,6 +2673,10 @@ h6 {
   .photolomgchamp {
     width: 400px;
     height: 400px;
+  }
+
+  nav {
+    max-width: 100%;
   }
 }
 
@@ -2827,19 +2839,20 @@ h6 {
   }
 
   .fortiles {
-    width: 500px;
+    width: 100%;
   }
 
   .DameParc {
-    width: 500px;
+    width: 100%;
   }
 
   .Vieuxport {
-    width: 500px;
+    /* width: 500px;*/
+    width: 100%;
   }
 
   .ParcNationaldesCalanques {
-    width: 500px;
+    width: 100%;
   }
 
   .photoFort {
@@ -2869,7 +2882,7 @@ h6 {
 
 @media screen and (min-width: 410px) and (max-width: 492px) {
   .HébergementActivités {
-    left: -50px;
+    left: -38px;
     width: 390px;
   }
 
@@ -2909,6 +2922,7 @@ h6 {
   .AubergelePanier10 {
     width: auto;
   }
+
 }
 
 @media screen and (min-with: 600px) and (max-with: 748px) {
