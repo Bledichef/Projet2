@@ -761,12 +761,21 @@ h6 {
     font-size: 160%;
   }
 
+  .iconRomantique {
+    width: 60%;
+  }
+
+  .iconAnimaux {
+    width: 60%;
+  }
+
   .Activites01:hover {
     border-bottom: 3px #0065fc solid;
     border-top: none;
   }
 
   .Inscrire {
+    left: 10px;
     position: relative;
     top: -120px;
   }
@@ -776,11 +785,13 @@ h6 {
   }
 
   nav {
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 2px #f2f2f2 solid;
-    width: 800px;
+    /*width: 800px;*/
+    max-width: 100%;
   }
 
   .recherche {
@@ -995,6 +1006,7 @@ h6 {
   }
 
   .HébergementActivités {
+    max-width: 100%;
     margin-top: 10%;
     margin-left: 1%;
     justify-content: space-around;
@@ -1356,6 +1368,7 @@ h6 {
 
   .HébergementActivités {
     width: 350px;
+    left: -39px;
   }
 
   aside {
@@ -2174,7 +2187,7 @@ h6 {
 
   .Inscrire {
     top: -85px;
-    left: -57px;
+    left: -90px;
   }
 
   figure {
@@ -2184,10 +2197,11 @@ h6 {
   nav {
     width: 530px;
     margin-left: 5px;
+    max-width: 100%;
   }
 
   section {
-    width: 540px;
+    width: 100%;
     align-items: center;
   }
 
@@ -2200,7 +2214,7 @@ h6 {
   }
 
   aside {
-    width: 530px;
+    width: 100%;
     padding-left: 22px;
   }
 
@@ -2277,7 +2291,7 @@ h6 {
   }
 
   .Hebergementetpluspopulaire {
-    width: 530px;
+    width: 100%;
     margin-left: 0px;
   }
 
@@ -2597,7 +2611,7 @@ h6 {
 @media screen and (min-width: 380px) and (max-width: 497px) {
   .HébergementActivités {
     position: relative;
-    left: -36px;
+    left: 35px;
     max-width: 100%;
   }
 
@@ -2617,61 +2631,64 @@ h6 {
 
   figure {
     margin-left: 0px;
+    max-width: 100%;
+    width: 100%;
+    padding-left: 0px;
   }
 
   .Vieuxport1 {
-    width: 400px;
+    width: 100%;
     max-width: 100%;
   }
 
   .photoVieuxport {
-    width: 400px;
+    width: 100%;
     height: 400px;
     max-width: 100%;
   }
 
   .Fort {
-    width: 400px;
+    width: 100%;
   }
 
   .photoFort {
-    width: 400px;
+    width: 100%;
     height: 400px;
   }
 
   .iles {
-    width: 400px;
+    width: 100%;
   }
 
   .photoiles {
-    width: 400px;
+    width: 100%;
     height: 400px;
   }
 
   .ParcNationalCalanques {
-    width: 400px;
+    width: 100%;
   }
 
   .photoCalanques {
-    width: 400px;
+    width: 100%;
     height: 400px;
   }
 
   .Notre-Dame-de-la-Garde {
-    width: 400px;
+    width: 100%;
   }
 
   .photoDamedelagarde {
-    width: 400px;
+    width: 100%;
     height: 400px;
   }
 
   .ParcdeLomgchamp {
-    width: 400px;
+    width: 100%;
   }
 
   .photolomgchamp {
-    width: 400px;
+    width: 100%;
     height: 400px;
   }
 
@@ -2887,7 +2904,7 @@ h6 {
   }
 
   .zoneactivite1 {
-    width: 450px;
+    width: 95%;
   }
 
   nav {
