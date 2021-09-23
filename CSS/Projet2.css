@@ -2409,13 +2409,13 @@ h6 {
   }
 
   section {
-    width: 675px;
+    width: auto;
     padding-right: 23px;
     padding-left: 8px;
   }
 
   aside {
-    width: 675px;
+    width: 100%px;
     padding-left: 32px;
   }
 
@@ -2742,7 +2742,7 @@ h6 {
 
   figure {
     margin-right: 10px;
-
+    margin-left: 20px;
     max-width: 100%;
     width: 100%;
     padding-left: 0px;
@@ -3040,7 +3040,7 @@ h6 {
 
 @media screen and (min-width: 410px) and (max-width: 492px) {
   .HébergementActivités {
-    left: -38px;
+    left: -61px;
     width: 390px;
   }
 
@@ -3053,12 +3053,12 @@ h6 {
   }
 
   nav {
-    width: 350px;
+    width: 100%;
   }
 
   .Inscrire {
     top: -73px;
-    left: -89px;
+    left: -100px;
   }
 
   .Aubergedelacannebiere10 {
@@ -3090,14 +3090,17 @@ h6 {
 @media screen and (min-width: 415px) and (max-width: 575px) {
   .photoAuBergeCannebière {
     width: 100%;
+
   }
 
   .Aubergedelacannebiere10 {
     width: 85%;
+    margin-left: 30px;
   }
 
   .Hotelduport10 {
     width: 85%;
+    margin-left: 30px;
   }
 
   .photoHotelduport {
@@ -3106,6 +3109,7 @@ h6 {
 
   .hotellesmouettes10 {
     width: 85%;
+    margin-left: 30px;
   }
 
   .photoHotellesmouettes {
@@ -3114,6 +3118,7 @@ h6 {
 
   .Hoteldelamer {
     width: 85%;
+    margin-left: 30px;
   }
 
   .photoHoteldelamer {
@@ -3122,6 +3127,7 @@ h6 {
 
   .HotelchezAmina10 {
     width: 85%;
+    margin-left: 30px;
   }
 
   .photoHotelchezAmina {
@@ -3130,6 +3136,7 @@ h6 {
 
   .AubergelePanier10 {
     width: 85%;
+    margin-left: 30px;
   }
 
   .photoAubergelePanier {
@@ -3206,7 +3213,7 @@ h6 {
 
   .HébergementActivités {
     position: relative;
-    left: -60px;
+    left: -77px;
   }
 
   .Inscrire {
