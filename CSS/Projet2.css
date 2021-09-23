@@ -2440,6 +2440,12 @@ h6 {
 
   .HébergementActivités {
     width: 100%;
+    left: -93px;
+  }
+
+  .Inscrire {
+    left: -130px;
+    top: -58px;
   }
 
   .Hebergementetpluspopulaire {
@@ -2461,6 +2467,14 @@ h6 {
     margin-left: 18px;
   }
 
+  .textpersobarrederecherche {
+    width: 130px;
+  }
+
+  .fa-search {
+    left: 215px;
+  }
+
   footer {
     width: 100%;
   }
@@ -2468,6 +2482,9 @@ h6 {
   section {
     width: 100%;
     margin-left: 4px;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 20px;
   }
 
   .Vieuxport1 {
