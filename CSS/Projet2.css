@@ -83,7 +83,7 @@ footer {
   padding-bottom: 20px;
   padding-left: 3%;
   background-color: #f2f2f2;
-
+  width: 100%;
   display: flex;
   justify-content: flex-start;
 }
@@ -121,7 +121,7 @@ h3 {
 }
 
 .recherche {
-  margin-left: 30px;
+  /*  margin-left: 30px;*/
   border-radius: 30% 10% 10% 30%;
 }
 
@@ -818,6 +818,7 @@ h6 {
 
   footer {
     display: block;
+
   }
 
   aside {
@@ -1068,7 +1069,7 @@ h6 {
   }
 
   .footer {
-    width: 1024px;
+    width: 100%;
   }
 
   .zoneactivite1 {
@@ -1357,7 +1358,7 @@ h6 {
   }
 }
 
-@media screen and (min-width: 370px) and (max-width: 390px) {
+@media screen and (min-width: 370px) and (max-width: 405px) {
   .fa-search {
     left: 288px;
     top: -40px;
@@ -1937,7 +1938,7 @@ h6 {
 
 @media screen and (min-width: 390px) and (max-width: 414px) {
   .fa-search {
-    left: -55px;
+    left: -50px;
     top: 6px;
   }
 
@@ -1961,6 +1962,7 @@ h6 {
     margin: 0;
     width: 400px;
     padding-left: 7px;
+
   }
 
   .Inscrire {
@@ -2182,7 +2184,7 @@ h6 {
   }
 
   .zoneactivite1 {
-    width: 530px;
+    width: 100%;
     margin-left: 15px;
   }
 
@@ -2193,6 +2195,7 @@ h6 {
 
   figure {
     margin-left: 0px;
+    margin-right: 0px
   }
 
   nav {
@@ -2210,13 +2213,14 @@ h6 {
     align-items: center;
     flex-direction: initial;
     justify-content: space-evenly;
-    margin-left: 3px;
-    padding-right: 13px;
+    padding-left: 15px;
+    padding-right: 20px;
   }
 
   aside {
     width: 100%;
     padding-left: 22px;
+    padding-right: 15px;
   }
 
   .Hotellesoleildumatin1 {
@@ -2426,7 +2430,7 @@ h6 {
   }
 
   header {
-    width: 345px;
+    width: 100%;
   }
 
   .fa-search {
@@ -2435,7 +2439,7 @@ h6 {
   }
 
   .HébergementActivités {
-    width: 250px;
+    width: 100%;
   }
 
   .Hebergementetpluspopulaire {
@@ -2443,28 +2447,110 @@ h6 {
   }
 
   aside {
+    width: 100%;
     padding-left: 17px;
     margin-left: 4px;
   }
 
+  .iconEconoEtFamilial {
+    flex-flow: wrap;
+  }
+
   .zoneactivite1 {
+    max-width: 100%;
     margin-left: 18px;
   }
 
   footer {
-    width: 395px;
+    width: 100%;
   }
 
   section {
-    width: 370px;
+    width: 100%;
     margin-left: 4px;
+  }
+
+  .Vieuxport1 {
+    width: 100%;
+  }
+
+  .photoVieuxport {
+    width: 100%;
+  }
+
+  .photoFort {
+    width: 100%;
+  }
+
+  .photoiles {
+    width: 100%;
+  }
+
+  .photoCalanques {
+    width: 100%;
+  }
+
+  .photoDamedelagarde {
+    width: 100%;
+  }
+
+  .photolomgchamp {
+    width: 100%;
+  }
+
+  .photoAubergelePanier {
+    width: 100%;
+  }
+
+  .AubergelePanier10 {
+    width: 100%;
+  }
+
+  .HotelchezAmina10 {
+    width: 100%;
+  }
+
+  .photoHotelchezAmina {
+    width: 100%;
+  }
+
+  .Hoteldelamer {
+    width: 100%;
+  }
+
+  .photoHoteldelamer {
+    width: 100%;
+  }
+
+  .hotellesmouettes10 {
+    width: 100%;
+  }
+
+  .photoHotellesmouettes {
+    width: 100%;
+  }
+
+  .Hotelduport10 {
+    width: 100%;
+  }
+
+  .photoHotelduport {
+    width: 100%;
+  }
+
+  .Aubergedelacannebiere10 {
+    width: 100%;
+  }
+
+  .photoAuBergeCannebière {
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 850px) and (min-width: 790px) {
   .zoneactivite1 {
     width: 790px;
-    margin-left: 0px;
+    margin-left: 22px;
   }
 
   .photoFort {
@@ -2609,20 +2695,27 @@ h6 {
   }
 }
 
-@media screen and (min-width: 380px) and (max-width: 497px) {
+@media screen and (min-width: 400px) and (max-width: 497px) {
   .HébergementActivités {
     position: relative;
-    left: 35px;
+    left: -64px;
     max-width: 100%;
   }
 
   .Inscrire {
-    left: -133px;
+    left: -110px;
+    top: -70px;
+  }
+
+  aside {
+    width: 100%;
   }
 
   section {
+    width: 100%;
     align-items: center;
     max-width: 100%;
+    padding-right: 10px;
   }
 
   .zoneactivite1 {
@@ -2631,7 +2724,8 @@ h6 {
   }
 
   figure {
-    margin-left: 0px;
+    margin-right: 10px;
+
     max-width: 100%;
     width: 100%;
     padding-left: 0px;
@@ -2693,8 +2787,22 @@ h6 {
     height: 400px;
   }
 
+  footer {
+    width: 100%;
+  }
+
   nav {
     max-width: 100%;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .iconEconomique {
+    margin-left: 0px;
+  }
+
+  .iconFamilial {
+    margin-left: 0px;
   }
 }
 
@@ -2837,7 +2945,7 @@ h6 {
   }
 }
 
-@media screen and (min-width: 542px) and (max-width: 746px) {
+@media screen and (min-width: 542px) and (max-width: 750px) {
   .Inscrire {
     left: -20px;
     top: -90px;
@@ -2848,8 +2956,18 @@ h6 {
     left: -90px;
   }
 
+  .zoneactivite1 {
+    margin-left: 0px;
+  }
+
+  figure {
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
   nav {
     width: 100%;
+    margin-left: 0px;
   }
 
   .zoneactivite1 {
@@ -2896,6 +3014,11 @@ h6 {
   .photoCalanques {
     width: 100%;
   }
+
+  footer {
+    width: 98%;
+    padding-left: 15px;
+  }
 }
 
 @media screen and (min-width: 410px) and (max-width: 492px) {
@@ -2905,7 +3028,11 @@ h6 {
   }
 
   .zoneactivite1 {
-    width: 95%;
+    width: 100%;
+  }
+
+  .zoneactivite1 {
+    margin-left: 0px;
   }
 
   nav {
@@ -2991,10 +3118,99 @@ h6 {
   .photoAubergelePanier {
     width: 100%;
   }
+
+  .Vieuxport1 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .photoVieuxport {
+    width: 100%;
+    height: 400px;
+    max-width: 100%;
+  }
+
+  .Fort {
+    width: 100%;
+  }
+
+  .photoFort {
+    width: 100%;
+    height: 400px;
+  }
+
+  .iles {
+    width: 100%;
+  }
+
+  .photoiles {
+    width: 100%;
+    height: 400px;
+  }
+
+  .ParcNationalCalanques {
+    width: 100%;
+  }
+
+  .photoCalanques {
+    width: 100%;
+    height: 400px;
+  }
+
+  .Notre-Dame-de-la-Garde {
+    width: 100%;
+  }
+
+  .photoDamedelagarde {
+    width: 100%;
+    height: 400px;
+  }
+
+  .ParcdeLomgchamp {
+    width: 100%;
+  }
+
+  .photolomgchamp {
+    width: 100%;
+    height: 400px;
+  }
 }
 
-@media screen and (min-with: 600px) and (max-with: 748px) {
-  figure {
-    margin-left: 30px;
+@media screen and (width:498px) {
+  .zoneactivite1 {
+    max-width: 100%;
+    margin-left: 10px;
   }
+
+  nav {
+    max-width: 100%;
+    margin-left: 10px;
+  }
+
+  .HébergementActivités {
+    position: relative;
+    left: -60px;
+  }
+
+  .Inscrire {
+    left: -80px;
+    top: -76px;
+  }
+}
+
+
+@media screen and (min-width:772px) and (max-width:790px) {
+  .zoneactivite1 {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  figure {
+    margin-left: 25px;
+  }
+
+  nav {
+    margin-left: 0px;
+  }
+}
 }
